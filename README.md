@@ -1,48 +1,94 @@
-# FitWardrobe - Public Website
+# FitWardrobe Landing Page
 
-Official website and download page for FitWardrobe AI Wardrobe Assistant.
+Official landing page for **FitWardrobe** - AI-Powered Wardrobe Assistant
 
-**Live Site:** https://fitwardrobe.me
+## 🌐 Live Site
 
-## About FitWardrobe
+Visit: [fitwardrobe.me](https://fitwardrobe.me)
 
-AI-powered wardrobe assistant that helps you organize your wardrobe and get smart outfit suggestions using Google Gemini AI.
+## 📱 Download Android App
 
-## Deployment
+**Latest Version:** v1.0.1
+**Released:** January 31, 2026
+**Size:** 114.9 MB
 
-- **Platform:** GitHub Pages
-- **Custom Domain:** fitwardrobe.me (Namecheap)
-- **CDN:** GitHub's global CDN
-- **HTTPS:** Enforced
+[Download APK](https://github.com/Aryanpanwar10005/fitwardrobe/releases/download/v1.0.1/fitwardrobe-v1.0.1-debug.apk)
 
-## Repository Contents
+## ✨ Features
 
-- `index.html` - Main landing page
-- `downloads/` - APK distribution (Git LFS)
-- `assets/` - Images and media
-- `CNAME` - Custom domain configuration
+- 👕 AI-powered wardrobe organization
+- 🤖 Outfit suggestions using Google Gemini AI
+- 🔒 Privacy-first, offline-capable
+- 📱 Native Android app
+- 🆓 Completely free, no ads
 
-## Source Code
+## 🛠️ Tech Stack
 
-The main FitWardrobe application source code is in a private repository.
-This repository only contains the public-facing website.
+- HTML5
+- CSS3
+- JavaScript
+- Hosted on GitHub Pages
 
-## Features
+## 📂 Repository Structure
 
-- 🤖 AI outfit generation (Google Gemini)
-- 📸 Camera wardrobe capture
-- 🔒 Privacy-first architecture
-- 💾 Offline functionality
-- 📱 Android APK + PWA
+```
+.
+├── index.html          # Main landing page
+├── styles.css          # Styling (if separate)
+├── scripts.js          # JS functionality (if any)
+├── assets/             # Images, icons, etc.
+└── README.md           # This file
+```
 
-## Tech Stack
+## 🚀 Development
 
-- React 18 + TypeScript
-- Capacitor 6
-- Google Gemini AI
-- Supabase Auth
-- Hybrid Storage (IndexedDB + Filesystem)
+This landing page is hosted on GitHub Pages and auto-deploys on push to main branch.
+
+### Local Development
+
+```bash
+# Clone the repository
+git clone https://github.com/Aryanpanwar10005/fitwardrobe-landing.git
+
+# Navigate to directory
+cd fitwardrobe-landing
+
+# Serve locally
+python3 -m http.server 8000
+# OR
+npx serve .
+
+# Open browser to http://localhost:8000
+```
+
+## 📝 Updates
+
+To update the landing page:
+
+1. Edit files locally
+2. Commit changes: `git commit -m "Update landing page"`
+3. Push to GitHub: `git push origin main`
+4. Wait 1-2 minutes for GitHub Pages deployment
+
+## 🔗 Related Repositories
+
+- [Main App Repository](https://github.com/Aryanpanwar10005/fitwardrobe) (Private)
+
+## 📄 License
+
+MIT License - See main app repository
+
+## 🤝 Contributing
+
+This is the landing page repository. For app contributions, see the main repository.
+
+## 📞 Support
+
+For issues or questions:
+
+- Open an issue in the main repository
+- Visit [fitwardrobe.me](https://fitwardrobe.me)
 
 ---
 
-© 2026 FitWardrobe. All Rights Reserved.
+**Built with ❤️ for fashion enthusiasts**
