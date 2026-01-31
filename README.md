@@ -108,7 +108,7 @@ FitWardrobe is an **AI-powered personal styling assistant** that helps you:
 **Direct APK Download:**
 
 ```bash
-https://github.com/fitwardrobe/fitwardrobe/releases/download/v1.0.1/fitwardrobe.apk
+https://fitwardrobe.me/downloads/fitwardrobe.apk
 ```
 
 **System Requirements:**
