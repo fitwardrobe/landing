@@ -12,7 +12,7 @@ Visit: [fitwardrobe.me](https://fitwardrobe.me)
 **Released:** January 31, 2026
 **Size:** 114.9 MB
 
-[Download APK](https://github.com/Aryanpanwar10005/fitwardrobe/releases/download/v1.0.1/fitwardrobe-v1.0.1-debug.apk)
+[Download APK](https://github.com/fitwardrobe/fitwardrobe/releases/download/v1.0.1/fitwardrobe-v1.0.1-debug.apk)
 
 ## ✨ Features
 
@@ -48,7 +48,7 @@ This landing page is hosted on GitHub Pages and auto-deploys on push to main bra
 
 ```bash
 # Clone the repository
-git clone https://github.com/Aryanpanwar10005/fitwardrobe-landing.git
+git clone https://github.com/fitwardrobe/landing.git
 
 # Navigate to directory
 cd fitwardrobe-landing
@@ -72,7 +72,7 @@ To update the landing page:
 
 ## 🔗 Related Repositories
 
-- [Main App Repository](https://github.com/Aryanpanwar10005/fitwardrobe) (Private)
+- [Main App Repository](https://github.com/fitwardrobe/fitwardrobe) (Private)
 
 ## 📄 License
 
