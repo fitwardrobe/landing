@@ -1,0 +1,16 @@
+# FitWardrobe - Robots.txt
+# Updated: 2026-02-01
+
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://fitwardrobe.me/sitemap.xml
+
+# Allow important pages
+Allow: /privacy.html
+Allow: /terms.html
+
+# Disallow downloads folder (APK files)
+Disallow: /downloads/
