@@ -4,187 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - FitWardrobe</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="assets/logo.png">
     <style>
-        :root {
-            --primary: #667eea;
-            --secondary: #764ba2;
-            --text-light: rgba(255, 255, 255, 0.95);
-            --text-lighter: rgba(255, 255, 255, 0.85);
-            --card-bg: rgba(255, 255, 255, 0.1);
-            --card-hover: rgba(255, 255, 255, 0.15);
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-            color: white;
-            min-height: 100vh;
-            padding: 2rem;
-            line-height: 1.6;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: var(--card-bg);
-            padding: 2rem;
-            border-radius: 1rem;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-
-        h1, h2, h3 {
-            color: white;
-            margin-top: 1.5rem;
-            margin-bottom: 1rem;
-        }
-        
-        h1 { font-size: 2.5rem; border-bottom: 1px solid rgba(255,255,255,0.2); padding-bottom: 1rem; }
-        h2 { font-size: 1.8rem; margin-top: 2rem; }
-        h3 { font-size: 1.4rem; }
-
-        p, ul, ol { margin-bottom: 1rem; color: var(--text-lighter); }
-        ul, ol { padding-left: 1.5rem; }
-        li { margin-bottom: 0.5rem; }
-
-        a { color: #fff; text-decoration: underline; }
-        a:hover { opacity: 0.8; }
-
-        .back-link {
-            display: inline-block;
-            margin-bottom: 2rem;
-            padding: 0.5rem 1rem;
-            background: rgba(255,255,255,0.2);
-            border-radius: 0.5rem;
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
-        th, td { border: 1px solid rgba(255,255,255,0.2); padding: 0.75rem; text-align: left; }
-        th { background: rgba(255,255,255,0.1); }
-        
-        blockquote {
-            border-left: 4px solid var(--text-light);
-            padding-left: 1rem;
-            font-style: italic;
-            margin: 1rem 0;
-            background: rgba(255,255,255,0.05);
-            padding: 1rem;
-            border-radius: 0 0.5rem 0.5rem 0;
-        }
-        
-        .footer {
-            margin-top: 3rem;
-            text-align: center;
-            font-size: 0.9rem;
-            opacity: 0.7;
-            border-top: 1px solid rgba(255,255,255,0.2);
-            padding-top: 2rem;
-        }
+        .legal-content { max-width: 800px; margin: 120px auto 4rem; padding: 0 1rem; }
+        .legal-content h1 { margin-bottom: 2rem; }
+        .legal-content h2 { margin-top: 2rem; margin-bottom: 1rem; font-size: 1.5rem; }
+        .legal-content p { margin-bottom: 1rem; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <a href="index.html" class="back-link">← Back to Home</a>
-        
+    
+    <!-- Navbar (Simplified) -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png" alt="FitWardrobe Logo">
+                <span>FitWardrobe</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="legal-content fade-in">
         <h1>Privacy Policy</h1>
-        
-        <p><strong>Last Updated:</strong> February 1, 2026</p>
-        <p><strong>Status:</strong> Beta Testing Phase</p>
+        <p class="text-muted">Last updated: February 1, 2026</p>
 
-        <section>
-            <h2>🧪 Beta Testing Notice</h2>
-            <p>This Privacy Policy applies to the <strong>beta version</strong> of FitWardrobe. By using the beta app, you acknowledge:</p>
-            <ul>
-                <li>The app is in active development and testing</li>
-                <li>Features and data practices may evolve</li>
-                <li>We prioritize your feedback to improve privacy practices</li>
-                <li>This policy will be reviewed by legal counsel before public launch</li>
-            </ul>
-        </section>
+        <h2>1. Introduction</h2>
+        <p>FitWardrobe ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we handle your information when you use our mobile application and related services.</p>
 
-        <section>
-            <h2>Introduction</h2>
-            <p>FitWardrobe ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use our mobile application and web service (collectively, the "Service").</p>
-            <blockquote><strong>Our Core Principle:</strong> Your wardrobe data stays on your device. We believe your personal fashion choices are yours alone.</blockquote>
-        </section>
+        <h2>2. Data Collection and Usage</h2>
+        <p>FitWardrobe operates on a "Local First" principle. This means:</p>
+        <ul>
+            <li><strong>Photos:</strong> Your wardrobe photos are stored locally on your device. We do not upload them to cloud servers for processing.</li>
+            <li><strong>Wardrobe Data:</strong> Your categorization and item data reside in your device's local storage.</li>
+        </ul>
 
-        <section>
-            <h2>1. Information We Collect</h2>
-            
-            <h3>1.1 Information You Provide</h3>
-            <p><strong>Account Information:</strong></p>
-            <ul>
-                <li>Email address (for authentication only)</li>
-                <li>Account creation date</li>
-                <li>Login method (email/magic link or Google OAuth)</li>
-            </ul>
-            <p><strong>That's it.</strong> We do NOT collect:</p>
-            <ul>
-                <li>Your name, photo, or location</li>
-                <li>Your payment information (app is free)</li>
-                <li>Your wardrobe data, clothing photos, or outfit history</li>
-                <li>Any personal fashion information</li>
-            </ul>
+        <h2>3. Third-Party Services</h2>
+        <p>We may use anonymous analytics to improve the app stability, but no personally identifiable information (PII) is collected.</p>
 
-            <h3>1.2 Information Automatically Collected</h3>
-            <p><strong>Usage Data (Anonymous) via Plausible & Sentry:</strong></p>
-            <ul>
-                <li>Device type, App version, OS version</li>
-                <li>Crash reports (anonymized)</li>
-                <li>General usage statistics (privacy-focused)</li>
-            </ul>
-            <p><strong>We do NOT collect:</strong> IP addresses (anonymized), precise location, or device identifiers.</p>
-
-            <h3>1.3 Data Stored Locally (On Your Device)</h3>
-            <p>The following data is stored <strong>ONLY on your device</strong> (IndexedDB/filesystem):</p>
-            <ul>
-                <li>Wardrobe items and photos</li>
-                <li>Outfit history and style preferences</li>
-            </ul>
-            <p>This data NEVER leaves your device unless you explicitly export it or use AI features (where only the temporary photo is analyzed).</p>
-        </section>
-
-        <section>
-            <h2>2. How We Use Your Information</h2>
-            <ul>
-                <li><strong>Authentication (Supabase):</strong> Email used solely for secure login.</li>
-                <li><strong>AI Features (Google Gemini):</strong> Photos sent temporarily for analysis. Google does NOT store your images.</li>
-                <li><strong>Crash Reports (Sentry):</strong> Anonymous error data to fix bugs.</li>
-                <li><strong>Analytics (Plausible):</strong> Anonymous usage stats to improve the app. No cookies or tracking.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>3. How We Share Your Information</h2>
-            <p><strong>We do NOT sell, rent, or share your personal information.</strong></p>
-            <p>Limited data is shared with infrastructure providers (Supabase, Google, Sentry, Plausible, Vercel) solely for app functionality, subject to their strict privacy policies.</p>
-        </section>
-
-        <section>
-            <h2>4. Data Storage & Security</h2>
-            <p><strong>On Your Device:</strong> Wardrobe data, photos, settings.</p>
-            <p><strong>On Our Servers:</strong> Email address only (encrypted).</p>
-            <p>We use HTTPS encryption, secure Supabase authentication (passwordless/OAuth), and protected API keys.</p>
-        </section>
-
-        <section>
-            <h2>5. Your Rights & Choices</h2>
-            <ul>
-                <li><strong>Access/Export:</strong> Download all your data as JSON via Settings.</li>
-                <li><strong>Delete:</strong> Delete your account anytime. Email and ID are removed; local data remains until you clear it.</li>
-                <li><strong>Opt-out:</strong> Plausible is privacy-friendly, but you can use ad-blockers.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>6. Contact Us</h2>
-            <p>If you have questions, contact us at: <a href="mailto:fitwardrobee@gmail.com">fitwardrobee@gmail.com</a></p>
-        </section>
-
-        <p class="footer">© 2026 FitWardrobe. All Rights Reserved.</p>
+        <h2>4. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:fitwardrobee@gmail.com" class="text-accent">fitwardrobee@gmail.com</a>.</p>
     </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-bottom">
+            <p>&copy; 2026 FitWardrobe. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
 </html>

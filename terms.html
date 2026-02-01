@@ -4,150 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms of Service - FitWardrobe</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="assets/logo.png">
     <style>
-        :root {
-            --primary: #667eea;
-            --secondary: #764ba2;
-            --text-light: rgba(255, 255, 255, 0.95);
-            --text-lighter: rgba(255, 255, 255, 0.85);
-            --card-bg: rgba(255, 255, 255, 0.1);
-            --card-hover: rgba(255, 255, 255, 0.15);
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-            color: white;
-            min-height: 100vh;
-            padding: 2rem;
-            line-height: 1.6;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: var(--card-bg);
-            padding: 2rem;
-            border-radius: 1rem;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-
-        h1, h2, h3 {
-            color: white;
-            margin-top: 1.5rem;
-            margin-bottom: 1rem;
-        }
-        
-        h1 { font-size: 2.5rem; border-bottom: 1px solid rgba(255,255,255,0.2); padding-bottom: 1rem; }
-        h2 { font-size: 1.8rem; margin-top: 2rem; }
-        h3 { font-size: 1.4rem; }
-
-        p, ul, ol { margin-bottom: 1rem; color: var(--text-lighter); }
-        ul, ol { padding-left: 1.5rem; }
-        li { margin-bottom: 0.5rem; }
-
-        a { color: #fff; text-decoration: underline; }
-        a:hover { opacity: 0.8; }
-
-        .back-link {
-            display: inline-block;
-            margin-bottom: 2rem;
-            padding: 0.5rem 1rem;
-            background: rgba(255,255,255,0.2);
-            border-radius: 0.5rem;
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        .alert-box {
-            background: rgba(255, 200, 0, 0.15);
-            border: 1px solid rgba(255, 200, 0, 0.3);
-            padding: 1.5rem;
-            border-radius: 0.5rem;
-            margin: 1.5rem 0;
-        }
-        
-        .footer {
-            margin-top: 3rem;
-            text-align: center;
-            font-size: 0.9rem;
-            opacity: 0.7;
-            border-top: 1px solid rgba(255,255,255,0.2);
-            padding-top: 2rem;
-        }
+        .legal-content { max-width: 800px; margin: 120px auto 4rem; padding: 0 1rem; }
+        .legal-content h1 { margin-bottom: 2rem; }
+        .legal-content h2 { margin-top: 2rem; margin-bottom: 1rem; font-size: 1.5rem; }
+        .legal-content p { margin-bottom: 1rem; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <a href="index.html" class="back-link">← Back to Home</a>
-        
-        <h1>Terms of Service</h1>
-        
-        <p><strong>Last Updated:</strong> February 1, 2026</p>
-        <p><strong>Status:</strong> Beta Testing Phase</p>
-
-        <div class="alert-box">
-            <h2>🧪 Beta Testing Acknowledgment</h2>
-            <p><strong>IMPORTANT:</strong> FitWardrobe is currently in beta testing. By using this Service, you acknowledge:</p>
-            <ul>
-                <li>The app may contain bugs, errors, or unexpected behavior</li>
-                <li>Features may change or be removed without notice</li>
-                <li>Data loss is possible (please export your data regularly)</li>
-                <li>AI outfit suggestions are experimental</li>
-            </ul>
-            <p><strong>Your Role:</strong> Report bugs, provide feedback, and help us build a better product.</p>
+    
+    <!-- Navbar (Simplified) -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png" alt="FitWardrobe Logo">
+                <span>FitWardrobe</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+            </div>
         </div>
+    </nav>
 
-        <section>
-            <h2>1. Acceptance of Terms</h2>
-            <p>By accessing or using FitWardrobe (the "Service"), you agree to be bound by these Terms of Service. If you do not agree, do not use the Service.</p>
-        </section>
+    <!-- Content -->
+    <div class="legal-content fade-in">
+        <h1>Terms of Service</h1>
+        <p class="text-muted">Last updated: February 1, 2026</p>
 
-        <section>
-            <h2>2. Description of Service</h2>
-            <p>FitWardrobe is an AI-powered wardrobe management application. Features include camera capture, AI analysis, and outfit suggestions.</p>
-        </section>
+        <h2>1. Acceptance of Terms</h2>
+        <p>By downloading or using the FitWardrobe app, you agree to be bound by these Terms of Service.</p>
 
-        <section>
-            <h2>3. User Accounts</h2>
-            <ul>
-                <li>You must provide a valid email for account creation.</li>
-                <li>You must be at least 13 years old.</li>
-                <li>You are responsible for account security.</li>
-                <li>You can delete your account via Settings anytime. We delete your email/ID within 30 days.</li>
-            </ul>
-        </section>
+        <h2>2. Use License</h2>
+        <p>FitWardrobe grants you a personal, non-exclusive, non-transferable license to use the application for your personal styling needs.</p>
 
-        <section>
-            <h2>4. Acceptable Use</h2>
-            <p><strong>You MAY:</strong> use for personal purposes, upload your own photos.</p>
-            <p><strong>You MAY NOT:</strong> upload illegal/offensive content, hack the service, scrape data, or abuse AI resources.</p>
-        </section>
+        <h2>3. Beta Software</h2>
+        <p>You acknowledge that the current version of FitWardrobe is a "Beta" release. It may contain bugs, errors, or inaccuracies. You should not rely on it for critical data storage.</p>
 
-        <section>
-            <h2>5. Content Ownership</h2>
-            <p>You retain ownership of your content (photos, data). You grant us a limited license to process photos for AI analysis. We do NOT own your wardrobe data.</p>
-            <p>FitWardrobe retains rights to the app code and branding.</p>
-        </section>
+        <h2>4. Disclaimer</h2>
+        <p>The app is provided "as is". We make no warranties, expressed or implied, regarding its reliability or availability.</p>
 
-        <section>
-            <h2>6. Privacy</h2>
-            <p>Your wardrobe data is stored locally. We only store your email for auth. See our <a href="privacy.html">Privacy Policy</a>.</p>
-        </section>
-
-        <section>
-            <h2>7. Disclaimers & Liability</h2>
-            <p>The service is provided "AS IS" without warranties. We are not liable for data loss, service outages, or fashion choices made based on AI suggestions. Maximum liability is limited to the amount paid (currently $0).</p>
-        </section>
-
-        <section>
-            <h2>8. Contact</h2>
-            <p>Questions? Email: <a href="mailto:fitwardrobee@gmail.com">fitwardrobee@gmail.com</a></p>
-        </section>
-
-        <p class="footer">© 2026 FitWardrobe. All Rights Reserved.</p>
+        <h2>5. Contact</h2>
+        <p>Questions? Email us at <a href="mailto:fitwardrobee@gmail.com" class="text-accent">fitwardrobee@gmail.com</a>.</p>
     </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-bottom">
+            <p>&copy; 2026 FitWardrobe. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
