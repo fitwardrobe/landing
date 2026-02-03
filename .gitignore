@@ -12,7 +12,11 @@ Thumbs.db
 # Temporary
 .tmp/
 
-# Reference Files
-FITWARDROBE_SEO_MASTER.md
-QUICK_START_GUIDE.md
-task.md
+
+
+# Local development and reference files
+local_files/
+.agent/
+# Any extra local temp files
+*.tmp
+*.local
