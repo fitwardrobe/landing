@@ -95,21 +95,21 @@
             <h2>How We Protect You</h2>
             
             <h3>1. Local Data Storage</h3>
-            <p>Your wardrobe data is stored using browser <strong>IndexedDB</strong> or <strong>Capacitor Filesystem</strong>. It is never uploaded to the FitWardrobe cloud. This eliminates the risk of a central database breach exposing your personal photos.</p>
+            <p>Your wardrobe data is stored directly on your phone or computer. It is never uploaded to our cloud. This means even if someone tried to hack us, they couldn't find your photos—they simply aren't there.</p>
 
-            <h3>2. Secure Authentication</h3>
-            <p>We use <strong>Supabase (PostgreSQL + GoTrust)</strong> for authentication. We only store your email address and a secure password hash. We support login via Magic Links for passwordless, high-security access.</p>
+            <h3>2. Secure Login</h3>
+            <p>We use industry-standard security for your account. We don't store your password in a way that can be read by anyone, and we support "Magic Links" so you can log in securely using just your email.</p>
 
-            <h3>3. AI Processing Security</h3>
-            <p>When you use our AI features, images are sent to the <strong>Google Gemini 2.0 Flash API</strong> over an encrypted HTTPS connection.
+            <h3>3. Safe AI Processing</h3>
+            <p>When you use our AI features, images are sent through a secure, private tunnel for analysis.
             <ul>
-                <li>Images are processed in-memory.</li>
-                <li>Images are NOT used for training Google's models.</li>
-                <li>Images are NOT stored by us or Google after processing.</li>
+                <li>Your photos are only used for a few seconds to "see" your clothes.</li>
+                <li>They are NOT used to train anyone's AI models.</li>
+                <li>They are NOT saved or stored anywhere once the analysis is finished.</li>
             </ul></p>
 
-            <h3>4. Encryption in Transit</h3>
-            <p>All communication between your device and our services (Supabase, Gemini API, Vercel) is protected by <strong>TLS 1.2+ encryption</strong> (HTTPS).</p>
+            <h3>4. Encrypted Communcation</h3>
+            <p>All data sent between your device and our services is protected by military-grade encryption, ensuring that no one can "listen in" on your activity.</p>
         </section>
 
         <section id="user-responsibilities">
@@ -124,7 +124,7 @@
 
         <section id="reporting">
             <h2>Reporting Vulnerabilities</h2>
-            <p>We welcome reports from security researchers. If you find a potential vulnerability in FitWardrobe, please email us at <a href="mailto:fitwardrobee@gmail.com">fitwardrobee@gmail.com</a>. We will investigate and respond as quickly as possible.</p>
+            <p>We welcome reports from security researchers. If you find a potential vulnerability in FitWardrobe, please email us at <a href="mailto:hello@fitwardrobe.me">hello@fitwardrobe.me</a>. We will investigate and respond as quickly as possible.</p>
         </section>
 
         <hr style="margin: 3rem 0; border: none; border-top: 1px solid #ddd;">
@@ -150,3 +150,4 @@
     </footer>
 </body>
 </html>
+

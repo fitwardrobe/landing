@@ -102,7 +102,7 @@
         "contactPoint": {
           "@type": "ContactPoint",
           "contactType": "Customer Support",
-          "email": "contact@fitwardrobe.me",
+          "email": "hello@fitwardrobe.me",
           "availableLanguage": ["English"]
         },
         "sameAs": [
@@ -117,7 +117,7 @@
         "Privacy-first architecture with no cloud uploads",
         "Conversational AI stylist interface",
         "Offline functionality",
-        "Multi-platform support (Android + PWA)"
+        "Multi-platform support (Android + web app)"
       ]
     }
     </script>
@@ -218,15 +218,13 @@
       <div class="container hero-container">
         <div class="hero-content fade-in-up">
           <span class="hero-tag">🚀 Now Available on Android</span>
-          <h1>
-            Your Intelligent <br /><span class="text-accent"
-              >Personal Stylist</span
-            >
-          </h1>
+          <h1>Your Wardrobe. Your Phone. Your Privacy.</h1>
           <p class="hero-subtitle">
-            Digitize your closet. Get AI-powered outfit suggestions. Keep your
-            data 100% private.
+            Organize your closet, get AI outfit suggestions, and never forget what you own.
           </p>
+          <div class="trust-badges" style="margin-bottom: 2rem; font-size: 0.95rem; font-weight: 600; color: var(--color-text-light);">
+            <span>Free</span> • <span>Works Offline</span> • <span>100% Yours</span>
+          </div>
           <div class="download-card android">
             <p class="download-specs"><strong>Beta v1.0.1</strong> • Android 8.0+ • 6.3 MB</p>
             
@@ -238,7 +236,7 @@
               style="width: 100%; justify-content: center; margin-bottom: 1rem;"
               rel="noopener noreferrer"
             >
-              <span aria-hidden="true" style="margin-right: 0.5rem;">⬇️</span> Download for Android
+              <span aria-hidden="true" style="margin-right: 0.5rem;">📱</span> Download for Android
             </a>
 
             <div class="hero-secondary-actions" style="display: flex; flex-direction: column; gap: 0.75rem;">
@@ -267,10 +265,8 @@
           </div>
         </div>
         <div class="hero-image fade-in-up delay-200">
-          <!-- Using a refined CSS placeholder for the phone if image missing -->
           <div class="phone-mockup">
             <div class="phone-screen">
-              <!-- Placeholder for screenshot -->
               <div class="screen-content-placeholder">
                 <span class="icon">👕</span>
                 <span>Your Digital Wardrobe</span>
@@ -278,6 +274,49 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Privacy Differentiation Section (NEW) -->
+    <section id="privacy-difference" class="privacy-difference">
+      <div class="container">
+        <h2>The Only Wardrobe App That Respects Your Privacy</h2>
+        
+        <p class="section-subtitle">
+          Most apps upload your photos to their servers. We don't. 
+          Your wardrobe stays on your device, forever.
+        </p>
+        
+        <div class="comparison-diagram">
+          <div class="competitor-approach">
+            <h3>Other Apps</h3>
+            <div class="flow">
+              <span class="emoji">📱</span> Your Phone 
+              <span class="arrow">→</span> 
+              <span class="emoji">☁️</span> Their Servers 
+              <span class="arrow">→</span> 
+              <span class="emoji">🔓</span> Your Data
+            </div>
+            <span class="badge-negative">❌ Not Private</span>
+          </div>
+          
+          <div class="fitwardrobe-approach">
+            <h3>FitWardrobe</h3>
+            <div class="flow">
+              <span class="emoji">📱</span> Your Phone 
+              <span class="arrow">→</span> 
+              <span class="emoji">💾</span> Your Device 
+              <span class="arrow">→</span> 
+              <span class="emoji">🔒</span> Stays Local
+            </div>
+            <span class="badge-positive">✅ 100% Private</span>
+          </div>
+        </div>
+        
+        <p class="privacy-guarantee">
+          <strong>Our Promise:</strong> We can't see your wardrobe even if we wanted to. 
+          Your photos never touch our servers.
+        </p>
       </div>
     </section>
 
@@ -302,27 +341,27 @@
     <!-- 4. Problem/Solution -->
     <section class="section problem-solution">
       <div class="container text-center mb-section">
-        <h2 class="section-title">Why FitWardrobe?</h2>
+        <h2 class="section-title">Full Closet, Nothing to Wear? We Fix That.</h2>
         <p class="section-subtitle">
           Stop staring at a full closet with "nothing to wear".
         </p>
       </div>
       <div class="container grid-2">
         <div class="card problem-card fade-in">
-          <h3>The Problem</h3>
+          <h3>Sound Familiar?</h3>
           <ul class="problem-list">
-            <li>❌ "I have nothing to wear" syndrome</li>
+            <li>❌ Staring at your closet for 20 minutes</li>
             <li>❌ Forgotten clothes hidden in the back</li>
             <li>❌ Buying duplicates you don't need</li>
             <li>❌ Data privacy concerns with other apps</li>
           </ul>
         </div>
         <div class="card solution-card fade-in delay-100">
-          <h3>The Solution</h3>
+          <h3>FitWardrobe Helps You:</h3>
           <ul class="solution-list">
-            <li>✅ Instant outfit ideas from your own clothes</li>
-            <li>✅ Visual inventory of everything you own</li>
-            <li>✅ Smart stats on your wearing habits</li>
+            <li>✅ See your entire wardrobe at a glance</li>
+            <li>✅ Get smart outfit ideas for any occasion</li>
+            <li>✅ Track what you actually wear</li>
             <li>
               ✅ <strong>100% Local Processing</strong> - Your photos never
               leave your phone
@@ -335,30 +374,27 @@
     <!-- 5. Features -->
     <section id="features" class="section bg-light">
       <div class="container">
-        <h2 class="section-title text-center">Intelligent Features</h2>
+        <h2 class="section-title text-center">Everything You Need to Master Your Style</h2>
         <div class="features-grid">
           <div class="feature-item fade-in">
-            <div class="feature-icon">🧠</div>
-            <h3>AI Stylist</h3>
+            <div class="feature-icon">💾</div>
+            <h3>Never Buy Duplicates Again</h3>
             <p>
-              Our local AI analyzes your clothes to create perfect outfit
-              combinations based on color, style, and occasion.
+              See everything you own in one place. Organize by category, color, or season.
             </p>
           </div>
           <div class="feature-item fade-in delay-100">
-            <div class="feature-icon">📸</div>
-            <h3>Easy Digitization</h3>
+            <div class="feature-icon">✨</div>
+            <h3>Get Instant Outfit Suggestions</h3>
             <p>
-              Snap a photo, and our background remover instantly isolates your
-              item. Catalog your entire wardrobe in minutes.
+              Tell us the occasion, we'll show you what to wear from your closet.
             </p>
           </div>
           <div class="feature-item fade-in delay-200">
-            <div class="feature-icon">🔒</div>
-            <h3>Privacy First</h3>
+            <div class="feature-icon">🔍</div>
+            <h3>Find Anything in Seconds</h3>
             <p>
-              No cloud uploads for analysis. All AI processing happens directly
-              on your device using on-device models.
+              Filter by color, season, occasion, or formality. Your wardrobe, searchable.
             </p>
           </div>
         </div>
@@ -368,28 +404,28 @@
     <!-- 6. How It Works -->
     <section id="how-it-works" class="section">
       <div class="container">
-        <h2 class="section-title text-center">Simple 4-Step Process</h2>
+        <h2 class="section-title text-center">Style Your Closet in 4 Simple Steps</h2>
         <div class="stepper">
           <div class="step fade-in">
             <div class="step-number">1</div>
             <h4>Snap</h4>
             <p>Take photos of your clothes.</p>
           </div>
-          <!-- Connector Line handled in CSS -->
+          <!-- Step 2 - UPDATED TEXT -->
           <div class="step fade-in delay-100">
             <div class="step-number">2</div>
-            <h4>Edit</h4>
-            <p>Auto-remove backgrounds & tag.</p>
+            <h4>Tag</h4>
+            <p>AI suggests details (works on your phone - no uploading).</p>
           </div>
           <div class="step fade-in delay-200">
             <div class="step-number">3</div>
-            <h4>Generate</h4>
-            <p>Get AI outfit suggestions.</p>
+            <h4>Ask</h4>
+            <p>"What should I wear to a birthday party?"</p>
           </div>
           <div class="step fade-in delay-300">
             <div class="step-number">4</div>
             <h4>Wear</h4>
-            <p>Look great & track usage.</p>
+            <p>Get outfit ideas from what you already own.</p>
           </div>
         </div>
       </div>
@@ -510,7 +546,7 @@
       </div>
     </section>
 
-    <!-- 10. iOS Waitlist Section (FW-M05) -->
+    <!-- 10. iOS Waitlist Section -->
     <section id="ios-waitlist" class="section bg-white">
       <div class="container" style="max-width: 600px; text-align: center;">
         <h2 class="section-title">iOS Waitlist</h2>
@@ -524,69 +560,88 @@
         </form>
       </div>
     </section>
-    <!-- 11. FAQ -->
+    <!-- 11. FAQ Section (Reordered by Priority) -->
     <section id="faq" class="section">
       <div class="container faq-container">
-        <h2 class="section-title text-center">Frequently Asked Questions</h2>
+        <h2 class="section-title text-center">Questions? We've Got Answers.</h2>
         <div class="accordion">
+          <!-- Q1: Privacy (MOST IMPORTANT - FIRST) -->
           <div class="accordion-item">
             <button class="accordion-header">
-              Is FitWardrobe really free?
+              Where is my data stored?
             </button>
             <div class="accordion-body">
-              Yes, the current beta version is completely free to use.
+              On your device only. We use your local storage. We don't have servers storing your wardrobe.
             </div>
           </div>
+          
+          <!-- Q2: Free (Price Objection - SECOND) -->
           <div class="accordion-item">
             <button class="accordion-header">
-              Where is my wardrobe data stored?
+              Is it really free?
             </button>
             <div class="accordion-body">
-              All your data is stored locally on your device using IndexedDB. We
-              do not have servers holding your closet data.
+              Yes! Core features (wardrobe management, AI suggestions) are free forever. No subscriptions, no tricks.
             </div>
           </div>
-          <div class="accordion-item">
-            <button class="accordion-header">How does the AI work?</button>
-            <div class="accordion-body">
-              We use lightweight on-device models to analyze colors and
-              categories to suggest matching combinations.
-            </div>
-          </div>
-          <div class="accordion-item">
-            <button class="accordion-header">Is there an iOS version?</button>
-            <div class="accordion-body">
-              Not yet! We are focusing on Android and Web first. Join the
-              waitlist to be notified.
-            </div>
-          </div>
-          <div class="accordion-item">
-            <button class="accordion-header">Can I export my data?</button>
-            <div class="accordion-body">
-              Data export features are planned for v1.2.
-            </div>
-          </div>
-          <div class="accordion-item">
-            <button class="accordion-header">How do I report bugs?</button>
-            <div class="accordion-body">
-              Please email us at <a href="mailto:contact@fitwardrobe.me">contact@fitwardrobe.me</a> or create an issue on
-              our <a href="https://github.com/fitwardrobe/fitwardrobe/issues" target="_blank" rel="noopener noreferrer">GitHub repository</a>.
-            </div>
-          </div>
+          
+          <!-- Q3: Offline (Functionality - THIRD) -->
           <div class="accordion-item">
             <button class="accordion-header">
-              Will there be a paid version?
+              Can I use it offline?
             </button>
             <div class="accordion-body">
-              We might introduce premium features later for cloud sync, but the
-              core local features will remain free.
+              Absolutely! Organize your wardrobe completely offline. AI features need internet, but everything else works offline.
             </div>
           </div>
+          
+          <!-- Q4: AI Explanation -->
           <div class="accordion-item">
-            <button class="accordion-header">Is my privacy protected?</button>
+            <button class="accordion-header">
+              How does the AI work?
+            </button>
             <div class="accordion-body">
-              Absolutely. Since we don't upload your photos, your privacy is
-              protected by design.
+              When you ask for outfit suggestions, AI analyzes your wardrobe to suggest combinations based on color, style, and occasion—all processed securely.
+            </div>
+          </div>
+          
+          <!-- Q5: iOS Version -->
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Is there an iOS version?
+            </button>
+            <div class="accordion-body">
+              Not yet! Android and web app available now. iOS coming in 2026. Join the waitlist to get notified.
+            </div>
+          </div>
+          
+          <!-- Q6: Export Data -->
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Can I download my data?
+            </button>
+            <div class="accordion-body">
+              Yes! Download all your data as a file you can open anywhere. Takes 2 minutes.
+            </div>
+          </div>
+          
+          <!-- Q7: Phone Switching -->
+          <div class="accordion-item">
+            <button class="accordion-header">
+              What if I switch phones?
+            </button>
+            <div class="accordion-body">
+              Download from old device, upload to new device. Your entire wardrobe moves with you.
+            </div>
+          </div>
+          
+          <!-- Q8: Bug Reports (NEW) -->
+          <div class="accordion-item">
+            <button class="accordion-header">
+              How do I report bugs?
+            </button>
+            <div class="accordion-body">
+              Please email us at <a href="mailto:hello@fitwardrobe.me">hello@fitwardrobe.me</a>. We respond within 24 hours.
             </div>
           </div>
         </div>
@@ -627,15 +682,18 @@
              aria-label="View FitWardrobe source code on GitHub">
             GitHub
           </a>
-          <a href="mailto:contact@fitwardrobe.me">Contact</a>
+          <a href="mailto:hello@fitwardrobe.me">Contact</a>
         </div>
+      </div>
+      <div class="trust-footer">
+        🔒 Secure • 🚫 No Tracking • ✅ Open Source • 💾 Local Storage
       </div>
       <div class="container footer-bottom">
         <p>&copy; 2026 FitWardrobe. All rights reserved.</p>
       </div>
     </footer>
 
-    <!-- Cookie Consent Pop-up Card (FW-M01) -->
+    <!-- Cookie Consent Pop-up Card -->
     <div id="cookie-consent" class="cookie-popup" style="display: none;">
       <div class="cookie-card">
         <p class="cookie-text">
@@ -661,3 +719,4 @@
     <script src="js/mobile-nav.js"></script>
   </body>
 </html>
+

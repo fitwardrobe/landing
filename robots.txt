@@ -73,3 +73,4 @@ Allow: /
 
 # Sitemaps
 Sitemap: https://fitwardrobe.me/sitemap.xml
+

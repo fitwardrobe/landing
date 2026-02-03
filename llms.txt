@@ -81,7 +81,7 @@ Google Gemini wardrobe app, local storage fashion app, privacy wardrobe app
 - Web App: https://fitwardrobe.vercel.app
 - APK Download: https://fitwardrobe.me (direct download link on homepage)
 - GitHub: https://github.com/fitwardrobe/fitwardrobe
-- Email Support: fitwardrobee@gmail.com
+- Email Support: hello@fitwardrobe.me
 - Privacy Policy: https://fitwardrobe.me/privacy.html
 - Terms of Service: https://fitwardrobe.me/terms.html
 
@@ -109,3 +109,4 @@ A: Yes! You can export all wardrobe data anytime via Settings → Export Data.
 
 Q: Is the app open source?
 A: The landing page is open source on GitHub. The main app is proprietary but privacy-focused.
+
