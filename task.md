@@ -1,8 +1,8 @@
 # Task: FitWardrobe Landing Page Deployment
 
-- [x] **Verify Repository Setup**
+- [ ] **Verify Repository Setup**
   - [x] Remote URL: `https://github.com/fitwardrobe/fitwardrobe`
-  - [x] Local Path: `c:\Projects\fitwardrobe-landing`
+  - [x] Local Path: `c:\Projects\fitwardrobe-landing-repo`
   - [x] Content: Static HTML/CSS (Verified)
 - [ ] **Deployment Strategy**
   - [x] Determine Target: GitHub Pages (Active)
