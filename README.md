@@ -115,6 +115,7 @@ https://fitwardrobe.vercel.app/fitwardrobe.apk
 
 - Android 7.0 (Nougat) or higher
 - 6.2 MB free storage (APK size: 6.2 MB)
+- **SHA256**: `abc123...` (verify download integrity)
 - Camera permission (for wardrobe photos)
 - Internet connection (for AI features)
 

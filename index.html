@@ -85,13 +85,15 @@
               class="download-specs"
               style="margin-bottom: 0.5rem; color: #666; font-size: 0.9rem"
             >
-              <strong>Beta v1.0.1</strong> • Android 8.0+ • 6.2 MB
+              <strong>Beta v1.0.1</strong> • Android 8.0+ • 6.2 MB<br />
+              <small style="font-size: 0.75rem; color: #888;">SHA256: <code>abc123...</code></small>
             </p>
 
             <!-- Primary Download (Direct APK) -->
             <a
               href="https://fitwardrobe.vercel.app/fitwardrobe.apk"
-              download="fitwardrobe.apk"
+              download="fitwardrobe-v1.0.1.apk"
+              onclick="gtag('event', 'download', {event_category: 'APK'})"
               class="btn btn-primary icon-btn"
               style="
                 width: 100%;
@@ -331,7 +333,8 @@
           >
             <a
               href="https://fitwardrobe.vercel.app/fitwardrobe.apk"
-              download="fitwardrobe.apk"
+              download="fitwardrobe-v1.0.1.apk"
+              onclick="gtag('event', 'download', {event_category: 'APK'})"
               class="btn btn-primary btn-lg"
               style="width: auto; margin-bottom: 0.5rem"
               rel="noopener noreferrer"
