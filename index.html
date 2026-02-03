@@ -122,15 +122,26 @@
     }
     </script>
 
+    <!-- WebSite Schema (Signals Homepage Priority) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "FitWardrobe",
-      "url": "https://fitwardrobe.me",
+      "alternateName": "Fit Wardrobe",
+      "url": "https://fitwardrobe.me/",
+      "description": "Free AI-powered wardrobe management app with privacy-first architecture. Organize your closet digitally with Google Gemini AI.",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "FitWardrobe"
+      },
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://fitwardrobe.me/?s={search_term_string}",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://fitwardrobe.me/?q={search_term_string}"
+        },
         "query-input": "required name=search_term_string"
       }
     }
