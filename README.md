@@ -108,13 +108,13 @@ FitWardrobe is an **AI-powered personal styling assistant** that helps you:
 **Direct APK Download:**
 
 ```bash
-https://fitwardrobe.me/downloads/fitwardrobe.apk
+https://fitwardrobe.vercel.app/fitwardrobe.apk
 ```
 
 **System Requirements:**
 
 - Android 7.0 (Nougat) or higher
-- 115 MB free storage (APK size: 114.9 MB)
+- 6.3 MB free storage (APK size: 6.3 MB)
 - Camera permission (for wardrobe photos)
 - Internet connection (for AI features)
 
@@ -133,7 +133,7 @@ https://fitwardrobe.me/downloads/fitwardrobe.apk
 **Access via browser:**
 
 ```
-https://fitwardrobe-v1.vercel.app
+https://fitwardrobe.vercel.app
 ```
 
 **Compatible Browsers:**
@@ -145,7 +145,7 @@ https://fitwardrobe-v1.vercel.app
 
 **Install PWA:**
 
-1. Visit [fitwardrobe-v1.vercel.app](https://fitwardrobe-v1.vercel.app)
+1. Visit [fitwardrobe.vercel.app](https://fitwardrobe.vercel.app)
 2. Click "Add to Home Screen" (mobile) or "Install" (desktop)
 3. Launch like a native app
 
@@ -416,7 +416,7 @@ By using FitWardrobe, you agree to our [Terms of Service](https://fitwardrobe.me
 
 - 🌐 **Website:** [fitwardrobe.me](https://fitwardrobe.me)
 - 💻 **GitHub:** [@fitwardrobe](https://github.com/fitwardrobe)
-- 📱 **Web App:** [fitwardrobe-v1.vercel.app](https://fitwardrobe-v1.vercel.app)
+- 📱 **Web App:** [fitwardrobe.vercel.app](https://fitwardrobe.vercel.app)
 
 ### Coming Soon
 
