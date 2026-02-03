@@ -11,4 +11,8 @@ Thumbs.db
 
 # Temporary
 .tmp/
-.cache/
+
+# Reference Files
+FITWARDROBE_SEO_MASTER.md
+QUICK_START_GUIDE.md
+task.md
