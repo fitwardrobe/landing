@@ -1,16 +1,35 @@
 # FitWardrobe - Robots.txt
-# Updated: 2026-02-01
+# Updated: February 3, 2026
 
 # Allow all search engines
 User-agent: *
 Allow: /
 
+# Disallow admin/private areas (if any exist in future)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Crawl rate
+Crawl-delay: 0
+
 # Sitemap location
 Sitemap: https://fitwardrobe.me/sitemap.xml
 
-# Allow important pages
-Allow: /privacy.html
-Allow: /terms.html
+# Specific bot rules
+User-agent: Googlebot
+Allow: /
 
-# Disallow downloads folder (APK files)
-Disallow: /downloads/
+User-agent: Googlebot-Image
+Allow: /assets/
+
+User-agent: Bingbot
+Allow: /
+
+# Block bad bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
