@@ -1,365 +1,508 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FitWardrobe - Your AI-Powered Personal Stylist</title>
-    <meta name="description" content="Organize your closet, get daily outfit suggestions, and style yourself with AI. Privacy-first, runs entirely on your device.">
-    
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-    
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/styles.css">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/logo.png">
-</head>
-<body>
+    <meta
+      name="description"
+      content="Organize your closet, get daily outfit suggestions, and style yourself with AI. Privacy-first, runs entirely on your device."
+    />
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+  </head>
+  <body>
     <!-- 1. Navigation -->
     <nav class="navbar">
-        <div class="container nav-container">
-            <a href="#" class="logo">
-                <img src="assets/logo.png" alt="FitWardrobe Logo">
-                <span>FitWardrobe</span>
-            </a>
-            <div class="nav-links">
-                <a href="#features">Features</a>
-                <a href="#how-it-works">How it Works</a>
-                <a href="#privacy">Privacy</a>
-                <a href="#faq">FAQ</a>
-                <a href="https://fitwardrobe-v1.vercel.app" class="btn btn-sm btn-secondary">Web App</a>
-            </div>
-            <div class="nav-actions">
-                <span class="badge beta-badge">BETA v1.0.1</span>
-                <button class="mobile-menu-btn" aria-label="Toggle Menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
+      <div class="container nav-container">
+        <a href="#" class="logo">
+          <img src="assets/logo.png" alt="FitWardrobe Logo" />
+          <span>FitWardrobe</span>
+        </a>
+        <div class="nav-links">
+          <a href="#features">Features</a>
+          <a href="#how-it-works">How it Works</a>
+          <a href="#privacy">Privacy</a>
+          <a href="#faq">FAQ</a>
+          <a
+            href="https://fitwardrobe-v1-5fzpn1z7d-aryan-panwars-projects.vercel.app"
+            class="btn btn-sm btn-secondary"
+            >Web App</a
+          >
         </div>
+        <div class="nav-actions">
+          <span class="badge beta-badge">BETA v1.0.1</span>
+          <button class="mobile-menu-btn" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
     </nav>
 
     <!-- Mobile Menu Overlay -->
     <div class="mobile-menu">
-        <a href="#features" class="mobile-link">Features</a>
-        <a href="#how-it-works" class="mobile-link">How it Works</a>
-        <a href="#privacy" class="mobile-link">Privacy</a>
-        <a href="#faq" class="mobile-link">FAQ</a>
-        <a href="https://fitwardrobe-v1.vercel.app" class="btn btn-secondary">Try Web App</a>
+      <a href="#features" class="mobile-link">Features</a>
+      <a href="#how-it-works" class="mobile-link">How it Works</a>
+      <a href="#privacy" class="mobile-link">Privacy</a>
+      <a href="#faq" class="mobile-link">FAQ</a>
+      <a
+        href="https://fitwardrobe-v1-5fzpn1z7d-aryan-panwars-projects.vercel.app"
+        class="btn btn-secondary"
+        >Try Web App</a
+      >
     </div>
 
     <!-- 2. Hero Section -->
     <section class="hero">
-        <div class="container hero-container">
-            <div class="hero-content fade-in-up">
-                <span class="hero-tag">🚀 Now Available on Android</span>
-                <h1>Your Intelligent <br><span class="text-accent">Personal Stylist</span></h1>
-                <p class="hero-subtitle">Digitize your closet. Get AI-powered outfit suggestions. Keep your data 100% private.</p>
-                <div class="download-card android">
-                    <p class="download-specs" style="margin-bottom: 0.5rem; color: #666; font-size: 0.9rem;">
-                        <strong>Beta v1.0.1</strong> • Android 8.0+ • 115 MB
-                    </p>
-                    
-                    <!-- Primary Download (Google Drive - Mobile Recommended) -->
-                     <a href="https://drive.google.com/uc?export=download&id=1f7xtYOYUQSS6tUmbvsbw1KeGRufPD4_P" 
-                       class="btn btn-primary icon-btn" 
-                       style="width: 100%; justify-content: center; margin-bottom: 0.5rem;"
-                       rel="noopener noreferrer">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M5.27216 19.3853C5.27216 20.0891 5.85175 20.6481 6.55499 20.6481C7.25824 20.6481 7.83795 20.0891 7.83795 19.3853C7.83795 18.6815 7.25824 18.1018 6.55499 18.1018C5.85175 18.1018 5.27216 18.6608 5.27216 19.3853ZM15.7229 19.3853C15.7229 20.0891 16.3025 20.6481 17.0057 20.6481C17.709 20.6481 18.2887 20.0891 18.2887 19.3853C18.2887 18.6815 17.709 18.1018 17.0057 18.1018C16.3025 18.1018 15.7229 18.6608 15.7229 19.3853ZM7.32043 8.35626L9.67389 4.29541C9.7981 4.08862 9.71533 3.84021 9.50842 3.71594C9.28101 3.61249 9.03265 3.69525 8.92914 3.9021L6.53436 8.04578C4.54687 9.14301 3.09753 11.089 2.7663 13.3663H22.0775C21.7463 11.089 20.2969 9.14301 18.3094 8.04578L15.9351 3.9021C15.811 3.69525 15.5417 3.61249 15.3348 3.73669C15.1279 3.8609 15.0658 4.10931 15.1693 4.31616L17.523 8.35626C16.2601 7.63171 14.7487 7.21765 13.1554 7.21765H11.7275C10.1128 7.21765 8.58075 7.63171 7.32043 8.35626ZM7.32043 14.3478C7.32043 14.8654 6.88562 15.2794 6.3681 15.2794C5.85059 15.2794 5.41589 14.8654 5.41589 14.3478C5.41589 13.8302 5.82983 13.4163 6.3681 13.4163C6.88562 13.4163 7.32043 13.8302 7.32043 14.3478ZM18.061 15.2794C17.5435 15.2794 17.1292 14.8654 17.1292 14.3478C17.1292 13.8302 17.5435 13.4163 18.061 13.4163C18.5786 13.4163 18.9926 13.8302 18.9926 14.3478C18.9926 14.8654 18.5786 15.2794 18.061 15.2794Z"/></svg>
-                        Download APK (Google Drive)
-                    </a>
-                    
-                    <!-- Secondary Option (GitHub - Desktop) -->
-                    <a href="https://github.com/fitwardrobe/fitwardrobe/releases/download/v1.0.1/fitwardrobe.apk" 
-                       class="btn btn-sm btn-outline"
-                       style="width: 100%; justify-content: center; font-size: 0.8rem; opacity: 0.8;"
-                       rel="noopener noreferrer">
-                        Or download from GitHub
-                    </a>
+      <div class="container hero-container">
+        <div class="hero-content fade-in-up">
+          <span class="hero-tag">🚀 Now Available on Android</span>
+          <h1>
+            Your Intelligent <br /><span class="text-accent"
+              >Personal Stylist</span
+            >
+          </h1>
+          <p class="hero-subtitle">
+            Digitize your closet. Get AI-powered outfit suggestions. Keep your
+            data 100% private.
+          </p>
+          <div class="download-card android">
+            <p
+              class="download-specs"
+              style="margin-bottom: 0.5rem; color: #666; font-size: 0.9rem"
+            >
+              <strong>Beta v1.0.1</strong> • Android 8.0+ • 115 MB
+            </p>
 
-                    <div style="margin-top: 1rem; font-size: 0.85rem; color: #666; text-align: left;">
-                         <details>
-                            <summary style="cursor: pointer; color: var(--color-accent); font-weight: 500;">📖 Installation Guide</summary>
-                            <ol style="padding-left: 1.2rem; margin-top: 0.5rem; line-height: 1.4;">
-                                <li>Download APK file</li>
-                                <li>Open file & allow "Install Unknown Apps"</li>
-                                <li>Tap Install</li>
-                            </ol>
-                        </details>
-                    </div>
+            <!-- Primary Download (Google Drive - Mobile Recommended) -->
+            <a
+              href="https://drive.google.com/uc?export=download&id=1f7xtYOYUQSS6tUmbvsbw1KeGRufPD4_P"
+              class="btn btn-primary icon-btn"
+              style="
+                width: 100%;
+                justify-content: center;
+                margin-bottom: 0.5rem;
+              "
+              rel="noopener noreferrer"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M5.27216 19.3853C5.27216 20.0891 5.85175 20.6481 6.55499 20.6481C7.25824 20.6481 7.83795 20.0891 7.83795 19.3853C7.83795 18.6815 7.25824 18.1018 6.55499 18.1018C5.85175 18.1018 5.27216 18.6608 5.27216 19.3853ZM15.7229 19.3853C15.7229 20.0891 16.3025 20.6481 17.0057 20.6481C17.709 20.6481 18.2887 20.0891 18.2887 19.3853C18.2887 18.6815 17.709 18.1018 17.0057 18.1018C16.3025 18.1018 15.7229 18.6608 15.7229 19.3853ZM7.32043 8.35626L9.67389 4.29541C9.7981 4.08862 9.71533 3.84021 9.50842 3.71594C9.28101 3.61249 9.03265 3.69525 8.92914 3.9021L6.53436 8.04578C4.54687 9.14301 3.09753 11.089 2.7663 13.3663H22.0775C21.7463 11.089 20.2969 9.14301 18.3094 8.04578L15.9351 3.9021C15.811 3.69525 15.5417 3.61249 15.3348 3.73669C15.1279 3.8609 15.0658 4.10931 15.1693 4.31616L17.523 8.35626C16.2601 7.63171 14.7487 7.21765 13.1554 7.21765H11.7275C10.1128 7.21765 8.58075 7.63171 7.32043 8.35626ZM7.32043 14.3478C7.32043 14.8654 6.88562 15.2794 6.3681 15.2794C5.85059 15.2794 5.41589 14.8654 5.41589 14.3478C5.41589 13.8302 5.82983 13.4163 6.3681 13.4163C6.88562 13.4163 7.32043 13.8302 7.32043 14.3478ZM18.061 15.2794C17.5435 15.2794 17.1292 14.8654 17.1292 14.3478C17.1292 13.8302 17.5435 13.4163 18.061 13.4163C18.5786 13.4163 18.9926 13.8302 18.9926 14.3478C18.9926 14.8654 18.5786 15.2794 18.061 15.2794Z"
+                />
+              </svg>
+              Download APK (Google Drive)
+            </a>
 
-                    <a href="https://fitwardrobe-v1.vercel.app" class="btn btn-outline icon-btn" style="width: 100%; justify-content: center; margin-top: 1rem;">
-                        Try Web App Instead <span class="arrow">→</span>
-                    </a>
-                </div>
-                <div class="hero-stats">
-                    <div class="stat">
-                        <span class="stat-number">100%</span>
-                        <span class="stat-label">Privacy</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">AI</span>
-                        <span class="stat-label">Powered</span>
-                    </div>
-                </div>
+            <!-- Secondary Option (GitHub - Desktop) -->
+            <a
+              href="https://github.com/fitwardrobe/fitwardrobe/releases/download/v1.0.1/fitwardrobe.apk"
+              class="btn btn-sm btn-outline"
+              style="
+                width: 100%;
+                justify-content: center;
+                font-size: 0.8rem;
+                opacity: 0.8;
+              "
+              rel="noopener noreferrer"
+            >
+              Or download from GitHub
+            </a>
+
+            <div
+              style="
+                margin-top: 1rem;
+                font-size: 0.85rem;
+                color: #666;
+                text-align: left;
+              "
+            >
+              <details>
+                <summary
+                  style="
+                    cursor: pointer;
+                    color: var(--color-accent);
+                    font-weight: 500;
+                  "
+                >
+                  📖 Installation Guide
+                </summary>
+                <ol
+                  style="
+                    padding-left: 1.2rem;
+                    margin-top: 0.5rem;
+                    line-height: 1.4;
+                  "
+                >
+                  <li>Download APK file</li>
+                  <li>Open file & allow "Install Unknown Apps"</li>
+                  <li>Tap Install</li>
+                </ol>
+              </details>
             </div>
-            <div class="hero-image fade-in-up delay-200">
-                <!-- Using a refined CSS placeholder for the phone if image missing -->
-                <div class="phone-mockup">
-                    <div class="phone-screen">
-                        <!-- Placeholder for screenshot -->
-                         <div class="screen-content-placeholder">
-                            <span class="icon">👕</span>
-                            <span>Your Digital Wardrobe</span>
-                         </div>
-                    </div>
-                </div>
+
+            <a
+              href="https://fitwardrobe-v1-5fzpn1z7d-aryan-panwars-projects.vercel.app"
+              class="btn btn-outline icon-btn"
+              style="width: 100%; justify-content: center; margin-top: 1rem"
+            >
+              Try Web App Instead <span class="arrow">→</span>
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Privacy</span>
             </div>
+            <div class="stat">
+              <span class="stat-number">AI</span>
+              <span class="stat-label">Powered</span>
+            </div>
+          </div>
         </div>
+        <div class="hero-image fade-in-up delay-200">
+          <!-- Using a refined CSS placeholder for the phone if image missing -->
+          <div class="phone-mockup">
+            <div class="phone-screen">
+              <!-- Placeholder for screenshot -->
+              <div class="screen-content-placeholder">
+                <span class="icon">👕</span>
+                <span>Your Digital Wardrobe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- 3. Beta Banner -->
     <div class="beta-banner">
-        <div class="container banner-content">
-            <span class="banner-icon">🚧</span>
-            <p><strong>Public Beta Limit:</strong> We are currently accepting feedback for v1.0.1. iOS version coming soon.</p>
-            <a href="mailto:fitwardrobee@gmail.com?subject=iOS%20Waitlist" class="banner-link">Join iOS Waitlist</a>
-        </div>
+      <div class="container banner-content">
+        <span class="banner-icon">🚧</span>
+        <p>
+          <strong>Public Beta Limit:</strong> We are currently accepting
+          feedback for v1.0.1. iOS version coming soon.
+        </p>
+        <a
+          href="mailto:fitwardrobee@gmail.com?subject=iOS%20Waitlist"
+          class="banner-link"
+          >Join iOS Waitlist</a
+        >
+      </div>
     </div>
 
     <!-- 4. Problem/Solution -->
     <section class="section problem-solution">
-        <div class="container text-center mb-section">
-            <h2 class="section-title">Why FitWardrobe?</h2>
-            <p class="section-subtitle">Stop staring at a full closet with "nothing to wear".</p>
+      <div class="container text-center mb-section">
+        <h2 class="section-title">Why FitWardrobe?</h2>
+        <p class="section-subtitle">
+          Stop staring at a full closet with "nothing to wear".
+        </p>
+      </div>
+      <div class="container grid-2">
+        <div class="card problem-card fade-in">
+          <h3>The Problem</h3>
+          <ul class="problem-list">
+            <li>❌ "I have nothing to wear" syndrome</li>
+            <li>❌ Forgotten clothes hidden in the back</li>
+            <li>❌ Buying duplicates you don't need</li>
+            <li>❌ Data privacy concerns with other apps</li>
+          </ul>
         </div>
-        <div class="container grid-2">
-            <div class="card problem-card fade-in">
-                <h3>The Problem</h3>
-                <ul class="problem-list">
-                    <li>❌ "I have nothing to wear" syndrome</li>
-                    <li>❌ Forgotten clothes hidden in the back</li>
-                    <li>❌ Buying duplicates you don't need</li>
-                    <li>❌ Data privacy concerns with other apps</li>
-                </ul>
-            </div>
-            <div class="card solution-card fade-in delay-100">
-                <h3>The Solution</h3>
-                <ul class="solution-list">
-                    <li>✅ Instant outfit ideas from your own clothes</li>
-                    <li>✅ Visual inventory of everything you own</li>
-                    <li>✅ Smart stats on your wearing habits</li>
-                    <li>✅ <strong>100% Local Processing</strong> - Your photos never leave your phone</li>
-                </ul>
-            </div>
+        <div class="card solution-card fade-in delay-100">
+          <h3>The Solution</h3>
+          <ul class="solution-list">
+            <li>✅ Instant outfit ideas from your own clothes</li>
+            <li>✅ Visual inventory of everything you own</li>
+            <li>✅ Smart stats on your wearing habits</li>
+            <li>
+              ✅ <strong>100% Local Processing</strong> - Your photos never
+              leave your phone
+            </li>
+          </ul>
         </div>
+      </div>
     </section>
 
     <!-- 5. Features -->
     <section id="features" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title text-center">Intelligent Features</h2>
-            <div class="features-grid">
-                <div class="feature-item fade-in">
-                    <div class="feature-icon">🧠</div>
-                    <h3>AI Stylist</h3>
-                    <p>Our local AI analyzes your clothes to create perfect outfit combinations based on color, style, and occasion.</p>
-                </div>
-                <div class="feature-item fade-in delay-100">
-                    <div class="feature-icon">📸</div>
-                    <h3>Easy Digitization</h3>
-                    <p>Snap a photo, and our background remover instantly isolates your item. Catalog your entire wardrobe in minutes.</p>
-                </div>
-                <div class="feature-item fade-in delay-200">
-                    <div class="feature-icon">🔒</div>
-                    <h3>Privacy First</h3>
-                    <p>No cloud uploads for analysis. All AI processing happens directly on your device using on-device models.</p>
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="section-title text-center">Intelligent Features</h2>
+        <div class="features-grid">
+          <div class="feature-item fade-in">
+            <div class="feature-icon">🧠</div>
+            <h3>AI Stylist</h3>
+            <p>
+              Our local AI analyzes your clothes to create perfect outfit
+              combinations based on color, style, and occasion.
+            </p>
+          </div>
+          <div class="feature-item fade-in delay-100">
+            <div class="feature-icon">📸</div>
+            <h3>Easy Digitization</h3>
+            <p>
+              Snap a photo, and our background remover instantly isolates your
+              item. Catalog your entire wardrobe in minutes.
+            </p>
+          </div>
+          <div class="feature-item fade-in delay-200">
+            <div class="feature-icon">🔒</div>
+            <h3>Privacy First</h3>
+            <p>
+              No cloud uploads for analysis. All AI processing happens directly
+              on your device using on-device models.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- 6. How It Works -->
     <section id="how-it-works" class="section">
-        <div class="container">
-            <h2 class="section-title text-center">Simple 4-Step Process</h2>
-            <div class="stepper">
-                <div class="step fade-in">
-                    <div class="step-number">1</div>
-                    <h4>Snap</h4>
-                    <p>Take photos of your clothes.</p>
-                </div>
-                <!-- Connector Line handled in CSS -->
-                <div class="step fade-in delay-100">
-                    <div class="step-number">2</div>
-                    <h4>Edit</h4>
-                    <p>Auto-remove backgrounds & tag.</p>
-                </div>
-                <div class="step fade-in delay-200">
-                    <div class="step-number">3</div>
-                    <h4>Generate</h4>
-                    <p>Get AI outfit suggestions.</p>
-                </div>
-                <div class="step fade-in delay-300">
-                    <div class="step-number">4</div>
-                    <h4>Wear</h4>
-                    <p>Look great & track usage.</p>
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="section-title text-center">Simple 4-Step Process</h2>
+        <div class="stepper">
+          <div class="step fade-in">
+            <div class="step-number">1</div>
+            <h4>Snap</h4>
+            <p>Take photos of your clothes.</p>
+          </div>
+          <!-- Connector Line handled in CSS -->
+          <div class="step fade-in delay-100">
+            <div class="step-number">2</div>
+            <h4>Edit</h4>
+            <p>Auto-remove backgrounds & tag.</p>
+          </div>
+          <div class="step fade-in delay-200">
+            <div class="step-number">3</div>
+            <h4>Generate</h4>
+            <p>Get AI outfit suggestions.</p>
+          </div>
+          <div class="step fade-in delay-300">
+            <div class="step-number">4</div>
+            <h4>Wear</h4>
+            <p>Look great & track usage.</p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- 7. Privacy & Security -->
     <section id="privacy" class="section bg-dark text-white">
-        <div class="container grid-2 align-center">
-            <div class="privacy-content fade-in">
-                <h2 class="section-title text-white">Your Data, Your Device</h2>
-                <p>We believe your wardrobe is personal. Unlike other apps, FitWardrobe does not upload your photos to the cloud for processing.</p>
-                <ul class="check-list mt-4">
-                    <li>✓ No account required to start</li>
-                    <li>✓ Offline-first architecture</li>
-                    <li>✓ No tracking pixels</li>
-                </ul>
-            </div>
-            <div class="privacy-visual fade-in delay-200">
-                <div class="shield-icon">🛡️</div>
-            </div>
+      <div class="container grid-2 align-center">
+        <div class="privacy-content fade-in">
+          <h2 class="section-title text-white">Your Data, Your Device</h2>
+          <p>
+            We believe your wardrobe is personal. Unlike other apps, FitWardrobe
+            does not upload your photos to the cloud for processing.
+          </p>
+          <ul class="check-list mt-4">
+            <li>✓ No account required to start</li>
+            <li>✓ Offline-first architecture</li>
+            <li>✓ No tracking pixels</li>
+          </ul>
         </div>
+        <div class="privacy-visual fade-in delay-200">
+          <div class="shield-icon">🛡️</div>
+        </div>
+      </div>
     </section>
 
     <!-- 8. Download -->
     <section id="download" class="section">
-        <div class="container download-box">
-            <h2 class="section-title">Get Started Today</h2>
-            <p class="mb-4">Join the beta and revolutionize your style.</p>
-            <div class="button-group">
-                <!-- Dual Download Options for Bottom Section -->
-                <div class="download-card android" style="background: transparent; box-shadow: none; border: none; padding: 0; max-width: 100%;">
-                    <a href="https://drive.google.com/uc?export=download&id=1f7xtYOYUQSS6tUmbvsbw1KeGRufPD4_P" 
-                       class="btn btn-primary btn-lg"
-                       style="width: auto; margin-bottom: 0.5rem;"
-                       rel="noopener noreferrer">
-                        Download APK (Google Drive)
-                    </a>
-                    
-                    <div style="margin: 0.5rem 0;">
-                        <span style="font-size: 0.9rem; color: #666;">or</span>
-                    </div>
+      <div class="container download-box">
+        <h2 class="section-title">Get Started Today</h2>
+        <p class="mb-4">Join the beta and revolutionize your style.</p>
+        <div class="button-group">
+          <!-- Dual Download Options for Bottom Section -->
+          <div
+            class="download-card android"
+            style="
+              background: transparent;
+              box-shadow: none;
+              border: none;
+              padding: 0;
+              max-width: 100%;
+            "
+          >
+            <a
+              href="https://drive.google.com/uc?export=download&id=1f7xtYOYUQSS6tUmbvsbw1KeGRufPD4_P"
+              class="btn btn-primary btn-lg"
+              style="width: auto; margin-bottom: 0.5rem"
+              rel="noopener noreferrer"
+            >
+              Download APK (Google Drive)
+            </a>
 
-                    <a href="https://github.com/fitwardrobe/fitwardrobe/releases/download/v1.0.1/fitwardrobe.apk" 
-                       class="btn btn-outline btn-sm"
-                       style="font-size: 0.9rem;"
-                       rel="noopener noreferrer">
-                        Direct Download from GitHub
-                    </a>
-                </div>
-                
-                <a href="https://fitwardrobe-v1.vercel.app" class="btn btn-secondary btn-lg" style="margin-top: 1rem;">
-                    Open Web App
-                </a>
+            <div style="margin: 0.5rem 0">
+              <span style="font-size: 0.9rem; color: #666">or</span>
             </div>
-            <p class="text-sm mt-4 text-muted">Requires Android 8.0+ or a modern web browser.</p>
+
+            <a
+              href="https://github.com/fitwardrobe/fitwardrobe/releases/download/v1.0.1/fitwardrobe.apk"
+              class="btn btn-outline btn-sm"
+              style="font-size: 0.9rem"
+              rel="noopener noreferrer"
+            >
+              Direct Download from GitHub
+            </a>
+          </div>
+
+          <a
+            href="https://fitwardrobe-v1-5fzpn1z7d-aryan-panwars-projects.vercel.app"
+            class="btn btn-secondary btn-lg"
+            style="margin-top: 1rem"
+          >
+            Open Web App
+          </a>
         </div>
+        <p class="text-sm mt-4 text-muted">
+          Requires Android 8.0+ or a modern web browser.
+        </p>
+      </div>
     </section>
 
     <!-- 9. Roadmap -->
     <section class="section bg-light">
-        <div class="container">
-            <h2 class="section-title text-center">Roadmap</h2>
-            <div class="roadmap">
-                <div class="roadmap-item done">
-                    <span class="status">✅ Done</span>
-                    <h4>v1.0 Basic Inventory</h4>
-                </div>
-                <div class="roadmap-item active">
-                    <span class="status">🚧 In Progress</span>
-                    <h4>v1.1 AI Outfit Gen</h4>
-                </div>
-                <div class="roadmap-item future">
-                    <span class="status">📅 Future</span>
-                    <h4>v2.0 iOS Release</h4>
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="section-title text-center">Roadmap</h2>
+        <div class="roadmap">
+          <div class="roadmap-item done">
+            <span class="status">✅ Done</span>
+            <h4>v1.0 Basic Inventory</h4>
+          </div>
+          <div class="roadmap-item active">
+            <span class="status">🚧 In Progress</span>
+            <h4>v1.1 AI Outfit Gen</h4>
+          </div>
+          <div class="roadmap-item future">
+            <span class="status">📅 Future</span>
+            <h4>v2.0 iOS Release</h4>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- 10. (Beta CTA integrated in Download section for flow) -->
     <!-- 11. FAQ -->
     <section id="faq" class="section">
-        <div class="container faq-container">
-            <h2 class="section-title text-center">Frequently Asked Questions</h2>
-            <div class="accordion">
-                <div class="accordion-item">
-                    <button class="accordion-header">Is FitWardrobe really free?</button>
-                    <div class="accordion-body">Yes, the current beta version is completely free to use.</div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">Where is my wardrobe data stored?</button>
-                    <div class="accordion-body">All your data is stored locally on your device using IndexedDB. We do not have servers holding your closet data.</div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">How does the AI work?</button>
-                    <div class="accordion-body">We use lightweight on-device models to analyze colors and categories to suggest matching combinations.</div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">Is there an iOS version?</button>
-                    <div class="accordion-body">Not yet! We are focusing on Android and Web first. Join the waitlist to be notified.</div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">Can I export my data?</button>
-                    <div class="accordion-body">Data export features are planned for v1.2.</div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">How do I report bugs?</button>
-                    <div class="accordion-body">Please email us at fitwardrobee@gmail.com or create an issue on our GitHub.</div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">Will there be a paid version?</button>
-                    <div class="accordion-body">We might introduce premium features later for cloud sync, but the core local features will remain free.</div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">Is my privacy protected?</button>
-                    <div class="accordion-body">Absolutely. Since we don't upload your photos, your privacy is protected by design.</div>
-                </div>
+      <div class="container faq-container">
+        <h2 class="section-title text-center">Frequently Asked Questions</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Is FitWardrobe really free?
+            </button>
+            <div class="accordion-body">
+              Yes, the current beta version is completely free to use.
             </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Where is my wardrobe data stored?
+            </button>
+            <div class="accordion-body">
+              All your data is stored locally on your device using IndexedDB. We
+              do not have servers holding your closet data.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">How does the AI work?</button>
+            <div class="accordion-body">
+              We use lightweight on-device models to analyze colors and
+              categories to suggest matching combinations.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">Is there an iOS version?</button>
+            <div class="accordion-body">
+              Not yet! We are focusing on Android and Web first. Join the
+              waitlist to be notified.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">Can I export my data?</button>
+            <div class="accordion-body">
+              Data export features are planned for v1.2.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">How do I report bugs?</button>
+            <div class="accordion-body">
+              Please email us at fitwardrobee@gmail.com or create an issue on
+              our GitHub.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Will there be a paid version?
+            </button>
+            <div class="accordion-body">
+              We might introduce premium features later for cloud sync, but the
+              core local features will remain free.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">Is my privacy protected?</button>
+            <div class="accordion-body">
+              Absolutely. Since we don't upload your photos, your privacy is
+              protected by design.
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- 12. Footer -->
     <footer class="footer">
-        <div class="container footer-grid">
-            <div class="footer-brand">
-                <h3>FitWardrobe</h3>
-                <p>Smart styling, zero privacy compromise.</p>
-            </div>
-            <div class="footer-col">
-                <h4>Product</h4>
-                <a href="#features">Features</a>
-                <a href="#download">Download</a>
-                <a href="https://github.com/fitwardrobe/fitwardrobe/releases">Releases</a>
-            </div>
-            <div class="footer-col">
-                <h4>Legal</h4>
-                <a href="privacy.html">Privacy Policy</a>
-                <a href="terms.html">Terms of Service</a>
-            </div>
-            <div class="footer-col">
-                <h4>Connect</h4>
-                <a href="https://github.com/fitwardrobe">GitHub</a>
-                <a href="mailto:fitwardrobee@gmail.com">Contact</a>
-            </div>
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <h3>FitWardrobe</h3>
+          <p>Smart styling, zero privacy compromise.</p>
         </div>
-        <div class="container footer-bottom">
-            <p>&copy; 2026 FitWardrobe. All rights reserved.</p>
+        <div class="footer-col">
+          <h4>Product</h4>
+          <a href="#features">Features</a>
+          <a href="#download">Download</a>
+          <a href="https://github.com/fitwardrobe/fitwardrobe/releases"
+            >Releases</a
+          >
         </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <a href="https://github.com/fitwardrobe">GitHub</a>
+          <a href="mailto:fitwardrobee@gmail.com">Contact</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>&copy; 2026 FitWardrobe. All rights reserved.</p>
+      </div>
     </footer>
 
     <!-- Scripts -->
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
