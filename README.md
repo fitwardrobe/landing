@@ -11,7 +11,7 @@
 [![Status](https://img.shields.io/badge/Status-Beta-orange?style=flat-square)]()
 [![Version](https://img.shields.io/badge/Version-1.0.1-blue?style=flat-square)](https://github.com/fitwardrobe/fitwardrobe/releases)
 
-[**Download App**](https://fitwardrobe.me/downloads/) • [**Live Demo**](https://fitwardrobe.me/demo.html) • [**Documentation**](https://fitwardrobe.me/docs/) • [**Support**](https://fitwardrobe.me/support.html)
+[**Main App**](https://fitwardrobe.vercel.app) • [**Privacy**](https://fitwardrobe.me/privacy.html) • [**Terms**](https://fitwardrobe.me/terms.html) • [**Support**](https://fitwardrobe.me/support.html)
 
 </div>
 
