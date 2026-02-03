@@ -538,16 +538,183 @@
       </div>
     </footer>
 
-    <!-- Cookie Consent Banner (FW-M01) -->
-    <div id="cookie-banner" class="cookie-banner">
-      <div class="cookie-content">
-        <p>We use local storage and minimal analytics to improve your experience. See our <a href="cookies.html">Cookie Policy</a>.</p>
-      </div>
-      <div class="cookie-actions">
-        <button id="cookie-accept" class="btn btn-sm btn-primary">Accept</button>
-        <button id="cookie-decline" class="btn btn-sm btn-outline">Analytics Only</button>
+    <!-- Cookie Consent Pop-up Card (FW-M01) -->
+    <div id="cookie-consent" class="cookie-popup" style="display: none;">
+      <div class="cookie-card">
+        <p class="cookie-text">
+          We use local storage and minimal analytics to improve your experience. 
+          See our <a href="cookies.html">Cookie Policy</a>.
+        </p>
+        <div class="cookie-actions">
+          <button id="cookie-accept" class="btn-accept" aria-label="Accept cookie policy">
+            Accept
+          </button>
+          <button id="cookie-analytics" class="btn-analytics" aria-label="Analytics only">
+            Analytics Only
+          </button>
+        </div>
       </div>
     </div>
+
+    <style>
+    /* Cookie Pop-up Container */
+    .cookie-popup {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      z-index: 9999;
+      animation: popIn 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+    @keyframes popIn {
+      0% {
+        transform: translateY(100px) scale(0.8);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+      }
+    }
+
+    @keyframes popOut {
+      0% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(100px) scale(0.8);
+        opacity: 0;
+      }
+    }
+
+    .cookie-popup.hiding {
+      animation: popOut 0.4s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards;
+    }
+
+    /* Cookie Card Styling */
+    .cookie-card {
+      background: linear-gradient(135deg, rgba(30, 35, 41, 0.98), rgba(30, 35, 41, 0.95));
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(184, 146, 90, 0.3);
+      border-radius: 16px;
+      padding: 1.5rem;
+      max-width: 400px;
+      box-shadow: 
+        0 10px 40px rgba(0, 0, 0, 0.4),
+        0 0 0 1px rgba(255, 255, 255, 0.05) inset;
+    }
+
+    .cookie-text {
+      color: #ffffff;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      margin: 0 0 1.25rem 0;
+    }
+
+    .cookie-text a {
+      color: #B8925A;
+      text-decoration: underline;
+      transition: color 0.2s;
+    }
+
+    .cookie-text a:hover {
+      color: #D4AF6A;
+    }
+
+    /* Button Container */
+    .cookie-actions {
+      display: flex;
+      gap: 0.75rem;
+      justify-content: flex-end;
+    }
+
+    /* Buttons */
+    .cookie-actions button {
+      padding: 0.6rem 1.25rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+      font-family: inherit;
+    }
+
+    .btn-accept {
+      background: #B8925A;
+      color: white;
+    }
+
+    .btn-accept:hover {
+      background: #D4AF6A;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(184, 146, 90, 0.4);
+    }
+
+    .btn-accept:active {
+      transform: translateY(0);
+    }
+
+    .btn-analytics {
+      background: transparent;
+      color: rgba(255, 255, 255, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+    .btn-analytics:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 640px) {
+      .cookie-popup {
+        bottom: 1rem;
+        right: 1rem;
+        left: 1rem;
+      }
+      
+      .cookie-card {
+        max-width: 100%;
+        padding: 1.25rem;
+      }
+      
+      .cookie-text {
+        font-size: 0.85rem;
+      }
+      
+      .cookie-actions {
+        flex-direction: column;
+      }
+      
+      .cookie-actions button {
+        width: 100%;
+      }
+    }
+
+    /* Tablet */
+    @media (max-width: 1024px) and (min-width: 641px) {
+      .cookie-popup {
+        bottom: 1.5rem;
+        right: 1.5rem;
+      }
+    }
+
+    /* Reduced Motion Support */
+    @media (prefers-reduced-motion: reduce) {
+      .cookie-popup,
+      .cookie-popup.hiding {
+        animation: none;
+      }
+      
+      .cookie-popup {
+        opacity: 1;
+        transform: none;
+      }
+    }
+    </style>
 
     <!-- Scripts -->
     <script src="js/script.js"></script>
@@ -580,25 +747,46 @@
         }
       });
 
-      // Cookie Banner Logic
-      document.addEventListener('DOMContentLoaded', () => {
-        const banner = document.getElementById('cookie-banner');
-        const acceptBtn = document.getElementById('cookie-accept');
+      // Cookie Consent Pop-up Logic
+      (function() {
+        'use strict';
         
-        if (!localStorage.getItem('cookie-consent')) {
-          setTimeout(() => banner.classList.add('show'), 1000);
+        const CONSENT_KEY = 'fitwardrobe_cookie_consent';
+        const popup = document.getElementById('cookie-consent');
+        const acceptBtn = document.getElementById('cookie-accept');
+        const analyticsBtn = document.getElementById('cookie-analytics');
+        
+        // Check existing consent
+        if (!localStorage.getItem(CONSENT_KEY)) {
+          // Show popup after slight delay for better UX
+          setTimeout(() => {
+            if (popup) popup.style.display = 'block';
+          }, 1000);
         }
-
+        
+        // Handle Accept button
         acceptBtn?.addEventListener('click', () => {
-          localStorage.setItem('cookie-consent', 'accepted');
-          banner.classList.remove('show');
+          localStorage.setItem(CONSENT_KEY, 'all');
+          closePopup();
         });
-
-        document.getElementById('cookie-decline')?.addEventListener('click', () => {
-          localStorage.setItem('cookie-consent', 'declined');
-          banner.classList.remove('show');
+        
+        // Handle Analytics Only button
+        analyticsBtn?.addEventListener('click', () => {
+          localStorage.setItem(CONSENT_KEY, 'analytics-only');
+          closePopup();
         });
-      });
+        
+        // Close popup with animation
+        function closePopup() {
+          if (!popup) return;
+          popup.classList.add('hiding');
+          
+          setTimeout(() => {
+            popup.style.display = 'none';
+            popup.remove();
+          }, 400);
+        }
+      })();
     </script>
   </body>
 </html>
