@@ -119,7 +119,7 @@ FitWardrobe is an **AI-powered personal styling assistant** that helps you:
 <summary>🔒 Advanced: Verify Download Security</summary>
 
 - **Version:** 1.0.1
-- **Size:** 6.2 MB
+- **Size:** 6.3 MB
 - **SHA256:** `fcf36b5c837bbe1753f7231b55d08bfb854bfd05d7766e13b231d91075164224`
 
 </details>
@@ -247,15 +247,15 @@ FitWardrobe follows a carefully crafted design language:
 
 ### For Users
 
-- 🚀 **[Getting Started](https://github.com/fitwardrobe/landing/wiki/Getting-Started)** - First-time setup guide _(Coming Soon)_
-- 📖 **[User Guide](https://github.com/fitwardrobe/landing/wiki/User-Guide)** - Complete feature walkthrough _(Coming Soon)_
-- ❓ **[FAQ](https://github.com/fitwardrobe/landing/wiki/FAQ)** - Common questions answered _(Coming Soon)_
+- 🚀 **[Getting Started](https://github.com/fitwardrobe/fitwardrobe/wiki/Getting-Started)** - First-time setup guide
+- 📖 **[User Guide](https://github.com/fitwardrobe/fitwardrobe/wiki/User-Guide)** - Complete feature walkthrough
+- ❓ **[FAQ](https://github.com/fitwardrobe/fitwardrobe/wiki/FAQ)** - Common questions answered
 
 ### Need Help?
 
 - 📧 **Email Support:** fitwardrobee@gmail.com
-- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/fitwardrobe/landing/issues)
-- 💡 **Feature Requests:** [GitHub Discussions](https://github.com/fitwardrobe/landing/discussions)
+- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/fitwardrobe/fitwardrobe/issues)
+- 💡 **Feature Requests:** [GitHub Discussions](https://github.com/fitwardrobe/fitwardrobe/discussions)
 
 ### Community (Coming Soon)
 
@@ -311,7 +311,7 @@ FitWardrobe follows a carefully crafted design language:
 
 > **Timeline:** Play Store submission planned for Q2 2026, after gathering sufficient beta feedback and achieving production-level stability (<1% crash rate, 4.0+ user rating, 100+ successful beta testers).
 
-[View detailed roadmap & vote on features →](https://github.com/fitwardrobe/landing/discussions)
+[View detailed roadmap & vote on features →](https://github.com/fitwardrobe/fitwardrobe/discussions)
 
 ---
 
@@ -415,8 +415,8 @@ By using FitWardrobe, you agree to our [Terms of Service](https://fitwardrobe.me
 ### Get Help
 
 - 📧 **Email:** fitwardrobee@gmail.com
-- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/fitwardrobe/landing/issues)
-- 💡 **Feature Ideas:** [GitHub Discussions](https://github.com/fitwardrobe/landing/discussions)
+- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/fitwardrobe/fitwardrobe/issues)
+- 💡 **Feature Ideas:** [GitHub Discussions](https://github.com/fitwardrobe/fitwardrobe/discussions)
 
 ### Follow Development
 
@@ -474,9 +474,9 @@ This repository contains the **public-facing website** for FitWardrobe.
 ### Repository Structure
 
 ```
-landing/
+fitwardrobe/
 ├── index.html              # Main landing page
-├── downloads/              # APK distribution (Git LFS)
+├── downloads/              # APK distribution
 │   ├── fitwardrobe-latest.apk
 │   └── versions/
 ├── assets/                 # Images, videos, media kit
