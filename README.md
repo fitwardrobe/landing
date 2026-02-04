@@ -528,7 +528,6 @@ fitwardrobe/
 [![Website](https://img.shields.io/badge/Website-fitwardrobe.me-1E2329?style=flat-square)](https://fitwardrobe.me)
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/fitwardrobe)
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/fitwardrobe)
-[![Email](https://img.shields.io/badge/Email-fitwardrobee%40gmail.com-B8925A?style=flat-square)](mailto:hello@fitwardrobe.me)
+[![Email](https://img.shields.io/badge/Email-hello%40fitwardrobe.me-B8925A?style=flat-square)](mailto:hello@fitwardrobe.me)
 
 </div>
-
