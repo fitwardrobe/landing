@@ -162,7 +162,7 @@ https://fitwardrobe.vercel.app
 
 Android beta testing helps us fix bugs before iOS launch. Join the journey!
 
-[Notify me when iOS is ready →](mailto:hello@fitwardrobe.me?subject=iOS%20Waitlist)
+[Notify me when iOS is ready →](mailto:fitwardrobee@gmail.com?subject=iOS%20Waitlist)
 
 ---
 
@@ -253,7 +253,7 @@ FitWardrobe follows a carefully crafted design language:
 
 ### Need Help?
 
-- 📧 **Email Support:** hello@fitwardrobe.me
+- 📧 **Email Support:** fitwardrobee@gmail.com
 - 🐛 **Bug Reports:** [GitHub Issues](https://github.com/fitwardrobe/fitwardrobe/issues)
 - 💡 **Feature Requests:** [GitHub Discussions](https://github.com/fitwardrobe/fitwardrobe/discussions)
 
@@ -341,7 +341,7 @@ FitWardrobe is built by a **solo indie developer** passionate about making fashi
 - ⭐ **Spread the Word:** Share with friends who love fashion
 
 **Want to contribute or just say hi?**  
-📧 hello@fitwardrobe.me
+📧 fitwardrobee@gmail.com
 
 ---
 
@@ -414,7 +414,7 @@ By using FitWardrobe, you agree to our [Terms of Service](https://fitwardrobe.me
 
 ### Get Help
 
-- 📧 **Email:** hello@fitwardrobe.me
+- 📧 **Email:** fitwardrobee@gmail.com
 - 🐛 **Bug Reports:** [GitHub Issues](https://github.com/fitwardrobe/fitwardrobe/issues)
 - 💡 **Feature Ideas:** [GitHub Discussions](https://github.com/fitwardrobe/fitwardrobe/discussions)
 
@@ -528,6 +528,6 @@ fitwardrobe/
 [![Website](https://img.shields.io/badge/Website-fitwardrobe.me-1E2329?style=flat-square)](https://fitwardrobe.me)
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/fitwardrobe)
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/fitwardrobe)
-[![Email](https://img.shields.io/badge/Email-hello%40fitwardrobe.me-B8925A?style=flat-square)](mailto:hello@fitwardrobe.me)
+[![Email](https://img.shields.io/badge/Email-fitwardrobee%40gmail.com-B8925A?style=flat-square)](mailto:fitwardrobee@gmail.com)
 
 </div>
