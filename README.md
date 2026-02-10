@@ -20,30 +20,46 @@ Your photos and data never leave your device.
 
 ## ✨ What Can FitWardrobe Do?
 
-📸 **Snap & Catalog** — Take a photo of any clothing item. Our AI instantly recognizes the type, color, season, and style.
+📸 **Snap & Catalog** — Take a photo of any clothing item. Our AI instantly recognizes the type, color, season, and style.  
+_→ Build your digital closet in minutes, not hours_
 
-👗 **Get Outfit Ideas** — Tell the AI where you're going and it picks the perfect outfit from _your_ wardrobe, with styling tips.
+👗 **Get Outfit Ideas** — Tell the AI where you're going and it picks the perfect outfit from _your_ wardrobe, with styling tips.  
+_→ Never waste 20 minutes deciding what to wear_
 
-💬 **Chat With Your Stylist** — Ask anything — "What should I wear to a wedding?" or "Show me all my blue shirts."
+💬 **Chat With Your Stylist** — Ask anything — "What should I wear to a wedding?" or "Show me all my blue shirts."  
+_→ Your personal stylist, available 24/7_
 
-🔍 **Find Anything Fast** — Filter by category, color, season, formality, or your own custom tags.
+🔍 **Find Anything Fast** — Filter by category, color, season, formality, or your own custom tags.  
+_→ Instantly find that one shirt you're looking for_
 
-📦 **Your Data, Your Control** — Export your entire wardrobe as a file. Import it on a new device. Delete everything in one tap.
+📦 **Your Data, Your Control** — Export your entire wardrobe as a file. Import it on a new device. Delete everything in one tap.  
+_→ No lock-in, no strings attached_
 
 ---
 
-## 🔒 Privacy Promise
+## � Quick Start (3 Steps)
+
+1. **📸 Add your first item** — Tap the camera icon and photograph any clothing item
+2. **🤖 Let AI tag it** — Our AI automatically identifies type, color, season, and style
+3. **💬 Ask your stylist** — Try: _"What should I wear to a casual dinner party?"_
+
+That's it! Start building your digital wardrobe.
+
+---
+
+## �🔒 Privacy Promise
 
 We built FitWardrobe because we believe **your wardrobe is personal**.
 
-| What happens with your data | FitWardrobe | Other apps |
-| --------------------------- | :---------: | :--------: |
-| Photos uploaded to cloud    |  ❌ Never   | ✅ Always  |
-| Data sold to advertisers    |  ❌ Never   |  ⚠️ Often  |
-| Works without internet      |   ✅ Yes    |   ❌ No    |
-| You can export everything   | ✅ Anytime  | ❌ Rarely  |
+| What happens with your data |  FitWardrobe   | Other apps |
+| --------------------------- | :------------: | :--------: |
+| Photos uploaded to cloud    |    ❌ Never    | ✅ Always  |
+| Data sold to advertisers    |    ❌ Never    |  ⚠️ Often  |
+| Works without internet      |     ✅ Yes     |   ❌ No    |
+| You can export everything   |   ✅ Anytime   | ❌ Rarely  |
+| Account required            | Sign-in only\* | ✅ Always  |
 
-> Google Sign-In is used only for identity verification. Your wardrobe data — photos, items, outfits — stays on your device. We never see it.
+> \*Google Sign-In is used only for identity verification. Your wardrobe data — photos, items, outfits — stays on your device. We never see it.
 
 ### 🛡️ Security & Trust
 
@@ -69,7 +85,7 @@ We built FitWardrobe because we believe **your wardrobe is personal**.
 <summary>📋 System Requirements</summary>
 
 - Android 8.0 (Oreo) or higher
-- ~50 MB free storage (for photos)
+- ~50 MB free storage (for wardrobe photos)
 - Camera permission (for adding clothes)
 - Internet connection (for AI features only)
 
@@ -110,12 +126,12 @@ Coming later this year. [Email us](mailto:fitwardrobee@gmail.com?subject=iOS%20W
 
 ## 🗺️ What's Coming Next
 
-| Version       | What's New                                                       | When       |
-| ------------- | ---------------------------------------------------------------- | ---------- |
-| **v1.0.1** ✅ | AI analysis, wardrobe management, camera capture, export/import  | **Now**    |
-| **v1.1**      | Performance improvements, UI polish, better error handling       | Soon       |
-| **v1.2**      | Outfit history, advanced search, improved onboarding             | Planned    |
-| **v2.0**      | Play Store launch, iOS app, optional cloud sync, style analytics | Later 2026 |
+| Version       | What's New                                                       | When      |
+| ------------- | ---------------------------------------------------------------- | --------- |
+| **v1.0.1** ✅ | AI analysis, wardrobe management, camera capture, export/import  | **Now**   |
+| **v1.1**      | Performance improvements, UI polish, better error handling       | Q2 2026   |
+| **v1.2**      | Outfit history, advanced search, improved onboarding             | Q3 2026   |
+| **v2.0**      | Play Store launch, iOS app, optional cloud sync, style analytics | Late 2026 |
 
 Have a feature idea? [Let us know →](mailto:fitwardrobee@gmail.com?subject=Feature%20Request)
 
@@ -145,6 +161,13 @@ Sign-in creates your unique identity for future features like optional cloud bac
 </details>
 
 <details>
+<summary><b>How accurate is the AI?</b></summary>
+
+Our AI (powered by Google Gemini) accurately identifies clothing type, color, and style in most cases. You can always edit tags manually if something looks off.
+
+</details>
+
+<details>
 <summary><b>What if I switch phones?</b></summary>
 
 Use the **Export** feature to save your wardrobe as a file, then **Import** it on your new device. All your items, photos, and tags transfer over.
@@ -159,11 +182,36 @@ Yes — browsing your wardrobe, filtering, and managing items works fully offlin
 </details>
 
 <details>
+<summary><b>What happens to my data if I uninstall?</b></summary>
+
+All your data is deleted from your device. Make sure to **Export** your wardrobe first if you want to keep it. We don't have a copy — it was never on our servers.
+
+</details>
+
+<details>
 <summary><b>How do I delete my account?</b></summary>
 
 Go to **Settings → Delete Account**. This removes your cloud identity immediately. Your local data is cleared by uninstalling the app.
 
 </details>
+
+---
+
+## 👨‍💻 About the Developer
+
+FitWardrobe is built by a **solo indie developer** who was tired of:
+
+- 🧥 Forgetting what clothes they owned
+- ⏰ Wasting time planning outfits every morning
+- 🔓 Apps that harvest your personal data for profit
+
+This started as a personal project and grew into something others wanted too. It's free because good tools shouldn't cost money, and private because your wardrobe is nobody's business but yours.
+
+**Want to help?**
+
+- 🐛 Report bugs via [GitHub Issues](https://github.com/fitwardrobe/fitwardrobe/issues)
+- 💡 Suggest features via [email](mailto:fitwardrobee@gmail.com?subject=Feature%20Request)
+- ⭐ Star the [repo](https://github.com/fitwardrobe/fitwardrobe) if you like what we're building
 
 ---
 
@@ -180,15 +228,11 @@ We typically respond within 24–48 hours.
 
 ---
 
-## 📄 Legal
-
-[Privacy Policy](https://fitwardrobe.me/privacy.html) · [Terms of Service](https://fitwardrobe.me/terms.html) · [Cookie Policy](https://fitwardrobe.me/cookies.html) · [Security](https://fitwardrobe.me/security.html) · [Accessibility](https://fitwardrobe.me/accessibility.html)
-
----
-
 <div align="center">
 
-### Ready to Simplify Your Wardrobe?
+### Stop Staring at Your Closet Every Morning
+
+**Simplify your daily outfit choices with AI.**
 
 [![Download for Android](https://img.shields.io/badge/Download_for_Android-2.9_MB-brightgreen?style=for-the-badge&logo=android)](https://fitwardrobe.vercel.app/download/fitwardrobe.apk)
 &nbsp;&nbsp;
@@ -196,7 +240,11 @@ We typically respond within 24–48 hours.
 
 **100% Free · No Ads · Your Privacy Guaranteed**
 
-Made with ❤️ for people who value their privacy.
+---
+
+[Privacy Policy](https://fitwardrobe.me/privacy.html) · [Terms](https://fitwardrobe.me/terms.html) · [Contact](mailto:fitwardrobee@gmail.com)
+
+Made with ❤️ by a solo developer who values privacy.
 
 © 2026 FitWardrobe · All Rights Reserved
 
