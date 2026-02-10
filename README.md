@@ -4,530 +4,313 @@
 
 # FitWardrobe
 
-### Your AI Styling Assistant That Knows What Fits You
+### Your AI Personal Stylist — Privacy-First Wardrobe Manager
 
 [![Website](https://img.shields.io/badge/Website-fitwardrobe.me-1E2329?style=flat-square)](https://fitwardrobe.me)
 [![License](https://img.shields.io/badge/License-Proprietary-B8925A?style=flat-square)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Live-green?style=flat-square)]()
+[![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=flat-square)]()
 [![Version](https://img.shields.io/badge/Version-1.0.1-blue?style=flat-square)](https://github.com/fitwardrobe/fitwardrobe/releases)
 
-[**Main App**](https://fitwardrobe.vercel.app) • [**Privacy**](https://fitwardrobe.me/privacy.html) • [**Terms**](https://fitwardrobe.me/terms.html) • [**Support**](https://fitwardrobe.me/support.html)
+[**Try the Web App →**](https://fitwardrobe.vercel.app) &nbsp;·&nbsp; [**Download for Android →**](https://fitwardrobe.vercel.app/download/fitwardrobe.apk)
+
+[Privacy](https://fitwardrobe.me/privacy.html) · [Terms](https://fitwardrobe.me/terms.html) · [Support](https://fitwardrobe.me/support.html) · [Security](https://fitwardrobe.me/security.html)
 
 </div>
 
 ---
 
-## 📖 About This Repository
+## About This Repository
 
-This is the **public-facing landing repository** for FitWardrobe. It contains:
+This is the **public-facing landing page** for [FitWardrobe](https://fitwardrobe.me). It hosts the official website, download links, legal pages, and public documentation.
 
-- 🌐 Official website ([fitwardrobe.me](https://fitwardrobe.me))
-- 📱 App download links and distribution
-- 📄 Public documentation and guides
-- 🎨 Marketing assets and media kit
-
-> **Note:** The main application source code is maintained in a **private repository** for security and intellectual property protection. This repository serves as the public portal for users to learn about and download FitWardrobe.
+> **Note:** The application source code lives in a **private repository**. This repo serves as the public portal for users to learn about and download FitWardrobe.
 
 ---
 
-## 🚀 What is FitWardrobe?
+## What is FitWardrobe?
 
-FitWardrobe is an **AI-powered personal styling assistant** that helps you:
+FitWardrobe is an **AI-powered wardrobe management app** that helps you digitize your closet, get intelligent outfit suggestions, and maintain complete privacy over your data.
 
-- 📸 **Build a digital wardrobe** through natural conversation and photo uploads
-- 🤖 **Get intelligent outfit suggestions** tailored to your body type, skin tone, and preferences
-- 🧠 **Understand your style** with transparent AI reasoning for every recommendation
-- 🔒 **Maintain complete privacy** with local-first data storage (your wardrobe never leaves your device)
-- ⚡ **Work offline** with full functionality using on-device processing
+### The Problem
 
-### Core Features
+You have a full closet, but nothing to wear. Other wardrobe apps upload your photos to their servers. You shouldn't have to choose between smart styling and data privacy.
 
-| Feature                          | Description                                                                        | Status       |
-| -------------------------------- | ---------------------------------------------------------------------------------- | ------------ |
-| **AI Vision Analysis**           | Powered by Google Gemini 2.0 Flash - automatically tags clothing items from photos | ✅ Live      |
-| **Smart Outfit Generation**      | Context-aware outfit creation for any occasion with explainable reasoning          | 🔧 Improving |
-| **Conversational Interface**     | Chat with your AI stylist naturally - ask questions, get advice, generate outfits  | ✅ Live      |
-| **Advanced Wardrobe Management** | Filter by category, color, season, formality level, custom tags                    | ✅ Live      |
-| **Camera Integration**           | Capture wardrobe items directly from your device camera or gallery                 | ✅ Live      |
-| **Privacy-First Architecture**   | IndexedDB + filesystem storage - your data stays on your device                    | ✅ Live      |
-| **Export/Import**                | Full data portability - download your entire wardrobe as JSON                      | ✅ Live      |
-| **Offline Capability**           | Full functionality without internet (AI features require connection)               | ✅ Live      |
-| **Multi-Platform**               | Progressive Web App + Native Android (iOS Q2 2026)                                 | ✅ Live      |
+### The Solution
+
+| Feature                     | Description                                                       | Status  |
+| --------------------------- | ----------------------------------------------------------------- | ------- |
+| **AI Vision Analysis**      | Google Gemini 2.0 Flash — auto-tags clothing from photos          | ✅ Live |
+| **Smart Outfit Generation** | Context-aware outfits for any occasion with explainable reasoning | ✅ Live |
+| **Conversational Stylist**  | Chat naturally — ask questions, get advice, build outfits         | ✅ Live |
+| **Advanced Filtering**      | Search by category, color, season, formality, custom tags         | ✅ Live |
+| **Camera Integration**      | Capture items directly from camera or gallery                     | ✅ Live |
+| **Privacy-First Storage**   | IndexedDB + device filesystem — data never leaves your device     | ✅ Live |
+| **Export / Import**         | Full data portability — download your wardrobe as JSON            | ✅ Live |
+| **Offline Mode**            | Full functionality without internet (AI features need connection) | ✅ Live |
+| **Multi-Platform**          | Android APK + Progressive Web App (iOS coming Q2 2026)            | ✅ Live |
 
 ---
 
-## 🎯 Why FitWardrobe?
+## Why FitWardrobe?
 
-### The Problem We Solve
+<table>
+<tr>
+<td width="50%">
 
-- **"I have nothing to wear"** → You have 100+ items but can't visualize combinations
-- **"What should I wear today?"** → Get AI-powered outfit suggestions for any occasion
-- **"Does this match?"** → Receive instant style guidance with clear reasoning
-- **"Where is my black blazer?"** → Find any item instantly with smart search
+**Other Wardrobe Apps**
 
-### What Makes Us Different
+📱 Your Phone → ☁️ Their Servers → 🔓 Your Data Exposed
 
-**FitWardrobe is the only wardrobe app that combines:**
+❌ Photos uploaded to cloud  
+❌ Data used for ads/training  
+❌ Requires subscriptions
 
-✨ **AI-Powered Intelligence**
+</td>
+<td width="50%">
 
-- Google Gemini 2.0 for advanced clothing analysis
-- Context-aware outfit suggestions (occasion, weather, style)
-- Explainable AI that tells you _why_ an outfit works
+**FitWardrobe**
 
-🔒 **True Privacy**
+📱 Your Phone → 💾 Your Device → 🔒 Stays Local
 
-- Your wardrobe data NEVER leaves your device
-- No cloud storage of personal items or photos
-- Identity-only authentication (we don't even know what you own)
+✅ Photos stay on your device  
+✅ Zero data harvesting  
+✅ Completely free, no ads
 
-🆓 **Completely Free**
-
-- No subscriptions, no ads, no premium tiers
-- Full AI features available to everyone
-- Open development, community-driven
-
-📱 **Works Everywhere**
-
-- Native Android app + Progressive Web App
-- Full offline functionality
-- iOS coming Q2 2026
-
-🎨 **Fashion-Forward**
-
-- Modern, intuitive interface
-- Built by fashion enthusiasts for fashion lovers
-- Constantly improving based on user feedback
+</td>
+</tr>
+</table>
 
 ---
 
-## 📱 Download & Installation
+## Download & Installation
 
-### 📱 Get FitWardrobe
+### Android (APK)
 
-**For Android:**
-
-- [Download APK](https://fitwardrobe.vercel.app/fitwardrobe.apk) (One-click install)
-- Android 7.0+ required
-- 100% free, no ads, privacy-first
-
-**For Web (All Devices):**
-
-- [Try Web App](https://fitwardrobe.vercel.app) (No install needed)
+|              |                                                                            |
+| ------------ | -------------------------------------------------------------------------- |
+| **Download** | [fitwardrobe.apk](https://fitwardrobe.vercel.app/download/fitwardrobe.apk) |
+| **Version**  | 1.0.1                                                                      |
+| **Size**     | 2.9 MB                                                                     |
+| **Requires** | Android 8.0+                                                               |
+| **Price**    | Free                                                                       |
 
 <details>
-<summary>🔒 Advanced: Verify Download Security</summary>
+<summary>🔒 Verify download integrity</summary>
 
-- **Version:** 1.0.1
-- **Size:** 6.3 MB
-- **SHA256:** `fcf36b5c837bbe1753f7231b55d08bfb854bfd05d7766e13b231d91075164224`
+**SHA-256:** `fcf36b5c837bbe1753f7231b55d08bfb854bfd05d7766e13b231d91075164224`
 
 </details>
 
-**Installation Steps:**
+**Install steps:**
 
 1. Download the APK from the link above
-2. Enable "Install from Unknown Sources" in Settings → Security/Privacy
-3. Open the downloaded APK file from your notifications or File Manager
-4. Tap "Install" and wait for completion
-5. Launch FitWardrobe and create your account
+2. If prompted, enable "Install from Unknown Sources" in Settings → Security
+3. Open the downloaded file and tap Install
+4. Launch FitWardrobe and sign in with Google
 
-> **🚀 Live Release:** This is the initial public release (v1.0.1). Play Store submission planned for v2.0.
+> **Why not Play Store?** We distribute directly to avoid mandatory tracking requirements. Play Store release is planned for v2.0.
 
-### Progressive Web App (All Platforms)
+### Web App (All Platforms)
 
-**Access via browser:**
+Visit **[fitwardrobe.vercel.app](https://fitwardrobe.vercel.app)** — no installation needed.
 
-```
-https://fitwardrobe.vercel.app
-```
+Works on Chrome, Edge, Safari, Firefox, and Brave. You can also install it as a PWA: tap "Add to Home Screen" on mobile or "Install" on desktop.
 
-**Compatible Browsers:**
+### iOS
 
-- Chrome/Edge (recommended)
-- Safari (iOS/macOS)
-- Firefox
-- Brave
-
-**Install PWA:**
-
-1. Visit [fitwardrobe.vercel.app](https://fitwardrobe.vercel.app)
-2. Click "Add to Home Screen" (mobile) or "Install" (desktop)
-3. Launch like a native app
-
-### iOS (Coming Q2 2026)
-
-📅 **Expected:** April - June 2026  
-🍎 **App Store:** Native iOS app currently in development
-
-Android beta testing helps us fix bugs before iOS launch. Join the journey!
-
-[Notify me when iOS is ready →](mailto:fitwardrobee@gmail.com?subject=iOS%20Waitlist)
+Coming Q2 2026 — [join the waitlist](mailto:fitwardrobee@gmail.com?subject=iOS%20Waitlist).
 
 ---
 
-## 🏗️ Technology Stack
+## Technology Stack
 
-While the source code is private, we're transparent about our technology choices:
+### Application
 
-### Frontend
-
-- **Framework:** React 18 + TypeScript
-- **UI Library:** Tailwind CSS + Custom components
-- **State Management:** React Context + hooks
-- **Mobile Framework:** Capacitor 6 (for native Android builds)
-
-### AI & Machine Learning
-
-- **Vision AI:** Google Gemini 2.0 Flash (clothing analysis & tagging)
-- **Processing:** Cloud-based AI with local fallback for offline features
-
-### Data & Storage
-
-- **Primary Storage:** IndexedDB (browser database for wardrobe data)
-- **Image Storage:** Capacitor Filesystem API (native), Blobs (web)
-- **Authentication:** Supabase Auth (identity-only, no wardrobe data stored)
-- **Backup:** Manual JSON export/import
+| Layer             | Technology                                           |
+| ----------------- | ---------------------------------------------------- |
+| **Framework**     | React 18 + TypeScript                                |
+| **Build Tool**    | Vite                                                 |
+| **Styling**       | Vanilla CSS with custom design tokens                |
+| **Mobile**        | Capacitor 6 (native Android)                         |
+| **AI Engine**     | Google Gemini 2.0 Flash                              |
+| **Auth**          | Supabase (identity-only — no wardrobe data in cloud) |
+| **Local Storage** | IndexedDB + Capacitor Filesystem API                 |
 
 ### Infrastructure
 
-- **Web Hosting:** Vercel (PWA deployment)
-- **Landing Page:** GitHub Pages (fitwardrobe.me)
-- **Domain:** Namecheap
-- **SSL:** Automatic HTTPS via Let's Encrypt
-
-### Development Tools
-
-- **Language:** TypeScript (strict mode)
-- **Package Manager:** npm
-- **Version Control:** Git + GitHub (private source, public landing)
-
-### Future Considerations
-
-- 🤔 **Custom AI Model:** Evaluating training a specialized fashion LLM for better personalization
-- 🤔 **Analytics:** Considering privacy-focused analytics (Plausible or similar)
-- 🤔 **Error Tracking:** May add Sentry for production error monitoring
+| Service          | Purpose                                                 |
+| ---------------- | ------------------------------------------------------- |
+| **Vercel**       | Web app hosting + APK distribution                      |
+| **GitHub Pages** | Landing page ([fitwardrobe.me](https://fitwardrobe.me)) |
+| **Supabase**     | Authentication infrastructure                           |
+| **Cloudflare**   | DNS + SSL/TLS edge certificates                         |
 
 ---
 
-## 🎨 Design System
+## Design System
 
-FitWardrobe follows a carefully crafted design language:
+| Element           | Value                    | Notes                               |
+| ----------------- | ------------------------ | ----------------------------------- |
+| **Primary**       | `#1E2329` Deep Slate     | Professional, sophisticated         |
+| **Background**    | `#F5F3EF` Warm Ivory     | Fashion-appropriate warmth          |
+| **Accent**        | `#B8925A` Warm Gold      | Used sparingly for premium touch    |
+| **Font**          | Inter + Playfair Display | Modern sans-serif + editorial serif |
+| **Accessibility** | WCAG AA                  | 4.5:1 minimum contrast ratio        |
 
-### Visual Identity
-
-- **Primary Color:** Deep Slate `#1E2329` - Professional, sophisticated
-- **Background:** Warm Ivory `#F5F3EF` - Comfortable, fashion-appropriate
-- **Accent:** Warm Gold `#B8925A` - Premium touch (used sparingly)
-
-### Typography
-
-- **Primary Font:** Sora (Google Fonts) - Modern, geometric sans-serif
-- **Weights:** Regular (400), Medium (500)
-- **Letter Spacing:** +75 (slightly expanded for sophistication)
-
-### Logo
-
-- Geometric "Framed F" mark
-- Negative space construction
-- Sharp corners for precision
-- Scalable from 16px to any size
-
-### UI Principles
-
-- **Conversational:** Chat-first interface on mobile
-- **Dashboard:** Multi-panel layout on desktop
-- **Minimal:** No unnecessary decoration
-- **Functional:** Every element serves a purpose
-- **Accessible:** WCAG AA compliant (4.5:1 contrast)
+**UI Principles:** Conversational on mobile · Dashboard on desktop · Minimal · Functional · Accessible
 
 ---
 
-## 📚 Documentation
+## Privacy & Security
 
-### For Users
+### Data Location Map
 
-- 🚀 **[Getting Started](https://github.com/fitwardrobe/fitwardrobe/wiki/Getting-Started)** - First-time setup guide
-- 📖 **[User Guide](https://github.com/fitwardrobe/fitwardrobe/wiki/User-Guide)** - Complete feature walkthrough
-- ❓ **[FAQ](https://github.com/fitwardrobe/fitwardrobe/wiki/FAQ)** - Common questions answered
+| Data            | Location                 | Purpose             |
+| --------------- | ------------------------ | ------------------- |
+| Email & User ID | Supabase (cloud)         | Authentication only |
+| Wardrobe items  | Your device (IndexedDB)  | App functionality   |
+| Clothing images | Your device (filesystem) | Visual reference    |
+| Preferences     | Your device (IndexedDB)  | Personalization     |
 
-### Need Help?
+### What We Don't Store
 
-- 📧 **Email Support:** fitwardrobee@gmail.com
-- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/fitwardrobe/fitwardrobe/issues)
-- 💡 **Feature Requests:** [GitHub Discussions](https://github.com/fitwardrobe/fitwardrobe/discussions)
+- ❌ Your clothing photos (never uploaded)
+- ❌ Your wardrobe metadata
+- ❌ Your outfit combinations
+- ❌ Your browsing or usage patterns
+- ❌ Any PII beyond your email
 
-### Community (Coming Soon)
+### Your Rights
 
-- 💬 **Discord Server** - Chat with other users
-- 🐦 **Twitter** - Latest updates and tips
-- 📷 **Instagram** - Style inspiration and app showcases
+- ✅ **Export** everything as JSON at any time
+- ✅ **Delete** your account in one click
+- ✅ **Portability** — your data, your choice
 
-> **Note:** We are live! Documentation is being updated regularly. Have a question? Email us!
+### Security Headers
+
+This landing page and the web app enforce strict security:
+
+- Content Security Policy (CSP)
+- HTTP Strict Transport Security (HSTS)
+- X-Frame-Options: DENY
+- X-Content-Type-Options: nosniff
+- Permissions-Policy (camera, mic, geolocation disabled)
+
+[Full Privacy Policy →](https://fitwardrobe.me/privacy.html) · [Security Page →](https://fitwardrobe.me/security.html)
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
-### ✅ Current (v1.0.1 - Live)
+### ✅ v1.0.1 — Live
 
 - [x] AI clothing analysis (Gemini Vision)
-- [x] Wardrobe management & filters
+- [x] Wardrobe management & advanced filters
 - [x] Camera capture integration
-- [x] Export/import functionality
+- [x] Export/Import (JSON)
 - [x] Android APK + PWA
 - [x] Privacy-first local storage
+- [x] Google Sign-In authentication
 
-### 🚧 In Progress (v1.1 - Enhancement)
+### 🚧 v1.1 — In Progress
 
-- [ ] Error tracking & monitoring (Sentry)
-- [ ] Performance optimizations (app size reduction)
-- [ ] Bug fixes based on beta feedback
+- [ ] Performance optimizations
 - [ ] UI/UX refinements
 - [ ] Enhanced error handling
 - [ ] Community feedback integration
 
-### 📅 Coming Soon (v1.2 - Stability Release)
+### 📅 v1.2 — Planned
 
-- [ ] All critical bugs fixed (<1% crash rate)
-- [ ] Legal documents reviewed
-- [ ] Comprehensive testing complete
-- [ ] Prepare for public launch
 - [ ] Advanced search capabilities
 - [ ] Outfit history tracking
+- [ ] Comprehensive testing
 
-### 🔮 Future (v2.0+)
+### 🔮 v2.0+
 
-- [ ] **Google Play Store launch** (after successful beta period)
-- [ ] iOS native app
-- [ ] Multi-language support (Spanish, Hindi, French)
-- [ ] Optional cloud sync (encrypted)
-- [ ] Social features (outfit sharing)
+- [ ] Google Play Store launch
+- [ ] Native iOS app
+- [ ] Multi-language support
+- [ ] Optional encrypted cloud sync
 - [ ] Style analytics dashboard
-- [ ] Custom-trained fashion AI model
-- [ ] Sustainability tracking
-- [ ] Professional stylist collaboration mode
 - [ ] AR virtual try-on (experimental)
 
 > **Timeline:** Play Store submission planned for Q2 2026.
 
-[View detailed roadmap & vote on features →](https://github.com/fitwardrobe/fitwardrobe/discussions)
-
 ---
 
-## 👨‍💻 About the Developer
-
-FitWardrobe is built by a **solo indie developer** passionate about making fashion accessible through technology.
-
-### The Journey
-
-- 🚀 Started as a personal project to solve my own wardrobe chaos
-- 🤖 Integrated cutting-edge AI (Google Gemini) for smart suggestions
-- 🔒 Prioritized privacy because I believe your data is yours
-- 🆓 Made it free because fashion advice shouldn't be a luxury
-
-### Development Philosophy
-
-- **User-first:** Every feature is built based on real needs
-- **Privacy-focused:** Local-first architecture, no data harvesting
-- **Transparent:** Open about technology, honest about limitations
-- **Community-driven:** Beta testing with real users, iterating fast
-
-### Get Involved
-
-- 🐛 **Feedback:** Help find bugs and improve the app
-- 💡 **Feature Suggestions:** Share your ideas via email or GitHub
-- 🌍 **Translations:** Help localize FitWardrobe for your language
-- ⭐ **Spread the Word:** Share with friends who love fashion
-
-**Want to contribute or just say hi?**  
-📧 fitwardrobee@gmail.com
-
----
-
-## 🔒 Privacy & Security
-
-### Our Commitment
-
-**Privacy-First Architecture:**
-
-- 🔒 **Local Storage** - Your wardrobe data stays on your device
-- 🚫 **No Tracking** - We don't track your behavior or sell data
-- 🔐 **Encrypted Auth** - Supabase handles authentication securely
-- 📤 **User Control** - Export your data anytime, delete your account instantly
-
-### What We Store
-
-| Data Type           | Location                    | Purpose                |
-| ------------------- | --------------------------- | ---------------------- |
-| **Email & User ID** | Supabase (cloud)            | Authentication only    |
-| **Wardrobe Items**  | Your device (IndexedDB)     | App functionality      |
-| **Clothing Images** | Your device (local storage) | Visual reference       |
-| **Preferences**     | Your device (IndexedDB)     | Personalization        |
-| **Outfit History**  | Your device (IndexedDB)     | Learning & improvement |
-
-### What We DON'T Store
-
-- ❌ Your clothing images (never uploaded to cloud)
-- ❌ Your wardrobe items (local only)
-- ❌ Your outfit combinations
-- ❌ Your browsing/usage patterns
-- ❌ Your personal measurements
-- ❌ Any personally identifiable info beyond email
-
-### Data Rights
-
-- ✅ **Export** - Download everything as JSON
-- ✅ **Delete** - Remove your account in one click
-- ✅ **Portability** - Take your data to any app
-- ✅ **Transparency** - See exactly what data exists
-
-[Read full Privacy Policy →](https://fitwardrobe.me/privacy.html)
-
----
-
-## 📄 License & Legal
-
-### Software License
-
-**Proprietary Software** - All Rights Reserved
-
-The FitWardrobe application and its source code are proprietary and confidential. Unauthorized copying, modification, distribution, or reverse engineering is strictly prohibited.
-
-### Open Source Components
-
-FitWardrobe is built with open-source libraries. See [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md) for complete attributions.
-
-### Terms of Service
-
-By using FitWardrobe, you agree to our [Terms of Service](https://fitwardrobe.me/terms.html).
-
-### Content Policy
-
-- User-generated content (wardrobe items) remains your property
-- We don't claim ownership of your photos or data
-- You retain all rights to your content
-
----
-
-## 📞 Contact & Support
-
-### Get Help
-
-- 📧 **Email:** fitwardrobee@gmail.com
-- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/fitwardrobe/fitwardrobe/issues)
-- 💡 **Feature Ideas:** [GitHub Discussions](https://github.com/fitwardrobe/fitwardrobe/discussions)
-
-### Follow Development
-
-- 🌐 **Website:** [fitwardrobe.me](https://fitwardrobe.me)
-- 💻 **GitHub:** [@fitwardrobe](https://github.com/fitwardrobe)
-- 📱 **Web App:** [fitwardrobe.vercel.app](https://fitwardrobe.vercel.app)
-
-### Coming Soon
-
-- 💬 Discord Community
-- 🐦 Twitter Updates
-- 📷 Instagram Inspiration
-
-**Response Time:** Usually within 24-48 hours. Please be patient, this is a solo project! 🙏
-
----
-
-## 🏆 Acknowledgments
-
-### Technology Partners
-
-- **Google AI** - Gemini 2.0 Flash for vision analysis
-- **Supabase** - Authentication infrastructure
-- **Vercel** - Web application hosting
-- **GitHub** - Landing page hosting & version control
-
-### Open Source Credits
-
-FitWardrobe is built on the shoulders of giants. Key dependencies:
-
-- React (Meta) - UI framework
-- Next.js (Vercel) - Full-stack framework
-- Tailwind CSS (Tailwind Labs) - Styling system
-- Capacitor (Ionic) - Native mobile framework
-- shadcn/ui (shadcn) - Component library
-
-[Full attribution list →](THIRD_PARTY_LICENSES.md)
-
-### Community
-
-Thank you to our early adopters, beta testers, and everyone who provided feedback during development. You made FitWardrobe better.
-
----
-
-## 📊 Repository Stats
-
-This repository contains the **public-facing website** for FitWardrobe.
-
-- 🌐 **Website:** [fitwardrobe.me](https://fitwardrobe.me)
-- 📦 **Downloads:** Hosted via Git LFS
-- 🚀 **Deployment:** GitHub Pages + custom domain
-- 🔒 **HTTPS:** Enforced via GitHub
-- 🌍 **CDN:** Global edge distribution
-
-### Repository Structure
+## Repository Structure
 
 ```
-fitwardrobe/
+fitwardrobe-landing/
 ├── index.html              # Main landing page
-├── downloads/              # APK distribution
-│   ├── fitwardrobe-latest.apk
-│   └── versions/
-├── assets/                 # Images, videos, media kit
-│   ├── logo.svg
-│   ├── screenshots/
-│   ├── videos/
-│   └── press-kit/
-├── docs/                   # User documentation
-│   ├── getting-started.md
-│   ├── user-manual.md
-│   └── faq.md
-├── CNAME                   # Custom domain config
+├── privacy.html            # Privacy policy
+├── terms.html              # Terms of service
+├── cookies.html            # Cookie policy
+├── security.html           # Security information
+├── accessibility.html      # Accessibility statement
+├── support.html            # Support page
+├── css/
+│   └── styles.css          # Landing page styles
+├── js/
+│   ├── script.js           # Main scripts
+│   └── mobile-nav.js       # Mobile navigation
+├── assets/                 # Logo, favicons, OG images
+├── api/                    # Serverless functions (waitlist)
+├── vercel.json             # Security headers & redirects
+├── robots.txt              # SEO crawler config
+├── sitemap.xml             # Sitemap for search engines
+├── llms.txt                # LLM-readable site summary
+├── CNAME                   # Custom domain (fitwardrobe.me)
+├── PRD.md                  # Product requirements
+├── TRD.md                  # Technical requirements
 ├── README.md               # This file
 └── LICENSE                 # Software license
 ```
 
 ---
 
-## 🎉 Join the FitWardrobe Community
+## About the Developer
 
-### Stay Updated
+Built by a **solo indie developer** passionate about making fashion accessible through technology.
 
-- 📧 [Subscribe to Newsletter](https://fitwardrobe.me/newsletter) - Monthly updates
-- 🐦 [Follow on Twitter](https://twitter.com/fitwardrobe) - Daily tips & news
-- 📷 [Follow on Instagram](https://instagram.com/fitwardrobe.app) - Style inspiration
-- 💬 [Join Discord](https://discord.gg/fitwardrobe) - Chat with community
+- 🚀 Started as a personal project to solve wardrobe decision fatigue
+- 🔒 Privacy-first because your data belongs to you
+- 🆓 Free because fashion advice shouldn't be a luxury
+- 🤖 AI-powered because manual tagging is tedious
 
-### Get Involved
+---
 
-- ⭐ **Star this repo** - Show your support
-- 🍴 **Fork & contribute** - Help improve documentation
-- 🐛 **Report bugs** - Make FitWardrobe better
-- 💡 **Share feedback** - Tell us what you need
+## Contact & Support
+
+| Channel          | Link                                                                         |
+| ---------------- | ---------------------------------------------------------------------------- |
+| 📧 Email         | [fitwardrobee@gmail.com](mailto:fitwardrobee@gmail.com)                      |
+| 🐛 Bug Reports   | [GitHub Issues](https://github.com/fitwardrobe/fitwardrobe/issues)           |
+| 💡 Feature Ideas | [GitHub Discussions](https://github.com/fitwardrobe/fitwardrobe/discussions) |
+| 🌐 Website       | [fitwardrobe.me](https://fitwardrobe.me)                                     |
+| 📱 Web App       | [fitwardrobe.vercel.app](https://fitwardrobe.vercel.app)                     |
+
+**Response time:** Usually within 24–48 hours.
+
+---
+
+## License
+
+**Proprietary Software** — All Rights Reserved. See [LICENSE](LICENSE) for details.
+
+FitWardrobe uses open-source libraries. See [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md) for attributions.
+
+User-generated content (wardrobe items, photos) remains your property. We don't claim ownership of your data.
 
 ---
 
 <div align="center">
 
-### Be Fashion-Forward, Not Overwhelmed
-
-**FitWardrobe** - Your AI styling assistant for effortless style, every day.
-
-[Download App](https://fitwardrobe.me/downloads) • [Visit Website](https://fitwardrobe.me) • [Join Discord](https://discord.gg/fitwardrobe)
-
----
-
-© 2026 FitWardrobe. All Rights Reserved.
+**FitWardrobe** — Smart styling, zero privacy compromise.
 
 [![Website](https://img.shields.io/badge/Website-fitwardrobe.me-1E2329?style=flat-square)](https://fitwardrobe.me)
-[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/fitwardrobe)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/fitwardrobe)
 [![Email](https://img.shields.io/badge/Email-fitwardrobee%40gmail.com-B8925A?style=flat-square)](mailto:fitwardrobee@gmail.com)
+
+© 2026 FitWardrobe. All Rights Reserved.
 
 </div>

@@ -1,5 +1,15 @@
 # Deployment Log
 
+## [v1.0.1+readme-rewrite] - 2026-02-11
+
+- Full `README.md` rewrite (534 → ~290 lines).
+- Fixed tech stack references (Vite + vanilla CSS, not Next.js + Tailwind).
+- Removed dead social links (Discord, Twitter, Instagram, newsletter).
+- Replaced incorrect file tree with actual repo structure.
+- Corrected APK size (2.9 MB) and Android version (8.0+).
+- Removed Git LFS claims and redundant sections.
+- Consolidated privacy/contact sections.
+
 ## [v1.0.1+production] - 2026-02-11
 
 - Removed beta badges and updated status to "Live" / "Stable".
