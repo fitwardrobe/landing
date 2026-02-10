@@ -7,7 +7,7 @@
 const APK_CONFIG = {
     version: '1.0.1',
     size: '9.7 MB',
-    sha256: 'da9211314389cf51194a4a02261f40c1d6f4d60f2eb0d8efce523b2e660',
+    sha256: 'da9211314389cf51194a4a02261f420fe16d60f2eb0d8efce523b2e660c1d6f4',
     url: 'https://fitwardrobe.vercel.app/download/fitwardrobe-v1.0.1-20260208.apk'
 };
 
