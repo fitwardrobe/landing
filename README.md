@@ -220,7 +220,8 @@ This started as a personal project and grew into something others wanted too. It
 |                          |                                                                     |
 | ------------------------ | ------------------------------------------------------------------- |
 | 📧 **Email**             | [fitwardrobee@gmail.com](mailto:fitwardrobee@gmail.com)             |
-| 🐛 **Report a Bug**      | [GitHub Issues](https://github.com/fitwardrobe/fitwardrobe/issues)  |
+| � **Instagram**          | [@fitwardrobee](https://instagram.com/fitwardrobee)                 |
+| �🐛 **Report a Bug**     | [GitHub Issues](https://github.com/fitwardrobe/fitwardrobe/issues)  |
 | 💡 **Suggest a Feature** | [Email us](mailto:fitwardrobee@gmail.com?subject=Feature%20Request) |
 | 🌐 **Website**           | [fitwardrobe.me](https://fitwardrobe.me)                            |
 
@@ -242,7 +243,7 @@ We typically respond within 24–48 hours.
 
 ---
 
-[Privacy Policy](https://fitwardrobe.me/privacy.html) · [Terms](https://fitwardrobe.me/terms.html) · [Contact](mailto:fitwardrobee@gmail.com)
+[Privacy Policy](https://fitwardrobe.me/privacy.html) · [Terms](https://fitwardrobe.me/terms.html) · [Instagram](https://instagram.com/fitwardrobee) · [Contact](mailto:fitwardrobee@gmail.com)
 
 Made with ❤️ by a solo developer who values privacy.
 
