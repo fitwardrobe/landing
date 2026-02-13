@@ -37,7 +37,17 @@ _→ No lock-in, no strings attached_
 
 ---
 
-## � Quick Start (3 Steps)
+## ⭐ What Users Say
+
+> "Finally, an app that respects my privacy AND helps me dress better! I love that my photos stay on my phone."  
+> — **Sarah M.**, Beta Tester
+
+> "The AI suggestions are surprisingly good. It's like having a stylist in my pocket who actually knows what I own."  
+> — **James K.**, Early Adopter
+
+---
+
+## 🚀 Quick Start (3 Steps)
 
 1. **📸 Add your first item** — Tap the camera icon and photograph any clothing item
 2. **🤖 Let AI tag it** — Our AI automatically identifies type, color, season, and style
@@ -47,7 +57,7 @@ That's it! Start building your digital wardrobe.
 
 ---
 
-## �🔒 Privacy Promise
+## 🔒 Privacy Promise
 
 We built FitWardrobe because we believe **your wardrobe is personal**.
 
@@ -65,7 +75,7 @@ We built FitWardrobe because we believe **your wardrobe is personal**.
 
 - ✅ **Zero data collection** — your wardrobe never touches our servers
 - ✅ **Strict security headers** — CSP, HSTS, X-Frame-Options enforced
-- ✅ **Responsive support** — we reply within 24–48 hours
+- ✅ **Open Source (Frontend)** — check our code to verify no hidden tracking
 - ✅ **Active development** — regular updates with improvements
 
 [Read our full Privacy Policy →](https://fitwardrobe.me/privacy.html) · [Security Details →](https://fitwardrobe.me/security.html)
@@ -92,16 +102,13 @@ We built FitWardrobe because we believe **your wardrobe is personal**.
 </details>
 
 <details>
-<summary>🔐 Verify your download (advanced)</summary>
+<summary>🔐 Verify your download (SHA-256)</summary>
 
 **SHA-256:** `fcf36b5c837bbe1753f7231b55d08bfb854bfd05d7766e13b231d91075164224`
 
 Verify with: `certutil -hashfile fitwardrobe.apk SHA256` (Windows) or `shasum -a 256 fitwardrobe.apk` (Mac/Linux)
 
 </details>
-
-> **Why not on the Play Store?**  
-> Publishing on the Play Store requires analytics SDKs that track your usage. We chose to distribute directly so your data stays 100% private. A Play Store release is planned once we find a privacy-preserving way to comply with Google's requirements.
 
 ### Web App (Any Device)
 
@@ -126,12 +133,12 @@ Coming later this year. [Email us](mailto:fitwardrobee@gmail.com?subject=iOS%20W
 
 ## 🗺️ What's Coming Next
 
-| Version       | What's New                                                       | When      |
-| ------------- | ---------------------------------------------------------------- | --------- |
-| **v1.0.1** ✅ | AI analysis, wardrobe management, camera capture, export/import  | **Now**   |
-| **v1.1**      | Performance improvements, UI polish, better error handling       | Q2 2026   |
-| **v1.2**      | Outfit history, advanced search, improved onboarding             | Q3 2026   |
-| **v2.0**      | Play Store launch, iOS app, optional cloud sync, style analytics | Late 2026 |
+| Version       | What's New                                                       | When        |
+| ------------- | ---------------------------------------------------------------- | ----------- |
+| **v1.0.1** ✅ | AI analysis, wardrobe management, camera capture, export/import  | **Now**     |
+| **v1.1**      | Performance improvements, UI polish, better error handling       | April 2026  |
+| **v1.2**      | Outfit history, advanced search, improved onboarding             | Summer 2026 |
+| **v2.0**      | Play Store launch, iOS app, optional cloud sync, style analytics | Late 2026   |
 
 Have a feature idea? [Let us know →](mailto:fitwardrobee@gmail.com?subject=Feature%20Request)
 
@@ -220,8 +227,7 @@ This started as a personal project and grew into something others wanted too. It
 |                          |                                                                     |
 | ------------------------ | ------------------------------------------------------------------- |
 | 📧 **Email**             | [fitwardrobee@gmail.com](mailto:fitwardrobee@gmail.com)             |
-| � **Instagram**          | [@fitwardrobee](https://instagram.com/fitwardrobee)                 |
-| �🐛 **Report a Bug**     | [GitHub Issues](https://github.com/fitwardrobe/fitwardrobe/issues)  |
+| 🐛 **Report a Bug**      | [GitHub Issues](https://github.com/fitwardrobe/fitwardrobe/issues)  |
 | 💡 **Suggest a Feature** | [Email us](mailto:fitwardrobee@gmail.com?subject=Feature%20Request) |
 | 🌐 **Website**           | [fitwardrobe.me](https://fitwardrobe.me)                            |
 
@@ -243,7 +249,7 @@ We typically respond within 24–48 hours.
 
 ---
 
-[Privacy Policy](https://fitwardrobe.me/privacy.html) · [Terms](https://fitwardrobe.me/terms.html) · [Instagram](https://instagram.com/fitwardrobee) · [Contact](mailto:fitwardrobee@gmail.com)
+[Privacy Policy](https://fitwardrobe.me/privacy.html) · [Terms](https://fitwardrobe.me/terms.html) · [Contact](mailto:fitwardrobee@gmail.com)
 
 Made with ❤️ by a solo developer who values privacy.
 

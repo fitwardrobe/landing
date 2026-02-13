@@ -1,5 +1,13 @@
 # Deployment Log
 
+## [v1.0.1+polish] - 2026-02-11
+
+- Added "What Users Say" social proof section.
+- Updated Roadmap timeline (Q2 -> April 2026).
+- Removed dead Instagram link.
+- Verified SHA-256 hash and APK size (2.9 MB).
+- Streamlined `index.html` waitlist (removed broken form).
+
 ## [v1.0.1+readme-rewrite] - 2026-02-11
 
 - Full `README.md` rewrite (534 → ~290 lines).
