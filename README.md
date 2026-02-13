@@ -75,7 +75,7 @@ We built FitWardrobe because we believe **your wardrobe is personal**.
 
 - ✅ **Zero data collection** — your wardrobe never touches our servers
 - ✅ **Strict security headers** — CSP, HSTS, X-Frame-Options enforced
-- ✅ **Open Source (Frontend)** — check our code to verify no hidden tracking
+- ✅ **Source Available** — check our code to verify no hidden tracking
 - ✅ **Active development** — regular updates with improvements
 
 [Read our full Privacy Policy →](https://fitwardrobe.me/privacy.html) · [Security Details →](https://fitwardrobe.me/security.html)
