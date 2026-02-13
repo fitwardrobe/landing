@@ -37,6 +37,26 @@ _→ No lock-in, no strings attached_
 
 ---
 
+## 📱 Application Showcase
+
+|                  Dashboard                   |                  Wardrobe                   |
+| :------------------------------------------: | :-----------------------------------------: |
+| ![Dashboard](screenshots/dashboard_grid.png) | ![Wardrobe](screenshots/inventory_view.png) |
+
+|            AI Assistant             |               Outfit Creator               |
+| :---------------------------------: | :----------------------------------------: |
+| ![AI Chat](screenshots/ai_chat.png) | ![Outfits](screenshots/outfit_creator.png) |
+
+|                     Analytics                     |             Item Details              |
+| :-----------------------------------------------: | :-----------------------------------: |
+| ![Analytics](screenshots/analytics_dashboard.png) | ![Item](screenshots/item_details.png) |
+
+|                Style Quiz                 |               User Profile               |
+| :---------------------------------------: | :--------------------------------------: |
+| ![Style Quiz](screenshots/style_quiz.png) | ![Profile](screenshots/user_profile.png) |
+
+---
+
 ## ⭐ What Users Say
 
 > "Finally, an app that respects my privacy AND helps me dress better! I love that my photos stay on my phone."  
