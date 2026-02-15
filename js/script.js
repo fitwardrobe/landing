@@ -1,95 +1,185 @@
-document.addEventListener('DOMContentLoaded', () => {
-    
-    // 1. Mobile Menu Toggle removed (handled by js/mobile-nav.js)
+/* ============================================================
+   FitWardrobe v2 — Script
+   ============================================================ */
+(function () {
+  'use strict';
 
+  /* --------------------------------------------------------
+     1. Scroll-triggered reveal animations (IntersectionObserver)
+     -------------------------------------------------------- */
+  function initRevealAnimations() {
+    const reveals = document.querySelectorAll('.reveal');
+    if (!reveals.length) return;
 
-    // 2. FAQ Accordion
-    const accordionHeaders = document.querySelectorAll('.accordion-header');
-    
-    accordionHeaders.forEach(header => {
-        header.addEventListener('click', () => {
-            const isActive = header.classList.contains('active');
-            
-            // Close all first
-            accordionHeaders.forEach(h => {
-                h.classList.remove('active');
-                h.nextElementSibling.style.maxHeight = null;
+    // Respect reduced motion
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      reveals.forEach(function (el) {
+        el.classList.add('reveal--visible');
+      });
+      return;
+    }
+
+    var observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('reveal--visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+    );
+
+    reveals.forEach(function (el) {
+      observer.observe(el);
+    });
+  }
+
+  /* --------------------------------------------------------
+     2. Sticky nav shadow on scroll
+     -------------------------------------------------------- */
+  function initNavScroll() {
+    var nav = document.getElementById('nav');
+    if (!nav) return;
+
+    var scrolled = false;
+
+    function onScroll() {
+      var shouldBeScrolled = window.scrollY > 10;
+      if (shouldBeScrolled !== scrolled) {
+        scrolled = shouldBeScrolled;
+        nav.classList.toggle('nav--scrolled', scrolled);
+      }
+    }
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+
+  /* --------------------------------------------------------
+     3. Mobile navigation
+     -------------------------------------------------------- */
+  function initMobileNav() {
+    var toggle = document.getElementById('navToggle');
+    var mobile = document.getElementById('mobileMenu');
+    var overlay = document.getElementById('navOverlay');
+    if (!toggle || !mobile || !overlay) return;
+
+    var isOpen = false;
+
+    function openMenu() {
+      isOpen = true;
+      toggle.classList.add('nav__toggle--open');
+      toggle.setAttribute('aria-expanded', 'true');
+      mobile.classList.add('nav__mobile--open');
+      overlay.classList.add('nav__overlay--visible');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeMenu() {
+      isOpen = false;
+      toggle.classList.remove('nav__toggle--open');
+      toggle.setAttribute('aria-expanded', 'false');
+      mobile.classList.remove('nav__mobile--open');
+      overlay.classList.remove('nav__overlay--visible');
+      document.body.style.overflow = '';
+    }
+
+    toggle.addEventListener('click', function () {
+      isOpen ? closeMenu() : openMenu();
+    });
+
+    overlay.addEventListener('click', closeMenu);
+
+    // Close on link click
+    var links = mobile.querySelectorAll('.nav__mobile-link, .nav__mobile-cta a');
+    links.forEach(function (link) {
+      link.addEventListener('click', function () {
+        closeMenu();
+      });
+    });
+
+    // Close on Escape
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && isOpen) {
+        closeMenu();
+        toggle.focus();
+      }
+    });
+  }
+
+  /* --------------------------------------------------------
+     4. Smooth scroll for anchor links
+     -------------------------------------------------------- */
+  function initSmoothScroll() {
+    document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+      anchor.addEventListener('click', function (e) {
+        var targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+
+        var target = document.querySelector(targetId);
+        if (!target) return;
+
+        e.preventDefault();
+
+        var navHeight = document.getElementById('nav')
+          ? document.getElementById('nav').offsetHeight
+          : 0;
+        var top = target.getBoundingClientRect().top + window.scrollY - navHeight - 16;
+
+        window.scrollTo({ top: top, behavior: 'smooth' });
+
+        // Update URL hash without scroll jump
+        history.pushState(null, '', targetId);
+      });
+    });
+  }
+
+  /* --------------------------------------------------------
+     5. Active nav link highlight on scroll
+     -------------------------------------------------------- */
+  function initActiveNavLinks() {
+    var sections = document.querySelectorAll('section[id]');
+    var navLinks = document.querySelectorAll('.nav__link');
+    if (!sections.length || !navLinks.length) return;
+
+    var observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            var id = entry.target.getAttribute('id');
+            navLinks.forEach(function (link) {
+              link.classList.toggle(
+                'nav__link--active',
+                link.getAttribute('href') === '#' + id
+              );
             });
-
-            // Toggle current if it wasn't active
-            if (!isActive) {
-                header.classList.add('active');
-                header.nextElementSibling.style.maxHeight = header.nextElementSibling.scrollHeight + "px";
-            }
+          }
         });
+      },
+      { threshold: 0.3, rootMargin: '-20% 0px -60% 0px' }
+    );
+
+    sections.forEach(function (section) {
+      observer.observe(section);
     });
+  }
 
-    // 3. Scroll Animations (Intersection Observer)
-    const observerOptions = {
-        threshold: 0.1,
-        rootMargin: "0px 0px -50px 0px"
-    };
+  /* --------------------------------------------------------
+     Initialize everything on DOM ready
+     -------------------------------------------------------- */
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
 
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target); // Only animate once
-            }
-        });
-    }, observerOptions);
-
-    const animatedElements = document.querySelectorAll('.fade-in');
-    animatedElements.forEach(el => observer.observe(el));
-
-    // 4. Navbar Scroll Effect (Shadow on scroll)
-    const navbar = document.querySelector('.navbar');
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
-            navbar.style.boxShadow = "var(--shadow-md)";
-        } else {
-            navbar.style.boxShadow = "var(--shadow-sm)";
-        }
-    });
-
-    // 5. Smooth Scroll Offset
-    // (CSS scroll-padding-top handles layout, this ensures consistent behavior support)
-    document.documentElement.style.scrollPaddingTop = "80px";
-
-
-
-    // 7. Cookie Consent Logic
-    (function() {
-        'use strict';
-        
-        const CONSENT_KEY = 'fitwardrobe_cookie_consent';
-        const popup = document.getElementById('cookie-consent');
-        const acceptBtn = document.getElementById('cookie-accept');
-        const analyticsBtn = document.getElementById('cookie-analytics');
-        
-        if (popup && !localStorage.getItem(CONSENT_KEY)) {
-            setTimeout(() => {
-                popup.style.display = 'block';
-            }, 1000);
-        }
-        
-        acceptBtn?.addEventListener('click', () => {
-            localStorage.setItem(CONSENT_KEY, 'all');
-            closePopup();
-        });
-        
-        analyticsBtn?.addEventListener('click', () => {
-            localStorage.setItem(CONSENT_KEY, 'analytics-only');
-            closePopup();
-        });
-        
-        function closePopup() {
-            if (!popup) return;
-            popup.classList.add('hiding');
-            setTimeout(() => {
-                popup.style.display = 'none';
-                popup.remove();
-            }, 400);
-        }
-    })();
-});
+  function init() {
+    initRevealAnimations();
+    initNavScroll();
+    initMobileNav();
+    initSmoothScroll();
+    initActiveNavLinks();
+  }
+})();
