@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta -->
+    <title>
+      FitWardrobe Blog — Capsule Wardrobe Guides, Tips & Sustainable Fashion
+    </title>
+    <meta
+      name="description"
+      content="Expert guides on capsule wardrobes, sustainable fashion, and wardrobe organization. Learn how to build a better wardrobe with less."
+    />
+    <meta
+      name="keywords"
+      content="capsule wardrobe blog, sustainable fashion blog, wardrobe organization tips, minimalist fashion"
+    />
+    <meta name="author" content="FitWardrobe" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://fitwardrobe.me/blog/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fitwardrobe.me/blog/" />
+    <meta
+      property="og:title"
+      content="FitWardrobe Blog — Style & Sustainability"
+    />
+    <meta
+      property="og:description"
+      content="Expert guides on capsule wardrobes, sustainable fashion, and wardrobe organization."
+    />
+    <meta property="og:image" content="https://fitwardrobe.me/og-image.jpg" />
+    <meta property="og:site_name" content="FitWardrobe" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="FitWardrobe Blog" />
+    <meta
+      name="twitter:description"
+      content="Expert guides on capsule wardrobes and sustainable fashion."
+    />
+    <meta name="twitter:image" content="https://fitwardrobe.me/og-image.jpg" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../site.webmanifest" />
+    <meta name="theme-color" content="#1A2332" />
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <style>
+      /* Blog Specific Styles */
+      .blog-hero {
+        padding: var(--space-8) 0 var(--space-6);
+        text-align: center;
+        background: linear-gradient(
+          180deg,
+          var(--color-bg) 0%,
+          var(--color-surface) 100%
+        );
+      }
+
+      .blog-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: var(--space-6);
+        padding: var(--space-6) 0 var(--space-8);
+      }
+
+      .blog-card {
+        background: var(--color-surface);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        border-radius: var(--radius-lg);
+        overflow: hidden;
+        transition:
+          transform 0.3s ease,
+          box-shadow 0.3s ease,
+          border-color 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+
+      .blog-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        border-color: var(--color-secondary);
+      }
+
+      .blog-card__image {
+        width: 100%;
+        height: 200px;
+        background: var(--color-surface-hover);
+        object-fit: cover;
+      }
+
+      .blog-card__content {
+        padding: var(--space-5);
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+      }
+
+      .blog-card__meta {
+        font-size: var(--text-sm);
+        color: var(--color-text-muted);
+        margin-bottom: var(--space-2);
+        display: flex;
+        gap: var(--space-3);
+      }
+
+      .blog-card__category {
+        color: var(--color-secondary);
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-size: 0.75rem;
+      }
+
+      .blog-card__title {
+        font-family: var(--font-heading);
+        font-size: var(--text-xl);
+        line-height: 1.3;
+        margin-bottom: var(--space-3);
+        color: var(--color-text);
+      }
+
+      .blog-card__excerpt {
+        color: var(--color-text-muted);
+        font-size: var(--text-base);
+        line-height: 1.6;
+        margin-bottom: var(--space-4);
+        flex-grow: 1;
+      }
+
+      .blog-card__link {
+        color: var(--color-primary);
+        font-weight: 500;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: var(--space-1);
+        transition: color 0.2s ease;
+      }
+
+      .blog-card__link:hover {
+        color: var(--color-primary-hover);
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        .blog-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+
+  <body id="main-content">
+    <a href="#content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav" aria-label="Main navigation">
+      <div class="container nav__inner">
+        <a href="../" class="nav__logo" aria-label="FitWardrobe home">
+          <img
+            class="nav__logo-icon"
+            src="../assets/logo.png"
+            alt=""
+            width="36"
+            height="36"
+          />
+          <span>FitWardrobe</span>
+        </a>
+
+        <ul class="nav__links" id="navLinks">
+          <li><a href="../#features" class="nav__link">Features</a></li>
+          <li><a href="../#how-it-works" class="nav__link">How It Works</a></li>
+          <li><a href="../#download-beta" class="nav__link">Download</a></li>
+        </ul>
+
+        <a href="../#download-beta" class="btn btn--primary btn--sm nav__cta"
+          >Get Started Free</a
+        >
+
+        <button
+          class="nav__toggle"
+          id="navToggle"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="mobileMenu"
+        >
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        class="nav__mobile"
+        id="mobileMenu"
+        role="dialog"
+        aria-label="Navigation menu"
+      >
+        <a href="../#features" class="nav__mobile-link">Features</a>
+        <a href="../#how-it-works" class="nav__mobile-link">How It Works</a>
+        <a href="../#download-beta" class="nav__mobile-link">Download</a>
+        <div class="nav__mobile-cta">
+          <a
+            href="../#download-beta"
+            class="btn btn--primary"
+            style="width: 100%"
+            >Get Started Free</a
+          >
+        </div>
+      </div>
+      <div class="nav__overlay" id="navOverlay" aria-hidden="true"></div>
+    </nav>
+
+    <main id="content">
+      <!-- Hero -->
+      <header class="blog-hero">
+        <div class="container">
+          <h1 class="reveal">FitWardrobe Blog</h1>
+          <p
+            class="hero__subtitle reveal reveal--delay-1"
+            style="max-width: 600px; margin: var(--space-4) auto 0"
+          >
+            Practical guides for building a sustainable, organised, and stylish
+            wardrobe.
+          </p>
+        </div>
+      </header>
+
+      <!-- Blog Grid -->
+      <section class="section">
+        <div class="container blog-grid">
+          <!-- Post 1: Rules -->
+          <article class="blog-card reveal">
+            <div class="blog-card__content">
+              <div class="blog-card__meta">
+                <span class="blog-card__category">Capsule Wardrobe</span>
+                <time datetime="2026-02-17">Feb 17, 2026</time>
+              </div>
+              <h2 class="blog-card__title">
+                Every Capsule Wardrobe Rule, Ranked and Explained
+              </h2>
+              <p class="blog-card__excerpt">
+                Confused by the 3-3-3 rule, Project 333, or the 5-4-3-2-1
+                method? We break down every major capsule wardrobe framework to
+                help you find the one that fits your life.
+              </p>
+              <a
+                href="capsule-wardrobe-rules-explained.html"
+                class="blog-card__link"
+                >Read Article &rarr;</a
+              >
+            </div>
+          </article>
+
+          <!-- Post 2: What Is -->
+          <article class="blog-card reveal reveal--delay-1">
+            <div class="blog-card__content">
+              <div class="blog-card__meta">
+                <span class="blog-card__category">Beginner Guide</span>
+                <time datetime="2026-02-17">Feb 17, 2026</time>
+              </div>
+              <h2 class="blog-card__title">
+                What Is a Capsule Wardrobe? A Complete Beginner's Guide
+              </h2>
+              <p class="blog-card__excerpt">
+                A capsule wardrobe isn't about deprivation—it's about
+                intentionality. Learn the history, benefits, and step-by-step
+                process to build your first curated closet.
+              </p>
+              <a href="what-is-a-capsule-wardrobe.html" class="blog-card__link"
+                >Read Article &rarr;</a
+              >
+            </div>
+          </article>
+
+          <!-- Post 3: How Many Items -->
+          <article class="blog-card reveal reveal--delay-2">
+            <div class="blog-card__content">
+              <div class="blog-card__meta">
+                <span class="blog-card__category">Wardrobe Organisation</span>
+                <time datetime="2026-02-17">Feb 17, 2026</time>
+              </div>
+              <h2 class="blog-card__title">
+                How Many Items Should You Have in a Capsule Wardrobe?
+              </h2>
+              <p class="blog-card__excerpt">
+                Is 33 items the magic number? Or 50? We break down the ideal
+                wardrobe size based on your specific lifestyle, climate, and
+                needs.
+              </p>
+              <a
+                href="how-many-items-capsule-wardrobe.html"
+                class="blog-card__link"
+                >Read Article &rarr;</a
+              >
+            </div>
+          </article>
+
+          <!-- Post 4: Mistakes -->
+          <article class="blog-card reveal">
+            <div class="blog-card__content">
+              <div class="blog-card__meta">
+                <span class="blog-card__category">Wardrobe Tips</span>
+                <time datetime="2026-02-17">Feb 17, 2026</time>
+              </div>
+              <h2 class="blog-card__title">
+                9 Capsule Wardrobe Mistakes That Ruin the Whole Point
+              </h2>
+              <p class="blog-card__excerpt">
+                From purging too fast to ignoring your climate, avoid these
+                common pitfalls that turn a decluttering dream into a wardrobe
+                nightmare.
+              </p>
+              <a href="capsule-wardrobe-mistakes.html" class="blog-card__link"
+                >Read Article &rarr;</a
+              >
+            </div>
+          </article>
+
+          <!-- Post 5: Packing -->
+          <article class="blog-card reveal reveal--delay-1">
+            <div class="blog-card__content">
+              <div class="blog-card__meta">
+                <span class="blog-card__category">Travel Tips</span>
+                <time datetime="2026-02-17">Feb 17, 2026</time>
+              </div>
+              <h2 class="blog-card__title">
+                The Complete Capsule Wardrobe Packing Guide
+              </h2>
+              <p class="blog-card__excerpt">
+                Master the art of packing light. We explain the 5-4-3-2-1 rule
+                and other travel packing methods perfect for Indian travellers.
+              </p>
+              <a
+                href="capsule-wardrobe-packing-guide.html"
+                class="blog-card__link"
+                >Read Article &rarr;</a
+              >
+            </div>
+          </article>
+
+          <!-- Post 7: Essentials Checklist -->
+          <article class="blog-card reveal reveal--delay-2">
+            <div class="blog-card__content">
+              <div class="blog-card__meta">
+                <span class="blog-card__category">Essentials</span>
+                <time datetime="2026-02-17">Feb 17, 2026</time>
+              </div>
+              <h2 class="blog-card__title">
+                The Ultimate Capsule Wardrobe Essentials Checklist
+              </h2>
+              <p class="blog-card__excerpt">
+                A comprehensive, category-by-category checklist of everything
+                you need for a functional wardrobe—including Indian ethnic wear
+                essentials.
+              </p>
+              <a
+                href="capsule-wardrobe-essentials-checklist.html"
+                class="blog-card__link"
+                >Read Article &rarr;</a
+              >
+            </div>
+          </article>
+
+          <!-- Post 6: 7 R's -->
+          <article class="blog-card reveal">
+            <div class="blog-card__content">
+              <div class="blog-card__meta">
+                <span class="blog-card__category">Sustainability</span>
+                <time datetime="2026-02-17">Feb 17, 2026</time>
+              </div>
+              <h2 class="blog-card__title">
+                The 7 R's of Sustainable Fashion: A Practical Guide
+              </h2>
+              <p class="blog-card__excerpt">
+                Reduce, Rewear, Repair... Discover the 7 pillars of sustainable
+                fashion and how to apply them to your daily life in practical
+                ways.
+              </p>
+              <a href="7-rs-sustainable-fashion.html" class="blog-card__link"
+                >Read Article &rarr;</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <div class="footer__grid">
+          <div>
+            <a
+              href="../"
+              class="nav__logo"
+              style="color: var(--color-cream); margin-bottom: var(--space-2)"
+              aria-label="FitWardrobe home"
+            >
+              <img
+                class="nav__logo-icon"
+                src="../assets/logo.png"
+                alt=""
+                width="36"
+                height="36"
+              />
+              <span>FitWardrobe</span>
+            </a>
+            <p class="footer__brand-description">
+              Your private AI stylist. Smart fashion advice — your wardrobe
+              stays on your device.
+            </p>
+          </div>
+          <div>
+            <h3 class="footer__heading">Product</h3>
+            <a href="../#features" class="footer__link">Features</a>
+            <a href="../#how-it-works" class="footer__link">How It Works</a>
+            <a href="../#download-beta" class="footer__link">Download</a>
+            <a
+              href="https://fitwardrobe.vercel.app"
+              class="footer__link"
+              target="_blank"
+              rel="noopener"
+              >Web App</a
+            >
+          </div>
+          <div>
+            <h3 class="footer__heading">Legal</h3>
+            <a href="../privacy.html" class="footer__link">Privacy Policy</a>
+            <a href="../terms.html" class="footer__link">Terms of Service</a>
+            <a href="../cookies.html" class="footer__link">Cookie Policy</a>
+            <a href="../accessibility.html" class="footer__link"
+              >Accessibility</a
+            >
+          </div>
+          <div>
+            <h3 class="footer__heading">Connect</h3>
+            <a href="mailto:fitwardrobee@gmail.com" class="footer__link"
+              >fitwardrobee@gmail.com</a
+            >
+            <a href="../support.html" class="footer__link">Support</a>
+            <a href="../security.html" class="footer__link">Security</a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <span>&copy; 2026 FitWardrobe. All rights reserved.</span>
+          <div class="footer__social">
+            <a
+              href="https://github.com/fitwardrobe"
+              aria-label="FitWardrobe on GitHub"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
