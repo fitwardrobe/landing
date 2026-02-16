@@ -17,6 +17,7 @@ Thumbs.db
 # Local development and reference files
 local_files/
 .agent/
+docs
 # Any extra local temp files
 *.tmp
 *.local
