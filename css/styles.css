@@ -1001,7 +1001,336 @@ button {
 }
 
 /* ============================================================
-   12. CTA Section
+   12. Beta Download Section
+   ============================================================ */
+.beta-download {
+  text-align: center;
+}
+
+.beta-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  background-color: rgba(123, 154, 138, 0.15);
+  color: var(--color-sage);
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-pill);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  margin-bottom: var(--space-6);
+}
+
+.section--dark .beta-badge {
+  background-color: rgba(247, 245, 242, 0.1);
+  color: var(--color-cream);
+}
+
+.beta-subheading {
+  max-width: 600px;
+  margin-inline: auto;
+  margin-top: var(--space-4);
+  margin-bottom: var(--space-8);
+  font-size: var(--text-lg);
+  color: var(--color-text-muted);
+}
+
+.section--dark .beta-subheading {
+  color: rgba(247, 245, 242, 0.7);
+}
+
+.download-button-container {
+  margin-bottom: var(--space-10);
+}
+
+.btn-download-apk {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-4);
+  background-color: var(--color-sage);
+  color: var(--color-white);
+  padding: var(--space-4) var(--space-8);
+  border-radius: var(--radius-md);
+  text-align: left;
+  transition: all var(--duration-base) var(--ease-out);
+}
+
+.btn-download-apk:hover {
+  background-color: var(--color-accent-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+  color: var(--color-white);
+}
+
+.download-icon {
+  font-size: 2rem;
+}
+
+.download-main {
+  display: block;
+  font-size: var(--text-lg);
+  font-weight: 700;
+}
+
+.download-sub {
+  display: block;
+  font-size: var(--text-xs);
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+.download-info {
+  margin-top: var(--space-4);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+
+.section--dark .download-info {
+  color: rgba(247, 245, 242, 0.5);
+}
+
+/* Installation Notice */
+.installation-notice {
+  max-width: 600px;
+  margin-inline: auto;
+  margin-bottom: var(--space-12);
+  text-align: left;
+}
+
+.notice-expandable {
+  background-color: var(--color-bg-alt);
+  border: 1px solid var(--color-mist);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+}
+
+.section--dark .notice-expandable {
+  background-color: rgba(247, 245, 242, 0.05);
+  border-color: rgba(247, 245, 242, 0.1);
+}
+
+.notice-expandable summary {
+  cursor: pointer;
+  font-weight: 600;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.notice-expandable summary::-webkit-details-marker {
+  display: none;
+}
+
+.notice-content {
+  margin-top: var(--space-4);
+  font-size: var(--text-sm);
+  line-height: 1.6;
+}
+
+.notice-content ol {
+  margin-block: var(--space-3);
+  padding-left: var(--space-5);
+  list-style: decimal;
+}
+
+.notice-security {
+  margin-top: var(--space-4);
+  padding: var(--space-3);
+  background-color: rgba(123, 154, 138, 0.1);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-xs);
+}
+
+/* Coming Soon Platforms */
+.coming-soon-platforms {
+  margin-bottom: var(--space-12);
+}
+
+.coming-soon-label {
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-4);
+  color: var(--color-text-muted);
+}
+
+.platform-badges {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+.platform-badge {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-5);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-mist);
+  border-radius: var(--radius-md);
+  opacity: 0.6;
+}
+
+.section--dark .platform-badge {
+  background-color: rgba(247, 245, 242, 0.1);
+  border-color: transparent;
+  color: var(--color-cream);
+}
+
+.platform-name {
+  display: block;
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.platform-date {
+  display: block;
+  font-size: var(--text-xs);
+}
+
+.coming-soon-cta {
+  font-size: var(--text-sm);
+}
+
+/* Beta Perks */
+.beta-perks {
+  border-top: 1px solid var(--color-mist);
+  padding-top: var(--space-10);
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+.section--dark .beta-perks {
+  border-top-color: rgba(247, 245, 242, 0.1);
+}
+
+.perks-heading {
+  margin-bottom: var(--space-8);
+}
+
+.perks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--space-6);
+}
+
+.perk-item {
+  text-align: center;
+}
+
+.perk-icon {
+  font-size: 2rem;
+  margin-bottom: var(--space-3);
+  display: block;
+}
+
+.perk-item h4 {
+  font-size: var(--text-base);
+  margin-bottom: var(--space-2);
+}
+
+.perk-item p {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.section--dark .perk-item p {
+  color: rgba(247, 245, 242, 0.6);
+}
+
+/* ============================================================
+   13. Community Section
+   ============================================================ */
+.community-card {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-mist);
+  border-radius: var(--radius-md);
+  padding: var(--space-8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform var(--duration-base) var(--ease-out);
+}
+
+.community-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.community-icon {
+  font-size: 3rem;
+  margin-bottom: var(--space-4);
+}
+
+.community-card h3 {
+  margin-bottom: var(--space-3);
+}
+
+.community-card p {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+  margin-bottom: var(--space-6);
+  flex: 1;
+}
+
+/* ============================================================
+   14. FAQ Section
+   ============================================================ */
+.faq-container {
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--color-mist);
+}
+
+.faq-item:first-child {
+  border-top: 1px solid var(--color-mist);
+}
+
+.faq-item summary {
+  padding-block: var(--space-5);
+  cursor: pointer;
+  font-family: var(--font-heading);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--color-text-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: "+";
+  font-family: var(--font-body);
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--color-sage);
+  transition: transform var(--duration-base);
+}
+
+.faq-item[open] summary::after {
+  content: "−";
+}
+
+.faq-content {
+  padding-bottom: var(--space-5);
+  color: var(--color-text-body);
+  font-size: var(--text-base);
+  line-height: 1.6;
+}
+
+/* ============================================================
+   15. CTA Section
    ============================================================ */
 .cta {
   text-align: center;
