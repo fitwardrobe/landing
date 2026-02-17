@@ -1,23 +1,35 @@
 # Contributing to FitWardrobe
 
-Thank you for your interest in contributing to FitWardrobe!
+Thank you for your interest in contributing to FitWardrobe! We are building the future of privacy-first fashion AI, and we value your input.
 
-## ⚠️ Important Note
+## ⚠️ Project Status
 
-This repository is **Source Available**, but it is **Proprietary**.
+FitWardrobe is currently a **solo-developed, source-available** project.
 
-- **Bug Reports**: We welcome detailed bug reports. Please use GitHub Issues.
-- **Feature Requests**: Discuss new features and ideas in GitHub Discussions.
-- **Code Contributions**: We generally **do not accept pull requests** for core functionality unless they are minor bug fixes or documentation improvements.
-  - If you would like to propose a significant change, please open an Issue first to discuss it with the maintainers.
+- **Bug Reports**: We welcome detailed bug reports. Please use [GitHub Issues](https://github.com/fitwardrobe/fitwardrobe/issues).
+- **Feature Requests**: Have an idea? Share it in [GitHub Discussions](https://github.com/fitwardrobe/fitwardrobe/discussions) or via [email](mailto:fitwardrobee@gmail.com).
 
-## Pull Request Process
+## How You Can Help
 
-1.  Ensure any install or build dependencies are removed before the end of the layer when doing a build.
-2.  Update the README.md with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
-3.  Increase the version numbers in any examples files and the README.md to the new version that this Pull Request would represent.
-4.  You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
+1. **Bug Hunting**: Report issues with reproductive steps and environment details.
+2. **Translation**: If you'd like to help localize FitWardrobe to your language, please open an issue.
+3. **Documentation**: Help improve our [Developer Documentation](https://fitwardrobe.me/developers.html) or [Blog](https://fitwardrobe.me/blog/).
+4. **Security Audits**: As a privacy-first app, we take security seriously. If you find a vulnerability, please refer to our [SECURITY.md](SECURITY.md).
+
+## Pull Request Policy
+
+Due to the sensitive nature of privacy and AI logic, we generally **do not accept unsolicited pull requests** for core application logic at this time.
+
+If you would like to contribute code:
+
+1. Open an Issue to discuss your proposal first.
+2. Ensure your changes follow our [Architecture Principles](https://fitwardrobe.me/developers.html).
+3. Provide clear documentation and test results.
 
 ## Code of Conduct
 
-Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
+
+---
+
+_FitWardrobe: Privacy by Design, Style by Intelligence._

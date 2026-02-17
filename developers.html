@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta -->
+    <title>Developer Documentation – Architecture & Privacy Design | FitWardrobe</title>
+    <meta
+      name="description"
+      content="Explore the architecture and security principles behind FitWardrobe. Learn about our privacy-first local AI styling and secure edge-proxy design."
+    />
+    <meta name="keywords" content="fitwardrobe architecture, privacy first ai design, edge proxy security, local first fashion app, clothing ai api, secure styling infrastructure" />
+    <meta name="author" content="FitWardrobe Engineering" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://fitwardrobe.me/developers.html" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fitwardrobe.me/developers.html" />
+    <meta property="og:title" content="FitWardrobe – Developer & Security Documentation" />
+    <meta
+      property="og:description"
+      content="The engineering behind private AI styling. Discover our local-first data model and secure proxy infrastructure."
+    />
+    <meta property="og:image" content="https://fitwardrobe.me/og-image.jpg" />
+    <meta property="og:site_name" content="FitWardrobe" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="FitWardrobe Architecture Docs" />
+    <meta name="twitter:description" content="Deep dive into our privacy-first AI styling infrastructure." />
+    <meta name="twitter:image" content="https://fitwardrobe.me/og-image.jpg" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#1A2332" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+    <style>
+      .code-block {
+        background: #1e2329;
+        color: #e6edf3;
+        padding: 1.5rem;
+        border-radius: 8px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        overflow-x: auto;
+        margin: 1.5rem 0;
+        border: 1px solid #30363d;
+      }
+      .architecture-diagram {
+          background: #f8f9fa;
+          padding: 2rem;
+          border-radius: 12px;
+          border: 2px dashed #ddd;
+          text-align: center;
+          font-family: sans-serif;
+          margin: 2rem 0;
+      }
+      .architecture-diagram pre {
+          display: inline-block;
+          text-align: left;
+          margin: 0;
+          color: #333;
+          font-weight: 500;
+      }
+    </style>
+  </head>
+
+  <body id="main-content">
+    <a href="#content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav" aria-label="Main navigation">
+      <div class="container nav__inner">
+        <a href="/" class="nav__logo" aria-label="FitWardrobe home">
+          <img class="nav__logo-icon" src="assets/logo.png" alt="FitWardrobe Logo" width="36" height="36" />
+          <span>FitWardrobe</span>
+        </a>
+
+        <ul class="nav__links" id="navLinks">
+          <li><a href="blog/index.html" class="nav__link">Blog</a></li>
+          <li><a href="/#features" class="nav__link">Features</a></li>
+          <li><a href="/#how-it-works" class="nav__link">How It Works</a></li>
+          <li><a href="/#download-beta" class="nav__link">Download</a></li>
+        </ul>
+
+        <a href="/#download-beta" class="btn btn--primary btn--sm nav__cta">Get Started Free</a>
+      </div>
+    </nav>
+
+    <main id="content" class="blog-wrapper">
+      <header class="blog-header">
+        <div class="blog-meta">
+          <span>Documentation</span>
+          <time datetime="2026-02-17">Feb 17, 2026</time>
+        </div>
+        <h1>Developer Documentation: The Private AI Architecture</h1>
+      </header>
+      
+      <article class="blog-content">
+        <p class="lead"><strong>Explore the engineering principles, data flows, and security decisions that make FitWardrobe the standard for privacy-first fashion intelligence.</strong></p>
+        
+        <p>FitWardrobe is not a traditional cloud-first web application. It is built as a **Local-First, AI-Augmented Application**. This document outlines our high-level architecture, our approach to data sovereignty, and how we leverage modern AI models while maintaining total user privacy.</p>
+
+        <h2>High-Level Architecture</h2>
+        <p>Our infrastructure is divided into three distinct layers: the **Client Layer** (where data lives), the **Secure Proxy Layer** (where routing happens), and the **AI Intelligence Layer** (where results are generated).</p>
+
+        <div class="architecture-diagram">
+            <pre>
+[ User Device / Browser ] 
+       |
+       | (PWA / Encrypted Local Storage)
+       |
+       |------> [ Supabase Auth ] (JWT Verification)
+       |
+       |------> [ Secure Edge Proxy (Vercel/Supabase) ]
+                      |
+                      | (Rate Limiting & Sanitization)
+                      |
+                      |------------> [ Vision: Google Gemini 2.0 ]
+                      |
+                      |------------> [ Chat: Groq / Llama 3 ]
+                      |
+                      |------------> [ Logic: Internal Styling Engine ]
+            </pre>
+            <p style="font-size: 0.8rem; color: #666; margin-top: 1rem;">Fig 1: Request flow demonstrating local-first data containment.</p>
+        </div>
+
+        <h2>Core Principles</h2>
+        
+        <h3>1. Data Sovereignty</h3>
+        <p>The "Golden Copy" of the user's wardrobe—including high-resolution images, metadata, and tags—is stored exclusively on the user's device using high-performance local storage. We do not maintain a centralized database of wardrobes or outfit combinations.</p>
+
+        <h3>2. Secure AI Proxying</h3>
+        <p>All AI requests are routed through a hardened **Edge Proxy**. This serves three critical functions:</p>
+        <ul>
+          <li><strong>API Key Isolation:</strong> Client-side code never touches or exposes provider keys (Gemini, Groq, etc.).</li>
+          <li><strong>Request Sanitization:</strong> The proxy ensures that only necessary metadata is passed to AI models, stripping away any potential PII (Personally Identifiable Information).</li>
+          <li><strong>JWT Authentication:</strong> Every request is verified against a Supabase JWT, preventing unauthorized use of the AI resources.</li>
+        </ul>
+
+        <h3>3. Ephemeral AI Inference</h3>
+        <p>When an image is processed for background removal or tagging, the AI model operates on an ephemeral buffer. Once the inference (the "answer") is returned to the user, the temporary buffer is purged. No wardrobe content is used for training external models.</p>
+
+        <h2>Technology Stack</h2>
+        <ul>
+          <li><strong>Frontend:</strong> React & Vite (High-performance PWA)</li>
+          <li><strong>Vision Engine:</strong> Google Gemini 2.0 Flash (for fast, accurate clothing recognition)</li>
+          <li><strong>Chatbot Engine:</strong> Groq (Llama-based models for ultra-low latency styling advice)</li>
+          <li><strong>Database/Auth:</strong> Supabase (PostgreSQL for user preferences, JWT for security)</li>
+          <li><strong>Hosting:</strong> Vercel (Edge Functions for global availability)</li>
+        </ul>
+
+        <h2>Security Implementation</h2>
+        <p>Developers and security researchers can verify our implementation via our public security headers and documentation. We implement:</p>
+        <div class="code-block">
+// Security Implementation Highlights
+- Strict Content Security Policy (CSP)
+- Cross-Origin Resource Sharing (CORS) restricted to official domains
+- Global Rate Limiting (Redis-based) to prevent infrastructure abuse
+- Zero-Persistence API Routing
+        </div>
+
+        <h2>Frequently Asked Developer Questions</h2>
+        <h3 style="font-size: 1.25rem">Do you provide a public API?</h3>
+        <p>Currently, our API is internal-only to ensure the highest standards of privacy and rate control. We are exploring a "Privacy-Safe Webhook" system for future integrations.</p>
+        
+        <h3 style="font-size: 1.25rem">How is background removal handled?</h3>
+        <p>Background removal is a hybrid process. High-level masks are generated via edge-computing models, ensuring minimal data transfer and maximum speed.</p>
+        
+        <h3 style="font-size: 1.25rem">Can I build on top of FitWardrobe?</h3>
+        <p>We are advocates for open fashion standards. If you are a developer interested in privacy-first fashion AI, please contact us at <a href="mailto:fitwardrobee@gmail.com">fitwardrobee@gmail.com</a>.</p>
+
+        <div style="text-align: center; margin-top: 4rem; padding: 3rem; background: var(--color-navy); color: white; border-radius: 12px;">
+          <h2>Build the Future of Private Fashion</h2>
+          <p>Read our mission and join the community.</p>
+          <a href="https://github.com/fitwardrobe/fitwardrobe" class="btn btn--primary" style="margin-top: 1.5rem">View GitHub Repository</a>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <div class="footer__grid">
+          <div>
+            <a href="/" class="nav__logo" style="color: var(--color-cream); margin-bottom: var(--space-2)" aria-label="FitWardrobe home">
+              <img class="nav__logo-icon" src="assets/logo.png" alt="FitWardrobe Logo" width="36" height="36" />
+              <span>FitWardrobe</span>
+            </a>
+            <p class="footer__brand-description">Your private AI stylist. Smart fashion advice — your wardrobe stays on your device.</p>
+          </div>
+          <div>
+            <h3 class="footer__heading">Resources</h3>
+            <a href="blog/index.html" class="footer__link">Blog</a>
+            <a href="developers.html" class="footer__link">Developers</a>
+            <a href="privacy-ai-stylist.html" class="footer__link">Privacy</a>
+          </div>
+          <div>
+            <h3 class="footer__heading">Legal</h3>
+            <a href="privacy.html" class="footer__link">Privacy Policy</a>
+            <a href="terms.html" class="footer__link">Terms of Service</a>
+            <a href="support.html" class="footer__link">Support</a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>© 2026 FitWardrobe Engineering. Built with security by design.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
