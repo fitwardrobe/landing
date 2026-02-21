@@ -107,7 +107,7 @@ A checklist for buying new clothes:
 
 ## How FitWardrobe Helps You Use These Rules
 
-Trying to visualize "5 tops and 4 bottoms" in your head is hard. [FitWardrobe](https://fitwardrobe.vercel.app) makes it easy.
+Trying to visualize "5 tops and 4 bottoms" in your head is hard. [FitWardrobe](https://fitwardrobe.me) makes it easy.
 
 - **For 3-3-3:** Create a collection called "333 Challenge." Add 9 items. Use the _Outfit Creator_ to shuffle them and save every valid combination.
 - **For 5-4-3-2-1:** Build a "Packing List" in the app. You can literally count the items as you add them to ensure you stick to the limit.
@@ -152,10 +152,10 @@ Trying to visualize "5 tops and 4 bottoms" in your head is hard. [FitWardrobe](h
 - **Pack Smarter:** 5-4-3-2-1 is the gold standard for carry-on travel.
 - **Style Better:** Adding a 4th item (Rule of 4) instantly upgrades a basic look.
 - **Balance Color:** 60-30-10 ensures your outfit looks intentional.
-- **Use Tech:** [FitWardrobe](https://fitwardrobe.vercel.app) is the perfect tool to visualize and test these formulas digitally.
+- **Use Tech:** [FitWardrobe](https://fitwardrobe.me) is the perfect tool to visualize and test these formulas digitally.
 
 **Ready to calculate your style?**
-Use **[FitWardrobe](https://fitwardrobe.vercel.app)** to test the 3-3-3 rule with your own closet today.
+Use **[FitWardrobe](https://fitwardrobe.me)** to test the 3-3-3 rule with your own closet today.
 
 ---
 

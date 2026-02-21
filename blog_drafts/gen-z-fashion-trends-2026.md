@@ -24,7 +24,7 @@ Here are the top **Gen Z trends of 2026** and how to incorporate them without lo
 **What it is:** Think Ralph Lauren, tennis skirts, cable-knit sweaters, and loafers. It’s about appearing wealthy through understated, high-quality basics. No big logos.
 **Key Pieces:** Trench coat, white linen shirt, pearls, boat shoes.
 **How to Style:** Pair a crisp white shirt with tailored trousers.
-**Digital Tip:** Create an "Old Money" collection in [FitWardrobe](https://fitwardrobe.vercel.app) using your existing neutrals. You likely already own 90% of this look.
+**Digital Tip:** Create an "Old Money" collection in [FitWardrobe](https://fitwardrobe.me) using your existing neutrals. You likely already own 90% of this look.
 
 ## 2. Blokecore
 
@@ -100,13 +100,13 @@ Before buying a trend piece:
 
 ## Key Takeaways
 
-- **Audit First:** Check [FitWardrobe](https://fitwardrobe.vercel.app) before you buy. You probably own trend-adjacent pieces.
+- **Audit First:** Check [FitWardrobe](https://fitwardrobe.me) before you buy. You probably own trend-adjacent pieces.
 - **Mix & Match:** Combine one trendy piece with your classics.
 - **Invest Safely:** Buying a quality trench coat (Old Money) is safer than buying neon cargo pants (Y2K).
 - **Have Fun:** Trends are experiments.
 
 **Modernize your look.**
-Style your "Old Money" or "Blokecore" outfit in **[FitWardrobe](https://fitwardrobe.vercel.app)** today.
+Style your "Old Money" or "Blokecore" outfit in **[FitWardrobe](https://fitwardrobe.me)** today.
 
 ---
 

@@ -35,7 +35,7 @@ Gone are the days of manually trying on ten different shirts before running out 
 These apps generally fall into four categories:
 
 1.  **AI-Powered Outfit Generators:** Algorithms that suggest combinations based on color, weather, and occasion.
-2.  **Wardrobe Organizers:** Digital closets where you upload photos of your items to categorize and plan manually (like [FitWardrobe](https://fitwardrobe.vercel.app)).
+2.  **Wardrobe Organizers:** Digital closets where you upload photos of your items to categorize and plan manually (like [FitWardrobe](https://fitwardrobe.me)).
 3.  **Virtual Styling Services:** Apps that connect you with human stylists.
 4.  **Social Outfit Platforms:** Communities where you share and discover outfit inspiration.
 
@@ -88,7 +88,7 @@ Not all apps are created equal. When choosing the best tool for your wardrobe, l
 
 ## How FitWardrobe Simplifies Outfit Planning
 
-While many apps offer basic functionality, [FitWardrobe](https://fitwardrobe.vercel.app) is built to be your **private AI stylist**. Here’s how it transforms your daily routine:
+While many apps offer basic functionality, [FitWardrobe](https://fitwardrobe.me) is built to be your **private AI stylist**. Here’s how it transforms your daily routine:
 
 - **Smart Suggestions:** Our AI analyzes your items to suggest outfits that balance color and style rules, taking the guesswork out of "what goes with what."
 - **Privacy First:** Unlike other platforms, your wardrobe data stays on your device. Your closet is your private space.
@@ -149,7 +149,7 @@ To get the most out of your **outfit planning app**, avoid these pitfalls:
 - **Use FitWardrobe:** For a privacy-focused, smart, and accessible solution to outfit planning.
 
 **Ready to stop staring at a full closet with "nothing to wear"?**
-Start building your digital wardrobe today with **[FitWardrobe](https://fitwardrobe.vercel.app)** and experience the freedom of effortless outfit planning.
+Start building your digital wardrobe today with **[FitWardrobe](https://fitwardrobe.me)** and experience the freedom of effortless outfit planning.
 
 ---
 

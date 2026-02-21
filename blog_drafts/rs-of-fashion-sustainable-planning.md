@@ -17,7 +17,7 @@ Fashion is one of the most polluting industries on Earth. But you don't have to 
 
 Enter the **7 R's of Fashion**.
 
-Most people know "Reduce, Reuse, Recycle." But true sustainable style goes deeper. Here is the complete breakdown of the 7 R's and how a digital wardrobe app like [FitWardrobe](https://fitwardrobe.vercel.app) helps you practice them daily.
+Most people know "Reduce, Reuse, Recycle." But true sustainable style goes deeper. Here is the complete breakdown of the 7 R's and how a digital wardrobe app like [FitWardrobe](https://fitwardrobe.me) helps you practice them daily.
 
 ---
 
@@ -117,7 +117,7 @@ Living sustainably takes effort. **FitWardrobe** lowers the friction.
 - **End of Life (Recycle/Repurpose):** Trash is never the answer.
 
 **Start your sustainable journey today.**
-Audit your closet with **[FitWardrobe](https://fitwardrobe.vercel.app)** and see how many of your clothes deserve a second chance.
+Audit your closet with **[FitWardrobe](https://fitwardrobe.me)** and see how many of your clothes deserve a second chance.
 
 ---
 

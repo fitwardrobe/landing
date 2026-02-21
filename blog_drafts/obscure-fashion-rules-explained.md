@@ -17,7 +17,7 @@ Why do some outfits just _work_ while others feel off? It's often not the clothe
 Stylists use secret formulas to make basic items look intentional. You can learn them too.
 You don't need a new wardrobe—you just need new rules.
 
-Here are 5 game-changing styling hacks, including the viral **Sandwich Rule** and **Wrong Shoe Theory**, and how to apply them digitally with [FitWardrobe](https://fitwardrobe.vercel.app).
+Here are 5 game-changing styling hacks, including the viral **Sandwich Rule** and **Wrong Shoe Theory**, and how to apply them digitally with [FitWardrobe](https://fitwardrobe.me).
 
 ---
 
@@ -123,7 +123,7 @@ Don't stand in front of the mirror sweating. Test the theory on your phone first
 - **One In/One Out:** Keep the clutter monster away.
 
 **Master styling today.**
-Open **[FitWardrobe](https://fitwardrobe.vercel.app)** and build your first "Sandwich Outfit."
+Open **[FitWardrobe](https://fitwardrobe.me)** and build your first "Sandwich Outfit."
 
 ---
 

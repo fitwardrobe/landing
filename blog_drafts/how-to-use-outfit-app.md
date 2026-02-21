@@ -26,7 +26,7 @@ Most beginners quit because they try to do too much too soon. Follow this phased
 
 ### 1. Download & Create Account
 
-Start by choosing your platform. For a seamless experience without app store downloads, open [FitWardrobe](https://fitwardrobe.vercel.app) in your browser. Create an account to ensure your data saves securely.
+Start by choosing your platform. For a seamless experience without app store downloads, open [FitWardrobe](https://fitwardrobe.me) in your browser. Create an account to ensure your data saves securely.
 
 ### 2. Choose Your "Core Capsule"
 
@@ -165,7 +165,7 @@ For travel, create a "Trip" folder. Add items to visualize if they mix and match
 - **Plan ahead:** Use the calendar to prep outfits for the week each Sunday.
 
 **Ready to start?**
-Open **[FitWardrobe](https://fitwardrobe.vercel.app)** in your browser now and upload your first item. It takes less than a minute!
+Open **[FitWardrobe](https://fitwardrobe.me)** in your browser now and upload your first item. It takes less than a minute!
 
 ---
 

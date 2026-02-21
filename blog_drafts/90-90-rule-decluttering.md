@@ -17,7 +17,7 @@ Closets have a bad habit of filling themselves. You blink, and suddenly you have
 If you struggle to let things go, you need a rule.
 **The 90/90 Rule** is the gold standard for minimalists (popularized by The Minimalists, Joshua Fields Millburn & Ryan Nicodemus).
 
-Here is how it works and how to apply it digitally with **[FitWardrobe](https://fitwardrobe.vercel.app)**.
+Here is how it works and how to apply it digitally with **[FitWardrobe](https://fitwardrobe.me)**.
 
 ---
 
@@ -109,7 +109,7 @@ In **FitWardrobe**, just mark items as "Archived" if you aren't sure. If you don
 - **Freedom:** Letting go creates space for new favorites.
 
 **Audit your closet now.**
-Open **[FitWardrobe](https://fitwardrobe.vercel.app)**, sort by "Least Worn," and reclaim your space.
+Open **[FitWardrobe](https://fitwardrobe.me)**, sort by "Least Worn," and reclaim your space.
 
 ---
 

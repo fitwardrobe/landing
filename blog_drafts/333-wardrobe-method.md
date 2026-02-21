@@ -19,7 +19,7 @@ Millions of people have taken the challenge known as **Project 333**, created by
 The premise is simple: **33 items. 3 months.**
 But the impact is profound.
 
-This guide will walk you through exactly how to execute the **333 Wardrobe Method**, why it works, and how to use [FitWardrobe](https://fitwardrobe.vercel.app) to make it achievable (and fun).
+This guide will walk you through exactly how to execute the **333 Wardrobe Method**, why it works, and how to use [FitWardrobe](https://fitwardrobe.me) to make it achievable (and fun).
 
 ---
 
@@ -101,7 +101,7 @@ Here is how to stay inspired:
 
 Doing Project 333 manually requires strong willpower. Using a digital tool makes it a game.
 
-1.  **Create a Collection:** In [FitWardrobe](https://fitwardrobe.vercel.app), create a new collection named "Project 333 - Spring".
+1.  **Create a Collection:** In [FitWardrobe](https://fitwardrobe.me), create a new collection named "Project 333 - Spring".
 2.  **Add Your 33 Items:** Select exactly 33 items from your digital closet.
 3.  **Visual Confirmation:** Seeing the 33 items on screen helps you realize _it’s actually a lot of clothes_. It looks abundant, not restrictive.
 4.  **Track Wears:** Use the app to log your outfits. After 3 months, you’ll have data proving you really _can_ live with less (or identifying the 3 items you never touched).
@@ -152,11 +152,11 @@ Doing Project 333 manually requires strong willpower. Using a digital tool makes
 - **Limits Create Freedom:** Having fewer choices reduces anxiety.
 - **Define Your Style:** You naturally pick only your _best_ items for the 33.
 - **Hide the Rest:** Visual clutter is mental clutter. Box it up.
-- **Track It:** Use [FitWardrobe](https://fitwardrobe.vercel.app) to manage your 33-item capsule digitally to stay organized.
+- **Track It:** Use [FitWardrobe](https://fitwardrobe.me) to manage your 33-item capsule digitally to stay organized.
 - **Just Try It:** It’s only 3 months. You can always go back (but you probably won’t want to).
 
 **Ready for the challenge?**
-Select your 33 items in **[FitWardrobe](https://fitwardrobe.vercel.app)** today and start your minimalist journey.
+Select your 33 items in **[FitWardrobe](https://fitwardrobe.me)** today and start your minimalist journey.
 
 ---
 

@@ -19,7 +19,7 @@ Enter **The 7 Rule for Outfits**.
 
 It’s not a strict fashion law, but a lifestyle hack: **Plan 7 complete outfits every Sunday to cover your entire week.** By making all your sartorial decisions at once, you free up mental energy for the things that actually matter (like your morning coffee).
 
-Here is how to master the 7 Rule and why digital tools like [FitWardrobe](https://fitwardrobe.vercel.app) make it effortless.
+Here is how to master the 7 Rule and why digital tools like [FitWardrobe](https://fitwardrobe.me) make it effortless.
 
 ---
 
@@ -64,7 +64,7 @@ This is where most people fail—they plan in their head and forget by Tuesday.
 **You must visualize it.**
 
 - _Old School:_ Hang the outfits on a separate rail.
-- _New School:_ Use **[FitWardrobe](https://fitwardrobe.vercel.app)** to create the outfits digitally and assign them to specific dates.
+- _New School:_ Use **[FitWardrobe](https://fitwardrobe.me)** to create the outfits digitally and assign them to specific dates.
 
 ---
 
@@ -141,10 +141,10 @@ Planning 7 outfits physically can create a mess in your bedroom. **FitWardrobe**
 - **Check the Calendar:** Align your outfits with your actual life events.
 - **Visualize:** Use an app to see the outfits together and ensure variety.
 - **Be Flexible:** It's a guide, not a uniform. Swap days as your mood changes.
-- **Start Digital:** [FitWardrobe](https://fitwardrobe.vercel.app) makes the 7 Rule fun rather than a chore.
+- **Start Digital:** [FitWardrobe](https://fitwardrobe.me) makes the 7 Rule fun rather than a chore.
 
 **Ready to try the 7 Rule?**
-Open **[FitWardrobe](https://fitwardrobe.vercel.app)** and create your first 3 outfits right now. Your Monday morning self will thank you.
+Open **[FitWardrobe](https://fitwardrobe.me)** and create your first 3 outfits right now. Your Monday morning self will thank you.
 
 ---
 

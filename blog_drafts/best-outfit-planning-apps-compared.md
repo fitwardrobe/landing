@@ -107,10 +107,10 @@ Moving from one app to another can be painful. Here is how to make it easier:
 - **Choose [Stylebook](https://www.stylebookapp.com)** if you are iOS-only and love manual data entry.
 - **Choose [Whering](https://whering.co.uk)** if you want a fun, social experience.
 - **Choose [Indyx](https://www.myindyx.com)** if you want to pay a human to style you.
-- **Choose [FitWardrobe](https://fitwardrobe.vercel.app)** if you want a **private, smart, and accessible** tool that works on every device you own.
+- **Choose [FitWardrobe](https://fitwardrobe.me)** if you want a **private, smart, and accessible** tool that works on every device you own.
 
 **Ready to try the smart, private alternative?**
-Start using **[FitWardrobe](https://fitwardrobe.vercel.app)** today—no download required.
+Start using **[FitWardrobe](https://fitwardrobe.me)** today—no download required.
 
 ---
 
