@@ -38,7 +38,7 @@ only image analysis requests are sent and results returned. Users can export all
 ## Platform Support
 - Android: Yes (APK download, requires Android 8.0+, 6.3 MB file size)
 - iOS: Planned for Q2 2026
-- Web: Yes (Progressive Web App at fitwardrobe.me)
+- Web: Yes (Progressive Web App at fitwardrobe.vercel.app)
 - Windows/Mac/Linux: Via web browser
 
 ## Pricing
@@ -78,8 +78,8 @@ Google Gemini wardrobe app, local storage fashion app, privacy wardrobe app
 
 ## Contact & Links
 - Website: https://fitwardrobe.me
-- Web App: https://fitwardrobe.me
-- APK Download: https://fitwardrobe.me (direct download link on homepage)
+- Web App: https://fitwardrobe.vercel.app
+- APK Download: https://fitwardrobe.vercel.app/fitwardrobe.apk
 - GitHub: https://github.com/fitwardrobe/fitwardrobe
 - Email Support: fitwardrobee@gmail.com
 - Privacy Policy: https://fitwardrobe.me/privacy.html

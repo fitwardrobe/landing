@@ -9,8 +9,8 @@
 Smart wardrobe management with AI-powered outfit suggestions.  
 Your photos and data never leave your device.
 
-[![Download APK](https://img.shields.io/badge/⬇_Download_APK-Android-brightgreen?style=for-the-badge)](https://fitwardrobe.me/download/fitwardrobe.apk)
-[![Open Web App](https://img.shields.io/badge/🌐_Open_Web_App-Any_Browser-blue?style=for-the-badge)](https://fitwardrobe.me)
+[![Download APK](https://img.shields.io/badge/⬇_Download_APK-Android-brightgreen?style=for-the-badge)](https://fitwardrobe.vercel.app/fitwardrobe.apk)
+[![Open Web App](https://img.shields.io/badge/🌐_Open_Web_App-Any_Browser-blue?style=for-the-badge)](https://fitwardrobe.vercel.app)
 
 **v1.0.1** · Android 8.0+ · 2.9 MB · Free · No Ads
 
@@ -106,7 +106,7 @@ We built FitWardrobe because we believe **your wardrobe is personal**.
 
 ### Android
 
-1. **[Download the APK](https://fitwardrobe.me/download/fitwardrobe.apk)** (2.9 MB)
+1. **[Download the APK](https://fitwardrobe.vercel.app/fitwardrobe.apk)** (2.9 MB)
 2. If prompted, allow "Install from Unknown Sources" in your phone settings
 3. Open the file and tap **Install**
 4. Launch FitWardrobe and sign in with Google
@@ -132,7 +132,7 @@ Verify with: `certutil -hashfile fitwardrobe.apk SHA256` (Windows) or `shasum -a
 
 ### Web App (Any Device)
 
-Visit **[fitwardrobe.me](https://fitwardrobe.me)** — works on Chrome, Safari, Edge, and Firefox.
+Visit **[fitwardrobe.vercel.app](https://fitwardrobe.vercel.app)** — works on Chrome, Safari, Edge, and Firefox.
 
 On mobile, tap **"Add to Home Screen"** to use it like a native app.
 
@@ -261,9 +261,9 @@ We typically respond within 24–48 hours.
 
 **Simplify your daily outfit choices with AI.**
 
-[![Download for Android](https://img.shields.io/badge/Download_for_Android-2.9_MB-brightgreen?style=for-the-badge&logo=android)](https://fitwardrobe.me/download/fitwardrobe.apk)
+[![Download for Android](https://img.shields.io/badge/Download_for_Android-2.9_MB-brightgreen?style=for-the-badge&logo=android)](https://fitwardrobe.vercel.app/fitwardrobe.apk)
 &nbsp;&nbsp;
-[![Try Web App](https://img.shields.io/badge/Try_Web_App-Free-blue?style=for-the-badge&logo=googlechrome)](https://fitwardrobe.me)
+[![Try Web App](https://img.shields.io/badge/Try_Web_App-Free-blue?style=for-the-badge&logo=googlechrome)](https://fitwardrobe.vercel.app)
 
 **100% Free · No Ads · Your Privacy Guaranteed**
 
