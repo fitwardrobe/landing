@@ -79,7 +79,7 @@ Google Gemini wardrobe app, local storage fashion app, privacy wardrobe app
 ## Contact & Links
 - Website: https://fitwardrobe.me
 - Web App: https://fitwardrobe.vercel.app
-- APK Download: https://fitwardrobe.vercel.app/fitwardrobe.apk
+- APK Download: https://fitwardrobe.vercel.app/download/fitwardrobe.apk
 - GitHub: https://github.com/fitwardrobe/fitwardrobe
 - Email Support: fitwardrobee@gmail.com
 - Privacy Policy: https://fitwardrobe.me/privacy.html
