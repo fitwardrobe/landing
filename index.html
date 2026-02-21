@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Primary Meta -->
-    <title>AI Personal Stylist – Privacy-First Digital Wardrobe | FitWardrobe</title>
-    <meta name="description" content="FitWardrobe is a privacy-first AI styling assistant that creates outfits from your digital wardrobe. Secure, local-first, no cloud storage." />
+    <title>FitWardrobe — AI Outfit Suggestions. Completely Private.</title>
+    <meta name="description" content="FitWardrobe's AI suggests daily outfits from clothes you already own. Privacy-first: your wardrobe photos never leave your device. Free beta on web and Android." />
     <meta
       name="keywords"
-      content="AI stylist, wardrobe app, private AI, secure fashion, outfit suggestions, personal style, privacy-first, wardrobe organizer"
+      content="AI outfit suggestions, private wardrobe app, outfit planner, digital wardrobe, AI stylist, privacy-first fashion app"
     />
     <meta name="author" content="FitWardrobe" />
     <meta name="robots" content="index, follow" />
@@ -18,25 +18,15 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://fitwardrobe.me/" />
-    <meta property="og:title" content="FitWardrobe – AI Personal Stylist" />
-    <meta
-      property="og:description"
-      content="Privacy-first AI styling assistant. Create outfits from your digital wardrobe securely."
-    />
-    <meta property="og:image" content="https://fitwardrobe.me/og-image.jpg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+    <meta property="og:title" content="FitWardrobe — AI Outfit Suggestions. Completely Private." />
+    <meta property="og:description" content="AI suggests daily outfits from clothes you already own. Local-first, no cloud storage, free in beta." />
     <meta property="og:site_name" content="FitWardrobe" />
     <meta property="og:locale" content="en_US" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="FitWardrobe – AI Personal Stylist" />
-    <meta
-      name="twitter:description"
-      content="Secure AI outfit planner from your own wardrobe."
-    />
-    <meta name="twitter:image" content="https://fitwardrobe.me/og-image.jpg" />
+    <meta name="twitter:title" content="FitWardrobe — AI Outfit Suggestions. Completely Private." />
+    <meta name="twitter:description" content="AI suggests daily outfits from clothes you own. Privacy-first. Free in beta." />
 
     <!-- Favicons & PWA -->
     <link
@@ -96,6 +86,22 @@
   </head>
 
   <body id="main-content">
+    <!-- Beta Announcement Banner -->
+    <div class="beta-announcement" id="betaBanner">
+      <div class="beta-announcement__content">
+        <span class="beta-announcement__badge">🚀 Beta v1.0.1</span>
+        <span class="beta-announcement__text">
+          FitWardrobe is live in public beta. Try it free and help shape the product.
+        </span>
+        <a href="#download-beta" class="beta-announcement__cta">Get Early Access &rarr;</a>
+      </div>
+      <button 
+        class="beta-announcement__close"
+        onclick="document.getElementById('betaBanner').style.display='none'"
+        aria-label="Close announcement">
+        &times;
+      </button>
+    </div>
     <!-- Skip Link -->
     <a href="#content" class="skip-link">Skip to main content</a>
 
@@ -124,7 +130,7 @@
         </ul>
 
         <a href="#download-beta" class="btn btn--primary btn--sm nav__cta"
-          >Get Started Free</a
+          >Try Free &rarr;</a
         >
 
         <button
@@ -155,8 +161,8 @@
         <a href="#community" class="nav__mobile-link">Community</a>
         <a href="#faq" class="nav__mobile-link">FAQ</a>
         <div class="nav__mobile-cta">
-          <a href="#download-beta" class="btn btn--primary" style="width: 100%"
-            >Get Started Free</a
+          <a href="https://fitwardrobe.vercel.app" class="btn btn--primary" style="width: 100%" target="_blank" rel="noopener"
+            >Try Free &rarr;</a
           >
         </div>
       </div>
@@ -174,16 +180,14 @@
               <em>Completely Private.</em>
             </h1>
             <p class="hero__subtitle reveal reveal--delay-2">
-              FitWardrobe uses private AI to learn your style and suggest
-              outfits — without ever uploading your photos for storage. Your
-              wardrobe stays yours.
+              Tell FitWardrobe where you're going — work, dinner, weekend. It suggests complete outfits from clothes you already own. Instantly. Without uploading anything to the cloud.
             </p>
-            <div class="btn-group reveal reveal--delay-3">
-              <a href="#download-beta" class="btn btn--primary btn--lg"
-                >Get Started Free</a
+            <div class="hero-cta-group reveal reveal--delay-3">
+              <a href="https://fitwardrobe.vercel.app" class="btn btn--primary btn--lg" target="_blank" rel="noopener"
+                >Try Web App Free &rarr;</a
               >
-              <a href="#how-it-works" class="btn btn--secondary"
-                >See How It Works</a
+              <a href="#download-beta" class="btn btn--secondary"
+                >Download Android</a
               >
             </div>
           </div>
@@ -436,6 +440,8 @@
           </div>
         </div>
       </section>
+
+
       <!-- ========== DOWNLOAD BETA NOW ========== -->
       <section class="section section--dark beta-download" id="download-beta">
         <div class="container">
@@ -451,22 +457,75 @@
             personal styling.
           </p>
 
-          <div class="download-button-container reveal reveal--delay-3">
-            <a
-              href="https://fitwardrobe.vercel.app/download/fitwardrobe.apk"
-              class="btn-download-apk"
-              download
-            >
-              <span class="download-icon">📱</span>
-              <span class="download-text">
-                <span class="download-main">Download Beta APK</span>
-                <span class="download-sub">Android 8.0+</span>
-              </span>
-            </a>
+          <div class="download-grid reveal reveal--delay-3">
+            <!-- WEB APP - PRIMARY -->
+            <div class="download-card download-card--primary">
+              <div class="download-recommended-badge">
+                ✦ Works on All Devices
+              </div>
+              <div class="download-icon">🌐</div>
+              <h3>Try Web App</h3>
+              <p>
+                Open instantly in your browser. No installation needed. Works on iPhone, Android, and desktop.
+              </p>
+              <a href="https://fitwardrobe.vercel.app" class="btn btn--primary" target="_blank" rel="noopener">
+                Open Web App &rarr;
+              </a>
+              <p class="download-meta">
+                Free · No download · All devices
+              </p>
+            </div>
 
-            <p class="download-info">
-              Version 1.0.1 | ~3 MB | Updated Feb 16, 2026
-            </p>
+            <!-- ANDROID APK - SECONDARY -->
+            <div class="download-card download-card--secondary">
+              <div class="download-icon">📱</div>
+              <h3>Download Beta APK</h3>
+              <p>
+                Native Android experience. Faster performance, offline features.
+              </p>
+              
+              <!-- APK Trust Signals -->
+              <div class="apk-trust">
+                <div class="apk-trust__item">
+                  <span>✅</span>
+                  <span>No malware, no trackers — same security standards as Play Store apps</span>
+                </div>
+                <div class="apk-trust__item">
+                  <span>📋</span>
+                  <span>
+                    Release notes and APK history publicly available on 
+                    <a href="https://github.com/fitwardrobe/fitwardrobe" target="_blank" rel="noopener">GitHub Releases &rarr;</a>
+                  </span>
+                </div>
+                <div class="apk-trust__item">
+                  <span>📧</span>
+                  <span>
+                     Questions about security? <a href="mailto:fitwardrobee@gmail.com">Email us directly</a> — we respond personally.
+                  </span>
+                </div>
+                <div class="apk-trust__item">
+                  <span>📱</span>
+                  <span>
+                    Prefer app stores? Google Play + iOS App Store launching Q2 2026.
+                  </span>
+                </div>
+              </div>
+              
+              <details class="apk-verify">
+                <summary>🔐 Verify Download Security (SHA-256)</summary>
+                <div class="apk-verify-content">
+                  <span class="verify-instruction">Compare this hash with your downloaded file:</span>
+                  <code class="hash">fcf36b5c837bbe1753f7231b55d08bfb854bfd05d7766e13b231d91075164224</code>
+                </div>
+              </details>
+
+              <a href="https://fitwardrobe.vercel.app/download/fitwardrobe.apk" class="btn btn--secondary" download>
+                📱 Download APK
+              </a>
+              <p class="download-meta">
+                Android 7.0+ · ~6.3MB · v1.0.1
+              </p>
+            </div>
           </div>
 
           <div class="installation-notice reveal reveal--delay-4">
@@ -500,14 +559,14 @@
                 <span class="platform-icon">🍎</span>
                 <span class="platform-text">
                   <span class="platform-name">iOS App Store</span>
-                  <span class="platform-date">March 2026</span>
+                  <span class="platform-date">Q2 2026</span>
                 </span>
               </div>
               <div class="platform-badge">
                 <span class="platform-icon">📱</span>
                 <span class="platform-text">
                   <span class="platform-name">Google Play Store</span>
-                  <span class="platform-date">March 2026</span>
+                  <span class="platform-date">Q2 2026</span>
                 </span>
               </div>
             </div>
@@ -561,9 +620,8 @@
           <div class="section-header">
             <span class="section-label reveal">Community</span>
             <h2 class="reveal reveal--delay-1">Let's Grow Together</h2>
-            <p class="reveal reveal--delay-2">
-              Join our small but growing community of fashion enthusiasts and
-              privacy advocates.
+            <p class="section-subtitle reveal reveal--delay-2">
+              Get beta updates directly from the founders, report bugs, and help shape what we build next. We read and respond to every message.
             </p>
           </div>
 
@@ -572,65 +630,22 @@
               <span class="community-icon">📢</span>
               <h3>Telegram Channel</h3>
               <p>
-                Get instant updates on new beta releases, design sneak peeks,
-                and styling tips.
+                First to know about new releases and feature previews. Direct line to the dev team — no bots, no automated replies.
               </p>
-              <a
-                href="https://t.me/fitwardrobe"
-                class="btn btn--primary"
-                target="_blank"
-                rel="noopener"
-                >Join Telegram</a
-              >
+              <a href="https://t.me/fitwardrobe" class="btn btn--primary" target="_blank" rel="noopener">Join Telegram</a>
             </div>
             <div class="community-card">
               <span class="community-icon">📸</span>
               <h3>Instagram Profile</h3>
               <p>
-                See FitWardrobe in action and find inspiration for your next
-                smart outfit.
+                See FitWardrobe in action. Outfit ideas, feature demos, and behind-the-scenes from the team building it.
               </p>
-              <a
-                href="https://instagram.com/fitwardrobe"
-                class="btn btn--secondary"
-                target="_blank"
-                rel="noopener"
-                >Follow Us</a
-              >
+              <a href="https://instagram.com/fitwardrobe" class="btn btn--secondary" target="_blank" rel="noopener">Follow Us</a>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- ========== AI INTEGRATION PREVIEW ========== -->
-      <section class="section section--deep-dark" id="ai-integration">
-        <div class="container">
-          <div class="section-header">
-            <span class="section-label reveal">Coming Soon</span>
-            <h2 class="reveal reveal--delay-1">Use FitWardrobe inside ChatGPT</h2>
-            <p class="reveal reveal--delay-2">
-              Access your private digital wardrobe directly from your favorite AI tools 
-              with our upcoming secure integration.
-            </p>
-          </div>
-
-          <div class="ai-preview-grid reveal reveal--delay-3">
-            <div class="ai-preview-card">
-              <div class="ai-preview-content">
-                <h3>The Official FitWardrobe GPT</h3>
-                <p>
-                  Soon you'll be able to chat with your closet in ChatGPT. 
-                  Get complex styling advice based on your real clothes while keeping your data private.
-                </p>
-                <div class="ai-preview-quote">
-                  "Hey ChatGPT, suggest a formal outfit from my FitWardrobe for a beach wedding."
-                </div>
-                <a href="gpt-integration.html" class="btn btn--secondary btn--sm">Learn How It Works</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <!-- ========== FAQ SECTION ========== -->
       <section class="section" id="faq">
@@ -684,7 +699,7 @@
                   Direct APK distribution allows us to release updates instantly
                   based on tester feedback without waiting for store approval
                   cycles. We will be launching on the Google Play Store and
-                  Apple App Store in March 2026.
+                  Apple App Store in Q2 2026.
                 </p>
               </div>
             </details>
@@ -703,7 +718,7 @@
               <div class="faq-content">
                 <p>
                   We are currently polishing the iOS version. We expect to
-                  launch the iOS TestFlight beta in March 2026. Join our
+                  launch the iOS TestFlight beta in Q2 2026. Join our
                   Telegram to be the first to know when it drops.
                 </p>
               </div>
@@ -742,6 +757,18 @@
             style="justify-content: center"
           >
             <a
+              href="https://fitwardrobe.vercel.app"
+              class="btn btn--secondary btn--lg"
+              style="
+                border-color: rgba(247, 245, 242, 0.4);
+                color: var(--color-cream);
+              "
+              target="_blank"
+              rel="noopener"
+            >
+              Try Web App Free &rarr;
+            </a>
+            <a
               href="https://fitwardrobe.vercel.app/download/fitwardrobe.apk"
               class="btn btn--light btn--lg"
               download
@@ -762,18 +789,6 @@
                 <line x1="12" y1="15" x2="12" y2="3" />
               </svg>
               Download for Android
-            </a>
-            <a
-              href="https://fitwardrobe.vercel.app"
-              class="btn btn--secondary btn--lg"
-              style="
-                border-color: rgba(247, 245, 242, 0.4);
-                color: var(--color-cream);
-              "
-              target="_blank"
-              rel="noopener"
-            >
-              Try Web App
             </a>
           </div>
         </div>
@@ -838,7 +853,26 @@
           </div>
         </div>
 
+        <div class="tech-transparency">
+          <span class="tech-label">Built with trusted technology</span>
+          <div class="tech-stack">
+            <span class="tech-item">React 18</span>
+            <span class="tech-item">Google Gemini AI</span>
+            <span class="tech-item">TypeScript</span>
+            <span class="tech-item">Supabase Auth</span>
+            <span class="tech-item">Capacitor</span>
+          </div>
+        </div>
+
         <div class="footer__bottom">
+          <!-- ACTIVATE ON PRODUCTHUNT LAUNCH DAY -->
+          <!-- Remove style="display:none" when live -->
+          <div class="ph-section" style="display:none; margin-bottom: 1.5rem; width: 100%;">
+            <p class="ph-label" style="font-size: 0.8rem; color: #6b7280; margin-bottom: 0.5rem; text-align: center;">Featured on</p>
+            <a href="https://www.producthunt.com/posts/fitwardrobe" target="_blank" rel="noopener" style="display: block; text-align: center;">
+              <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=REPLACE_WITH_REAL_ID&theme=light" alt="FitWardrobe on Product Hunt" width="250" height="54">
+            </a>
+          </div>
           <span>&copy; 2026 FitWardrobe. All rights reserved.</span>
           <div class="footer__social">
             <a

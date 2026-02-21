@@ -69,113 +69,7 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="../css/styles.css" />
-
-    <style>
-      /* Blog Specific Styles */
-      .blog-hero {
-        padding: var(--space-8) 0 var(--space-6);
-        text-align: center;
-        background: linear-gradient(
-          180deg,
-          var(--color-bg) 0%,
-          var(--color-surface) 100%
-        );
-      }
-
-      .blog-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-        gap: var(--space-6);
-        padding: var(--space-6) 0 var(--space-8);
-      }
-
-      .blog-card {
-        background: var(--color-surface);
-        border: 1px solid rgba(255, 255, 255, 0.05);
-        border-radius: var(--radius-lg);
-        overflow: hidden;
-        transition:
-          transform 0.3s ease,
-          box-shadow 0.3s ease,
-          border-color 0.3s ease;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-      }
-
-      .blog-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-        border-color: var(--color-secondary);
-      }
-
-      .blog-card__image {
-        width: 100%;
-        height: 200px;
-        background: var(--color-surface-hover);
-        object-fit: cover;
-      }
-
-      .blog-card__content {
-        padding: var(--space-5);
-        display: flex;
-        flex-direction: column;
-        flex-grow: 1;
-      }
-
-      .blog-card__meta {
-        font-size: var(--text-sm);
-        color: var(--color-text-muted);
-        margin-bottom: var(--space-2);
-        display: flex;
-        gap: var(--space-3);
-      }
-
-      .blog-card__category {
-        color: var(--color-secondary);
-        font-weight: 500;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-        font-size: 0.75rem;
-      }
-
-      .blog-card__title {
-        font-family: var(--font-heading);
-        font-size: var(--text-xl);
-        line-height: 1.3;
-        margin-bottom: var(--space-3);
-        color: var(--color-text);
-      }
-
-      .blog-card__excerpt {
-        color: var(--color-text-muted);
-        font-size: var(--text-base);
-        line-height: 1.6;
-        margin-bottom: var(--space-4);
-        flex-grow: 1;
-      }
-
-      .blog-card__link {
-        color: var(--color-primary);
-        font-weight: 500;
-        text-decoration: none;
-        display: inline-flex;
-        align-items: center;
-        gap: var(--space-1);
-        transition: color 0.2s ease;
-      }
-
-      .blog-card__link:hover {
-        color: var(--color-primary-hover);
-      }
-
-      /* Responsive adjustments */
-      @media (max-width: 768px) {
-        .blog-grid {
-          grid-template-columns: 1fr;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="../css/blog.css" />
   </head>
 
   <body id="main-content">
@@ -245,10 +139,7 @@
       <header class="blog-hero">
         <div class="container">
           <h1 class="reveal">FitWardrobe Blog</h1>
-          <p
-            class="hero__subtitle reveal reveal--delay-1"
-            style="max-width: 600px; margin: var(--space-4) auto 0"
-          >
+          <p class="lead reveal reveal--delay-1">
             Practical guides for building a sustainable, organised, and stylish
             wardrobe.
           </p>
@@ -259,28 +150,28 @@
       <section class="section">
         <div class="container blog-grid">
           <!-- NEW: Manifesto -->
-          <article class="blog-card reveal" style="border: 2px solid var(--color-secondary);">
+          <article class="blog-card reveal">
             <div class="blog-card__content">
               <div class="blog-card__meta">
-                <span class="blog-card__category" style="color: var(--color-secondary);">Official Manifesto</span>
+                <span class="blog-card__category">Official Manifesto</span>
                 <time datetime="2026-02-18">Feb 18, 2026</time>
               </div>
               <h2 class="blog-card__title">The Local-First AI Manifesto: Reclaiming Digital Sovereignty</h2>
               <p class="blog-card__excerpt">Why your personal data belongs on your device. Our vision for a new era of private, local-first artificial intelligence in fashion.</p>
-              <a href="local-first-ai-manifesto.html" class="blog-card__link">Read Manifesto &rarr;</a>
+              <a href="local-first-ai-manifesto.html" class="blog-card__link">Read Manifesto</a>
             </div>
           </article>
 
           <!-- NEW: Privacy Debt -->
-          <article class="blog-card reveal reveal--delay-1" style="border: 2px solid var(--color-primary);">
+          <article class="blog-card reveal reveal--delay-1">
             <div class="blog-card__content">
               <div class="blog-card__meta">
-                <span class="blog-card__category" style="color: var(--color-primary);">AI Ethics</span>
+                <span class="blog-card__category">AI Ethics</span>
                 <time datetime="2026-02-18">Feb 18, 2026</time>
               </div>
               <h2 class="blog-card__title">The Privacy Debt of Fashion AI: Why Cloud Closets are a Risk</h2>
               <p class="blog-card__excerpt">Is your digital wardrobe app tracking you? Learn about the hidden costs of cloud storage and why local-first is the only safe bet.</p>
-              <a href="privacy-debt-fashion-ai.html" class="blog-card__link">Read Analysis &rarr;</a>
+              <a href="privacy-debt-fashion-ai.html" class="blog-card__link">Read Analysis</a>
             </div>
           </article>
 
@@ -447,7 +338,7 @@
               </div>
               <h2 class="blog-card__title">What Is a Digital Wardrobe? A Complete Guide</h2>
               <p class="blog-card__excerpt">The ultimate guide to digital wardrobes. Learn how digitising your closet can save you time, money, and morning stress.</p>
-              <a href="what-is-a-digital-wardrobe.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="what-is-a-digital-wardrobe.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -460,7 +351,7 @@
               </div>
               <h2 class="blog-card__title">Can AI Really Design Your Wardrobe? The Future of Styling</h2>
               <p class="blog-card__excerpt">Is artificial intelligence ready to be your personal stylist? We explore the capabilities (and limits) of AI in fashion.</p>
-              <a href="can-ai-design-wardrobe.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="can-ai-design-wardrobe.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -473,7 +364,7 @@
               </div>
               <h2 class="blog-card__title">Best Digital Wardrobe Apps of 2026: A Complete Comparison</h2>
               <p class="blog-card__excerpt">We tested the top wardrobe apps on the market. From features to privacy, here is the definitive ranking for 2026.</p>
-              <a href="best-digital-wardrobe-apps.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="best-digital-wardrobe-apps.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -486,7 +377,7 @@
               </div>
               <h2 class="blog-card__title">The 30 Wear Rule: Will You Actually Wear It 30 Times?</h2>
               <p class="blog-card__excerpt">Before you buy, ask the golden question. We explain the 30 Wear Rule and how it saves your wallet and the planet.</p>
-              <a href="30-wear-rule-guide.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="30-wear-rule-guide.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -499,7 +390,7 @@
               </div>
               <h2 class="blog-card__title">Smart Wardrobes vs Wardrobe Apps: Which One Do You Need?</h2>
               <p class="blog-card__excerpt">Do you need a high-tech closet system or just a smart app? We compare hardware vs software solutions.</p>
-              <a href="smart-wardrobe-vs-app.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="smart-wardrobe-vs-app.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -512,7 +403,7 @@
               </div>
               <h2 class="blog-card__title">The Disadvantages of Digital Fashion: What No One Tells You</h2>
               <p class="blog-card__excerpt">It's not all glossy renders. We look at the privacy risks, tech hurdles, and downsides of the digital fashion revolution.</p>
-              <a href="disadvantages-digital-fashion.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="disadvantages-digital-fashion.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -525,7 +416,7 @@
               </div>
               <h2 class="blog-card__title">Is Myntra Using AI? How Indian E-commerce is Changing</h2>
               <p class="blog-card__excerpt">Myntra's new AI features are changing how India shops. We analyse their tech and what it means for your shopping habits.</p>
-              <a href="myntra-ai-indian-fashion.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="myntra-ai-indian-fashion.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -538,7 +429,7 @@
               </div>
               <h2 class="blog-card__title">The 70/30 Wardrobe Rule: Building a Balanced Closet</h2>
               <p class="blog-card__excerpt">70% neutrals, 30% statement pieces. Is this the perfect formula for a versatile wardrobe? We break it down.</p>
-              <a href="70-30-wardrobe-rule.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="70-30-wardrobe-rule.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -551,7 +442,7 @@
               </div>
               <h2 class="blog-card__title">Digital Clothes vs Physical Clothes: Understanding the Difference</h2>
               <p class="blog-card__excerpt">NFTs, metaverse fashion, and digital twins. We demystify the buzzwords and explain what actually matters for your closet.</p>
-              <a href="digital-clothes-future-fashion.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="digital-clothes-future-fashion.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -564,7 +455,7 @@
               </div>
               <h2 class="blog-card__title">Are Wardrobe Apps Worth It? An Honest ROI Analysis</h2>
               <p class="blog-card__excerpt">Do you really need an app to manage your clothes? We calculate the Return on Investment (ROI) of going digital.</p>
-              <a href="are-wardrobe-apps-worth-it.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="are-wardrobe-apps-worth-it.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -577,7 +468,7 @@
               </div>
               <h2 class="blog-card__title">5 Free AI Tools to Organise Your Wardrobe in 2026</h2>
               <p class="blog-card__excerpt">You don't need a premium subscription to get smart styling. Here are the best free AI tools to upgrade your closet today.</p>
-              <a href="free-ai-wardrobe-tools.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="free-ai-wardrobe-tools.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -590,7 +481,7 @@
               </div>
               <h2 class="blog-card__title">5 Ways Digital Transformation is Changing Your Closet</h2>
               <p class="blog-card__excerpt">From smart mirrors to AI stylists, technology is reshaping how we dress. Here are the 5 biggest trends hitting your wardrobe.</p>
-              <a href="digital-transformation-fashion.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="digital-transformation-fashion.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -603,7 +494,7 @@
               </div>
               <h2 class="blog-card__title">Is There an App That Helps You Put Together Outfits? (Complete Guide 2026)</h2>
               <p class="blog-card__excerpt">Stop the morning stare-down. We analyze the best apps that digitize your closet and create outfits for you automatically.</p>
-              <a href="outfit-planning-apps-guide.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="outfit-planning-apps-guide.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -616,7 +507,7 @@
               </div>
               <h2 class="blog-card__title">Outfit Planning Apps Compared: Stylebook vs Whering vs indyx vs Pureple vs FitWardrobe</h2>
               <p class="blog-card__excerpt">Which digital closet app reigns supreme in 2026? We compare features, pricing, and AI capabilities to find the winner.</p>
-              <a href="best-outfit-planning-apps-compared.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="best-outfit-planning-apps-compared.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -629,7 +520,7 @@
               </div>
               <h2 class="blog-card__title">How to Use an Outfit App: A Beginner's Guide to Digital Wardrobes (2026)</h2>
               <p class="blog-card__excerpt">Learn how to use an outfit app effectively in 2026. Follow our 4-phase guide to digitize your closet, categorize items, plan outfits, and track your style.</p>
-              <a href="how-to-use-outfit-app.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="how-to-use-outfit-app.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -642,7 +533,7 @@
               </div>
               <h2 class="blog-card__title">The 7 Rule for Outfits: How to Plan Your Weekly Wardrobe (Simple Guide)</h2>
               <p class="blog-card__excerpt">Stop morning stress with the 7 Rule for Outfits. Learn how to plan 7 complete looks for your week using digital styling tools.</p>
-              <a href="7-rule-for-outfits.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="7-rule-for-outfits.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -655,7 +546,7 @@
               </div>
               <h2 class="blog-card__title">The 3-3-3 Rule, 5-4-3-2-1 Method & Every Fashion Formula Explained (2026)</h2>
               <p class="blog-card__excerpt">Confused by the 3-3-3 Rule or 5-4-3-2-1 Packing Method? We explain every major fashion formula to help you build better outfits and pack smarter.</p>
-              <a href="fashion-outfit-rules-formulas.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="fashion-outfit-rules-formulas.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -668,7 +559,7 @@
               </div>
               <h2 class="blog-card__title">The 333 Wardrobe Method: Planning Outfits with Just 33 Items (Beginner's Guide)</h2>
               <p class="blog-card__excerpt">Discover the 333 Wardrobe Method (Project 333). Learn how to style 33 items for 3 months with our step-by-step guide.</p>
-              <a href="333-wardrobe-method.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="333-wardrobe-method.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -681,7 +572,7 @@
               </div>
               <h2 class="blog-card__title">The 7 R's of Fashion Explained: Your Guide to a Sustainable Wardrobe</h2>
               <p class="blog-card__excerpt">What are the 7 R's of sustainable fashion? Reuse, Reduce, Recycle, and more. Learn how to apply these rules to build an ethical closet.</p>
-              <a href="rs-of-fashion-sustainable-planning.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="rs-of-fashion-sustainable-planning.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -694,7 +585,7 @@
               </div>
               <h2 class="blog-card__title">The 90/90 Rule for Decluttering & How to Apply It to Your Closet</h2>
               <p class="blog-card__excerpt">Learn the 90/90 Rule (The Minimalists) to declutter your closet fast. If you haven't worn it in 90 days, let it go.</p>
-              <a href="90-90-rule-decluttering.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="90-90-rule-decluttering.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -707,7 +598,7 @@
               </div>
               <h2 class="blog-card__title">Gen Z Fashion Trends 2026: Old Money, Blokecore & How to Style Them</h2>
               <p class="blog-card__excerpt">Explore the biggest Gen Z fashion trends of 2026: Old Money, Blokecore, Y2K and more. Learn how one key piece can modernize your look.</p>
-              <a href="gen-z-fashion-trends-2026.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="gen-z-fashion-trends-2026.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
 
@@ -720,12 +611,32 @@
               </div>
               <h2 class="blog-card__title">5 Obscure Fashion Rules Explained: The Sandwich Rule & Wrong Shoe Theory</h2>
               <p class="blog-card__excerpt">Master styling hacks like The Sandwich Rule, The Wrong Shoe Theory, and The High-Low Mix. Elevate your outfits with these clever formulas.</p>
-              <a href="obscure-fashion-rules-explained.html" class="blog-card__link">Read Article &rarr;</a>
+              <a href="obscure-fashion-rules-explained.html" class="blog-card__link">Read Article</a>
             </div>
           </article>
         </div>
       </section>
     </main>
+
+    <div class="container" style="margin-bottom: var(--space-16);">
+      <div class="author-bio" style="max-width: 800px; margin: 0 auto;">
+        <div class="author-info">
+          <h3 class="author-name">Aryan Panwar</h3>
+          <p class="author-title">
+            Founder, FitWardrobe — 
+            <a href="local-first-ai-manifesto.html">
+              Privacy-First AI Styling
+            </a>
+          </p>
+          <p class="author-description">
+            Aryan built FitWardrobe to solve a simple problem: 
+            why should your wardrobe data live in someone else's 
+            cloud? FitWardrobe uses local-first AI architecture 
+            to keep your style data private, secure, and yours.
+          </p>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer class="footer" role="contentinfo">

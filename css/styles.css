@@ -1669,3 +1669,81 @@ button {
   }
 }
 
+
+/* ============================================================ 
+   18. Homepage Optimization Sprint Additions
+   ============================================================ */
+
+/* Beta Announcement Banner */
+.beta-announcement {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.6rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  position: relative;
+  font-size: 0.875rem;
+  z-index: 100;
+}
+
+.beta-announcement__badge {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.beta-announcement__text {
+  opacity: 0.95;
+}
+
+.beta-announcement__cta {
+  color: white;
+  font-weight: 700;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.beta-announcement__close {
+  position: absolute;
+  right: 1rem;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  opacity: 0.7;
+  line-height: 1;
+  padding: 0;
+}
+
+.beta-announcement__close:hover {
+  opacity: 1;
+}
+
+@media (max-width: 640px) {
+  .beta-announcement__text {
+    display: none;
+  }
+}
+
+/* Fix for invisible secondary button in dark sections */
+.section--dark .btn--secondary {
+  color: var(--color-cream);
+  border-color: var(--color-cream);
+}
+
+.section--dark .btn--secondary:hover {
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+}
+
+/* Screenshots Section Alignment */
+.screenshots-cta {
+  text-align: center;
+  margin-top: var(--space-6);
+}
