@@ -5,7 +5,7 @@
 .blog-wrapper {
   max-width: 800px;
   margin: 0 auto;
-  padding: var(--space-8) var(--space-5);
+  padding: calc(var(--nav-height) + var(--space-12)) var(--space-5) var(--space-8);
 }
 
 .blog-header {
@@ -18,7 +18,7 @@
   line-height: 1.1;
   margin-bottom: var(--space-4);
   /* Use explicit color if gradient fails */
-  color: var(--color-text);
+  color: var(--color-text-primary);
 }
 
 .blog-meta {

@@ -931,6 +931,13 @@ button {
   }
 }
 
+.blog-hero {
+  padding-top: calc(var(--nav-height) + var(--space-12));
+  padding-bottom: var(--space-10);
+  background-color: var(--color-bg-alt);
+  text-align: center;
+}
+
 /* ============================================================
    11. Testimonials
    ============================================================ */
@@ -1540,10 +1547,7 @@ button {
   font-size: clamp(2rem, 5vw, 3rem);
   line-height: 1.1;
   margin-bottom: var(--space-4);
-  background: linear-gradient(135deg, var(--color-text), var(--color-text-muted));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--color-text-primary);
 }
 
 .blog-meta {
