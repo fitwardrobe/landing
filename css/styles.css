@@ -1688,3 +1688,52 @@ button {
 .blog-hero h1 {
   margin-bottom: var(--space-4);
 }
+
+/* ============================================================
+   15. Use Cases Section - Modern Two Column Layout
+   ============================================================ */
+#use-cases {
+  text-align: center;
+}
+
+#use-cases .section-header {
+  max-width: 800px;
+  margin-inline: auto;
+  margin-bottom: var(--space-8);
+}
+
+#use-cases .use-cases-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto var(--space-8) auto;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4) var(--space-8);
+  text-align: left;
+}
+
+#use-cases .use-cases-list li {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--color-charcoal);
+  padding-left: 1.75rem;
+  position: relative;
+}
+
+#use-cases .use-cases-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--color-sage);
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+  #use-cases .use-cases-list {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+}
