@@ -2,25 +2,25 @@
   "index.html": {
     "metaDesc": "FitWardrobe helps you fit your wardrobe to your lifestyle with AI. Plan outfits, build capsule wardrobes, and organize clothes with privacy-first technology.",
     "title": "FitWardrobe | AI Outfit Planner & Capsule Wardrobe App",
-    "h1": "\r\n              AI Outfit Planner &amp;<br />\r\n              Capsule Wardrobe App\r\n            ",
+    "h1": "AI Outfit Planner &amp;<br /> Capsule Wardrobe App",
     "canonical": "https://fitwardrobe.me/"
   },
   "capsule-wardrobe.html": {
     "metaDesc": "Build a capsule wardrobe with AI. FitWardrobe helps you create a minimal, versatile wardrobe of clothes you love — privacy-first, free beta.",
     "title": "How to Build a Capsule Wardrobe: Complete 2026 Guide | FitWardrobe",
-    "h1": "\r\n            AI Capsule Wardrobe<br><em>Builder App</em>\r\n          ",
+    "h1": "AI Capsule Wardrobe<br><em>Builder App</em>",
     "canonical": "https://fitwardrobe.me/capsule-wardrobe"
   },
   "outfit-planner.html": {
     "metaDesc": "AI outfit planner app that creates outfit suggestions from your own wardrobe. Plan your week in minutes — your photos stay on your device.",
     "title": "AI Outfit Planner: Plan Your Outfits Weekly | FitWardrobe",
-    "h1": "\r\n            AI Outfit Planner<br><em>for Your Wardrobe</em>\r\n          ",
+    "h1": "AI Outfit Planner<br><em>for Your Wardrobe</em>",
     "canonical": "https://fitwardrobe.me/outfit-planner"
   },
   "minimalist-wardrobe.html": {
     "metaDesc": "Build a minimalist wardrobe with FitWardrobe. Discover essential clothing items for a simple, versatile wardrobe with the help of AI.",
     "title": "Minimalist Wardrobe App & Essentials Guide | FitWardrobe",
-    "h1": "\r\n            Minimalist Wardrobe<br><em>App & Essentials Guide</em>\r\n          ",
+    "h1": "Minimalist Wardrobe<br><em>App & Essentials Guide</em>",
     "canonical": "https://fitwardrobe.me/minimalist-wardrobe"
   },
   "blog": {
@@ -31,19 +31,19 @@
       "canonical": "https://fitwardrobe.me/blog/30-wear-rule-guide"
     },
     "333-wardrobe-method.html": {
-      "metaDesc": null,
+      "metaDesc": "Master the 333 Wardrobe Method (Project 333). Learn how to choose your 33 items, create outfits, and simplify your life with our complete 2026 guide.",
       "title": "333 Wardrobe Method Guide: Style 33 Items for 3 Months | FitWardrobe",
       "h1": "The 333 Wardrobe Method: Ultimate 2026 Guide",
       "canonical": "https://fitwardrobe.me/blog/333-wardrobe-method"
     },
     "7-rs-sustainable-fashion.html": {
-      "metaDesc": null,
+      "metaDesc": "Reduce, Rewear, Repair... Discover the 7 pillars of sustainable fashion and how to apply them to your daily life in India for a greener wardrobe.",
       "title": "The 7 R's of Sustainable Fashion: Practical Guide | FitWardrobe",
       "h1": "The 7 R's of Sustainable Fashion: A Complete Practical Guide",
       "canonical": "https://fitwardrobe.me/blog/7-rs-sustainable-fashion"
     },
     "7-rule-for-outfits.html": {
-      "metaDesc": null,
+      "metaDesc": "Stop morning stress with the 7 Rule for Outfits. Learn how to plan 7 complete looks for your week using digital styling tools like FitWardrobe.",
       "title": "The 7 Rule for Outfits: Plan Your Weekly Wardrobe | FitWardrobe",
       "h1": "The 7 Outfit Rule: Weekly Style Guide (2026)",
       "canonical": "https://fitwardrobe.me/blog/7-rule-for-outfits"
@@ -55,7 +55,7 @@
       "canonical": "https://fitwardrobe.me/blog/70-30-wardrobe-rule"
     },
     "90-90-rule-decluttering.html": {
-      "metaDesc": null,
+      "metaDesc": "Learn the 90/90 Rule (The Minimalists) to declutter your closet fast. If you haven't worn it in 90 days, let it go. FitWardrobe makes this rule easy.",
       "title": "90/90 Rule for Decluttering: Simplify Your Closet Fast | FitWardrobe",
       "h1": "The 90/90 Rule for Decluttering (2026)",
       "canonical": "https://fitwardrobe.me/blog/90-90-rule-decluttering"
@@ -73,7 +73,7 @@
       "canonical": "https://fitwardrobe.me/blog/best-digital-wardrobe-apps"
     },
     "best-outfit-planning-apps-compared.html": {
-      "metaDesc": null,
+      "metaDesc": "Honest 2026 comparison of Stylebook, Whering, Indyx, Pureple, and FitWardrobe. Find the best outfit planner app for your style, budget, and privacy needs.",
       "title": "Best Outfit Planning Apps 2026: Stylebook vs Whering vs FitWardrobe | FitWardrobe",
       "h1": "Best Outfit Planning Apps Compared (2026): Finding Your Perfect Stylist",
       "canonical": "https://fitwardrobe.me/blog/best-outfit-planning-apps-compared"
@@ -91,25 +91,25 @@
       "canonical": "https://fitwardrobe.me/blog/can-ai-design-wardrobe"
     },
     "capsule-wardrobe-essentials-checklist.html": {
-      "metaDesc": null,
+      "metaDesc": "Building a capsule wardrobe? Here is the ultimate checklist of everything you need — from the perfect white tee to Indian ethnic wear essentials.",
       "title": "Capsule Wardrobe Essentials Checklist: Build Your Closet (2026) | FitWardrobe",
       "h1": "The Ultimate Capsule Wardrobe Essentials Checklist: Complete Guide",
       "canonical": "https://fitwardrobe.me/blog/capsule-wardrobe-essentials-checklist"
     },
     "capsule-wardrobe-mistakes.html": {
-      "metaDesc": null,
+      "metaDesc": "Running out of clothes? Bored? Avoid these common capsule wardrobe mistakes—from purging too fast to ignoring your climate—that ruin your closet.",
       "title": "9 Common Capsule Wardrobe Mistakes to Avoid (2026) | FitWardrobe",
       "h1": "9 Common Capsule Wardrobe Mistakes: Don't Ruin Your Closet",
       "canonical": "https://fitwardrobe.me/blog/capsule-wardrobe-mistakes"
     },
     "capsule-wardrobe-packing-guide.html": {
-      "metaDesc": null,
+      "metaDesc": "Master the art of packing light. We explain the 5-4-3-2-1 rule and other travel packing methods perfect for Indian travellers and holidays.",
       "title": "Capsule Wardrobe Packing Guide: How to Pack Light (2026) | FitWardrobe",
       "h1": "The Complete Capsule Wardrobe Packing Guide: Travel Smarter",
       "canonical": "https://fitwardrobe.me/blog/capsule-wardrobe-packing-guide"
     },
     "capsule-wardrobe-rules-explained.html": {
-      "metaDesc": null,
+      "metaDesc": "Confused by capsule wardrobe rules? We rank every method — from 3-3-3 to Project 333 — and help you find the one that fits your life.",
       "title": "Every Capsule Wardrobe Rule, Ranked and Explained (2026) | FitWardrobe",
       "h1": "Every Capsule Wardrobe Rule, Ranked and Explained",
       "canonical": "https://fitwardrobe.me/blog/capsule-wardrobe-rules-explained"
@@ -133,7 +133,7 @@
       "canonical": "https://fitwardrobe.me/blog/disadvantages-digital-fashion"
     },
     "fashion-outfit-rules-formulas.html": {
-      "metaDesc": null,
+      "metaDesc": "Confused by the 3-3-3 Rule or 5-4-3-2-1 Packing Method? We explain every major fashion formula to help you build better outfits and pack smarter.",
       "title": "The 3-3-3 Rule, 5-4-3-2-1 Method & Every Fashion Formula Explained (2026) | FitWardrobe Blog",
       "h1": "The 3-3-3 Rule, 5-4-3-2-1 Method & Every Fashion Formula Explained (2026)",
       "canonical": "https://fitwardrobe.me/blog/fashion-outfit-rules-formulas"
@@ -145,13 +145,13 @@
       "canonical": "https://fitwardrobe.me/blog/free-ai-wardrobe-tools"
     },
     "gen-z-fashion-trends-2026.html": {
-      "metaDesc": null,
+      "metaDesc": "Explore the biggest Gen Z fashion trends of 2026: Old Money, Blokecore, Y2K and more. Learn how one key piece can modernize your look with FitWardrobe.",
       "title": "Gen Z Fashion Trends 2026: Old Money & Blokecore Guide | FitWardrobe",
       "h1": "Gen Z Fashion Trends 2026: Old Money, Blokecore & How to Style Them",
       "canonical": "https://fitwardrobe.me/blog/gen-z-fashion-trends-2026"
     },
     "how-many-items-capsule-wardrobe.html": {
-      "metaDesc": null,
+      "metaDesc": "Is 33 items the magic number? Or 50? We break down the ideal wardrobe size based on your lifestyle, climate, and how often you do laundry.",
       "title": "How Many Items Should You Have in a Capsule Wardrobe? (2026) | FitWardrobe Blog",
       "h1": "How Many Items Should You Have in a Capsule Wardrobe?",
       "canonical": "https://fitwardrobe.me/blog/how-many-items-capsule-wardrobe"
@@ -163,7 +163,7 @@
       "canonical": "https://fitwardrobe.me/blog/how-to-build-a-capsule-wardrobe"
     },
     "how-to-use-outfit-app.html": {
-      "metaDesc": null,
+      "metaDesc": "Learn how to use an outfit app effectively. Follow our 4-phase guide to digitize your closet, plan outfits, and track your style with FitWardrobe.",
       "title": "How to Use an Outfit App: Beginner's Guide to Digital Wardrobes | FitWardrobe",
       "h1": "How to Use an Outfit App: A Beginner's Guide to Digital Wardrobes (2026)",
       "canonical": "https://fitwardrobe.me/blog/how-to-use-outfit-app"
@@ -187,19 +187,19 @@
       "canonical": "https://fitwardrobe.me/blog/myntra-ai-indian-fashion"
     },
     "obscure-fashion-rules-explained.html": {
-      "metaDesc": null,
+      "metaDesc": "Master styling hacks like The Sandwich Rule and The Wrong Shoe Theory. Elevate your outfits with these clever fashion formulas using FitWardrobe.",
       "title": "5 Obscure Fashion Rules Explained: Sandwich Rule &amp; Wrong Shoe Theory | FitWardrobe",
       "h1": "5 Obscure Fashion Rules Explained: Sandwich Rule &amp; Wrong Shoe Theory",
       "canonical": "https://fitwardrobe.me/blog/obscure-fashion-rules-explained"
     },
     "outfit-planning-apps-guide.html": {
-      "metaDesc": null,
+      "metaDesc": "Yes! Discover the best apps that help you put together outfits. Complete 2026 guide to top AI outfit generators and digital wardrobe planners like FitWardrobe.",
       "title": "Is There an App for Putting Together Outfits? (2026 Guide) | FitWardrobe",
       "h1": "Is There an App That Helps You Put Together Outfits?",
       "canonical": "https://fitwardrobe.me/blog/outfit-planning-apps-guide"
     },
     "rs-of-fashion-sustainable-planning.html": {
-      "metaDesc": null,
+      "metaDesc": "What are the 7 R's of sustainable fashion? Reuse, Reduce, Recycle, and more. Learn how to apply these rules to build an ethical closet with FitWardrobe.",
       "title": "The 7 R's of Fashion: 2026 Sustainability Guide | FitWardrobe",
       "h1": "The 7 R's of Fashion: Sustainable Style Guide (2026)",
       "canonical": "https://fitwardrobe.me/blog/rs-of-fashion-sustainable-planning"
@@ -211,7 +211,7 @@
       "canonical": "https://fitwardrobe.me/blog/smart-wardrobe-vs-app"
     },
     "what-is-a-capsule-wardrobe.html": {
-      "metaDesc": null,
+      "metaDesc": "Wondering what a capsule wardrobe actually is? We break down the definition, history, and a simple 5-step guide to building your first one. No fluff, just facts.",
       "title": "What Is a Capsule Wardrobe? A Beginner's Guide (2026) | FitWardrobe",
       "h1": "What Is a Capsule Wardrobe? A Beginner's Guide",
       "canonical": "https://fitwardrobe.me/blog/what-is-a-capsule-wardrobe"

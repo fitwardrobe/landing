@@ -7,7 +7,7 @@ const blogDir = path.join(rootDir, 'blog');
 
 function extractTag(content, regex) {
     const match = content.match(regex);
-    return match ? match[1] : null;
+    return match ? (match[1] || match[2] || match[3] || match[0]).trim().replace(/\s+/g, ' ') : null;
 }
 
 function analyzeFile(filePath) {
@@ -15,10 +15,10 @@ function analyzeFile(filePath) {
     const content = fs.readFileSync(filePath, 'utf8');
     
     return {
-        metaDesc: extractTag(content, /<meta name="description" content="([^"]*)"/i),
-        title: extractTag(content, /<title>([^<]*)<\/title>/i),
+        metaDesc: extractTag(content, /<meta[^>]*name="description"[^>]*content="([^"]*)"[\s\S]*?>/i) || extractTag(content, /<meta[^>]*content="([^"]*)"[^>]*name="description"[\s\S]*?>/i),
+        title: extractTag(content, /<title>([\s\S]*?)<\/title>/i),
         h1: extractTag(content, /<h1[^>]*>([\s\S]*?)<\/h1>/i),
-        canonical: extractTag(content, /<link rel="canonical" href="([^"]*)"/i)
+        canonical: extractTag(content, /<link[^>]*rel="canonical"[^>]*href="([^"]*)"/i)
     };
 }
 
