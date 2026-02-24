@@ -7,7 +7,8 @@ const blogDir = path.join(rootDir, 'blog');
 
 function extractTag(content, regex) {
     const match = content.match(regex);
-    return match ? (match[1] || match[2] || match[3] || match[0]).trim().replace(/\s+/g, ' ') : null;
+    const capture = match ? (match[1] ?? match[2] ?? match[3] ?? null) : null;
+    return capture !== null ? capture.trim().replace(/\s+/g, ' ') : null;
 }
 
 function analyzeFile(filePath) {
