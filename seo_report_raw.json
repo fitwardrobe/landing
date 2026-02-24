@@ -1,6 +1,6 @@
 {
   "index.html": {
-    "metaDesc": "FitWardrobe helps you fit your wardrobe to your lifestyle with AI. Plan outfits, build capsule wardrobes, and organize clothes with privacy-first technology. Photos stay on your device. Free beta available.",
+    "metaDesc": "FitWardrobe helps you fit your wardrobe to your lifestyle with AI. Plan outfits, build capsule wardrobes, and organize clothes with privacy-first technology.",
     "title": "FitWardrobe | AI Outfit Planner & Capsule Wardrobe App",
     "h1": "\r\n              AI Outfit Planner &amp;<br />\r\n              Capsule Wardrobe App\r\n            ",
     "canonical": "https://fitwardrobe.me/"
@@ -12,7 +12,7 @@
     "canonical": "https://fitwardrobe.me/capsule-wardrobe"
   },
   "outfit-planner.html": {
-    "metaDesc": "AI outfit planner app that creates outfit suggestions from your own wardrobe. Plan your week in minutes, no subscriptions, no cloud — your photos stay on your device.",
+    "metaDesc": "AI outfit planner app that creates outfit suggestions from your own wardrobe. Plan your week in minutes — your photos stay on your device.",
     "title": "AI Outfit Planner: Plan Your Outfits Weekly | FitWardrobe",
     "h1": "\r\n            AI Outfit Planner<br><em>for Your Wardrobe</em>\r\n          ",
     "canonical": "https://fitwardrobe.me/outfit-planner"
@@ -25,7 +25,7 @@
   },
   "blog": {
     "30-wear-rule-guide.html": {
-      "metaDesc": "What is the 30 wear rule? Learn how this simple guide can make your wardrobe more sustainable. Calculate cost-per-wear and track your usage with the FitWardrobe app.",
+      "metaDesc": "What is the 30 wear rule? Learn how this guide makes your wardrobe sustainable. Calculate cost-per-wear and track usage with the FitWardrobe app.",
       "title": "30 Wear Rule Guide: Buy Smarter, Dress Better | FitWardrobe",
       "h1": "The 30 Wear Rule: A Simple Guide to Conscious Consumption",
       "canonical": "https://fitwardrobe.me/blog/30-wear-rule-guide"
@@ -67,7 +67,7 @@
       "canonical": "https://fitwardrobe.me/blog/are-wardrobe-apps-worth-it"
     },
     "best-digital-wardrobe-apps.html": {
-      "metaDesc": "Discover the 8 best digital wardrobe apps for 2026. Detailed comparison of features, pricing, and privacy (including FitWardrobe, Acloset, and Indyx) to help you pick the right one.",
+      "metaDesc": "Discover the 8 best digital wardrobe apps for 2026. Compare features and pricing for FitWardrobe, Acloset, and Indyx to pick the right one.",
       "title": "8 Best Digital Wardrobe Apps: Honest Comparison | FitWardrobe",
       "h1": "8 Best Digital Wardrobe Apps (2026): A Comparative Review",
       "canonical": "https://fitwardrobe.me/blog/best-digital-wardrobe-apps"
@@ -79,7 +79,7 @@
       "canonical": "https://fitwardrobe.me/blog/best-outfit-planning-apps-compared"
     },
     "best-wardrobe-apps-2026.html": {
-      "metaDesc": "Discover the best wardrobe management apps for 2026. Detailed comparison of features, pricing, and privacy (including FitWardrobe, Stylebook, and Cladwell) to help you pick the right one.",
+      "metaDesc": "Discover the best wardrobe management apps for 2026. Compare features and privacy for FitWardrobe, Stylebook, and Cladwell to pick the right one.",
       "title": "Best Wardrobe Management Apps (2026): A Complete Review | FitWardrobe",
       "h1": "Best Wardrobe Management Apps (2026): A Complete Review",
       "canonical": "https://fitwardrobe.me/blog/best-wardrobe-apps-2026"
@@ -121,7 +121,7 @@
       "canonical": "https://fitwardrobe.me/blog/digital-clothes-future-fashion"
     },
     "digital-transformation-fashion.html": {
-      "metaDesc": "Fashion is being reshaped by AI, sustainability tech, and digital wardrobes. Here are the 5 main areas of digital transformation — and how they affect what you wear.",
+      "metaDesc": "Fashion is being reshaped by AI and digital wardrobes. Explore the main areas of digital transformation and how they affect what you wear.",
       "title": "5 Key Areas of Digital Transformation in Fashion (2026) | FitWardrobe",
       "h1": "The 5 Main Areas of Digital Transformation in Fashion",
       "canonical": "https://fitwardrobe.me/blog/digital-transformation-fashion"
@@ -157,7 +157,7 @@
       "canonical": "https://fitwardrobe.me/blog/how-many-items-capsule-wardrobe"
     },
     "how-to-build-a-capsule-wardrobe.html": {
-      "metaDesc": "Learn how to build a capsule wardrobe from scratch in 2026. Step-by-step guide covering the audit, colour palette, essential items, and how AI can help — without buying anything new.",
+      "metaDesc": "Learn how to build a capsule wardrobe from scratch in 2026. Step-by-step guide covering the audit, palette, and how AI can help — no new purchases.",
       "title": "How to Build a Capsule Wardrobe (2026 Step-by-Step Guide) | FitWardrobe",
       "h1": "How to Build a Capsule Wardrobe: A Step-by-Step Guide",
       "canonical": "https://fitwardrobe.me/blog/how-to-build-a-capsule-wardrobe"
@@ -175,7 +175,7 @@
       "canonical": "https://fitwardrobe.me/blog/"
     },
     "minimalist-wardrobe-essentials.html": {
-      "metaDesc": "A comprehensive list of minimalist wardrobe essentials for 2026 — for men and women. The exact items you need for a curated wardrobe with numerous outfit combinations.",
+      "metaDesc": "A comprehensive list of minimalist wardrobe essentials for 2026. The exact items you need for a curated wardrobe with numerous combinations.",
       "title": "Minimalist Wardrobe Essentials: The Complete 2026 List | FitWardrobe",
       "h1": "Minimalist Wardrobe Essentials: A Comprehensive List for Men &amp; Women",
       "canonical": "https://fitwardrobe.me/blog/minimalist-wardrobe-essentials"
@@ -225,12 +225,12 @@
   },
   "index_og": {
     "ogTitle": "FitWardrobe | AI Outfit Planner & Capsule Wardrobe App",
-    "ogDesc": "FitWardrobe helps you fit your wardrobe to your lifestyle with AI. Plan outfits, build capsule wardrobes, and organize clothes with privacy-first technology. Photos stay on your device. Free beta available.",
+    "ogDesc": "FitWardrobe helps you fit your wardrobe to your lifestyle with AI. Plan outfits, build capsule wardrobes, and organize clothes with privacy-first technology.",
     "ogImage": "https://fitwardrobe.me/assets/og-image.jpg",
     "ogType": "website",
     "twitterCard": "summary_large_image",
     "twitterTitle": "FitWardrobe | AI Outfit Planner & Capsule Wardrobe App",
-    "twitterDesc": "FitWardrobe helps you fit your wardrobe to your lifestyle with AI. Plan outfits, build capsule wardrobes, and organize clothes with privacy-first technology. Photos stay on your device. Free beta available."
+    "twitterDesc": "FitWardrobe helps you fit your wardrobe to your lifestyle with AI. Plan outfits, build capsule wardrobes, and organize clothes with privacy-first technology."
   },
   "schemas": [
     {
