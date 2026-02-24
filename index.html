@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Primary Meta -->
-    <title>FitWardrobe | AI Outfit Planner & Capsule Wardrobe App</title>
-    <meta name="description" content="FitWardrobe helps you fit your wardrobe to your lifestyle with AI. Plan outfits, build capsule wardrobes, and organize clothes with privacy-first technology.">
-    <meta name="keywords" content="outfit planner, capsule wardrobe, AI wardrobe app, privacy, wardrobe organizer, minimalist wardrobe">
+    <title>FitWardrobe | Privacy-First AI Wardrobe Organizer & Outfit Planner</title>
+    <meta name="description" content="The best privacy-first AI wardrobe organizer. Plan outfits with smart AI suggestions, build a capsule wardrobe, and track cost per wear—all with 100% local data storage.">
     <link rel="canonical" href="https://fitwardrobe.me/">
     
     <meta name="robots" content="index, follow">
@@ -63,8 +62,8 @@
       "name": "FitWardrobe",
       "alternateName": ["Fit Wardrobe", "FitWardrobe App"],
       "applicationCategory": "LifestyleApplication",
-      "applicationSubCategory": "Wardrobe Management",
-      "description": "Privacy-first AI wardrobe organizer and outfit planner. FitWardrobe stores your clothing photos on your device and uses AI to suggest outfits, build capsule wardrobes, and track cost per wear.",
+      "applicationSubCategory": "Wardrobe Management & AI Styling",
+      "description": "Privacy-first AI wardrobe organizer and outfit planner. FitWardrobe stores your clothing photos locally and uses Google Gemini and Groq AI to suggest outfits, build capsule wardrobes, and track cost per wear without cloud uploads.",
       "operatingSystem": ["Android"],
       "softwareRequirements": "Android 8.0+ (iOS support planned for 2026)",
       "offers": {
@@ -73,20 +72,21 @@
         "priceCurrency": "USD"
       },
       "featureList": [
-        "AI outfit suggestions",
+        "AI outfit suggestions (Powered by Groq)",
+        "Automatic clothing recognition (Powered by Gemini)",
         "Capsule wardrobe builder",
-        "Local photo storage",
+        "Local photo storage & Privacy-first design",
         "Cost per wear tracking",
-        "Privacy-first design",
-        "No cloud uploads",
         "Digital wardrobe organization",
-        "Seasonal wardrobe management"
+        "Seasonal wardrobe management",
+        "No cloud data sharing"
       ],
-      "keywords": "wardrobe app, outfit planner, capsule wardrobe, AI wardrobe, privacy wardrobe app, wardrobe organizer, fit wardrobe, clothing organization, minimalist wardrobe, outfit planner app",
+      "keywords": "wardrobe app, outfit planner, capsule wardrobe, AI wardrobe, privacy wardrobe app, wardrobe organizer, stylebook alternative android, clothing organization, minimalist wardrobe, outfit planner app",
       "softwareVersion": "1.0.1 Beta",
       "author": {
         "@type": "Organization",
-        "name": "FitWardrobe"
+        "name": "FitWardrobe",
+        "url": "https://fitwardrobe.me"
       }
     }
     </script>
@@ -203,6 +203,13 @@
             </h1>
             <p class="hero__subtitle reveal reveal--delay-2">
               A privacy-first wardrobe AI that runs on your device
+              <span class="ai-info-tooltip" tabindex="0">
+                ⓘ
+                <span class="tooltip-text">
+                  AI suggestions are generated based on patterns and may make mistakes. 
+                  <a href="ai-transparency.html">Learn how it works</a>.
+                </span>
+              </span>
             </p>
             <div class="btn-group reveal reveal--delay-3">
               <a href="#download-beta" class="btn btn--primary btn--lg"
@@ -276,7 +283,14 @@
                 Most fashion apps upload your photos to the cloud, build
                 profiles, and share data with advertisers. FitWardrobe is
                 different — your clothing photos and wardrobe data are stored
-                locally on your device. When our AI analyses your clothes,
+                locally on your device. When our AI
+                <span class="ai-info-tooltip" tabindex="0">
+                  ⓘ
+                  <span class="tooltip-text">
+                    We use Google Gemini to identify clothing items. Your images are processed temporarily and are never stored on our servers.
+                  </span>
+                </span>
+                analyses your clothes,
                 only a temporary request is sent and nothing is stored on
                 external servers.
               </p>
@@ -375,7 +389,15 @@
               </div>
               <h3>Smart Outfit Suggestions</h3>
               <p>
-                Our AI learns your style preferences and suggests outfits from
+                Our AI
+                <span class="ai-info-tooltip" tabindex="0">
+                  ⓘ
+                  <span class="tooltip-text">
+                    Powered by Groq. Our styling AI is experimental and may provide inaccurate fashion advice. 
+                    <a href="ai-transparency.html">Learn how our AI works</a>
+                  </span>
+                </span>
+                learns your style preferences and suggests outfits from
                 your own wardrobe that you'll actually want to wear.
                 Personalized to your taste, not trending algorithm.
               </p>
@@ -407,6 +429,13 @@
                 The more you use FitWardrobe, the better it understands your
                 style. It learns which combinations you love and tailors
                 recommendations just for you.
+                <span class="ai-info-tooltip" tabindex="0">
+                  ⓘ
+                  <span class="tooltip-text">
+                    Learning happens 100% locally on your device. Your preferences are never shared or sold.
+                    <a href="ai-transparency.html">Read our Privacy Commitment</a>
+                  </span>
+                </span>
               </p>
             </article>
           </div>
@@ -489,6 +518,13 @@
                 <h3>Snap Your Clothes</h3>
                 <p>
                   Take photos of your clothing items. Our smart AI
+                  <span class="ai-info-tooltip" tabindex="0">
+                    ⓘ
+                    <span class="tooltip-text">
+                      AI recognition is powered by Google Gemini. 
+                      <a href="ai-transparency.html">Learn more about AI accuracy</a>
+                    </span>
+                  </span>
                   automatically recognises the type, colour, and style so you
                   don't have to tag anything manually.
                 </p>
@@ -883,6 +919,7 @@
             <h3 class="footer__heading">Legal</h3>
             <a href="privacy.html" class="footer__link">Privacy Policy</a>
             <a href="terms.html" class="footer__link">Terms of Service</a>
+            <a href="ai-transparency.html" class="footer__link">AI Transparency</a>
             <a href="cookies.html" class="footer__link">Cookie Policy</a>
             <a href="accessibility.html" class="footer__link">Accessibility</a>
           </div>
