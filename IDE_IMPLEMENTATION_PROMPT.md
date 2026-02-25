@@ -32,7 +32,9 @@ Based on the audit results, here are the exact changes needed. Implement these i
   "applicationCategory": "LifestyleApplication",
   "applicationSubCategory": "AI Fashion Assistant",
   "description": "Privacy-first AI wardrobe organizer and outfit planner. FitWardrobe stores your clothing photos on your device and uses AI to suggest outfits, build capsule wardrobes, and track cost per wear.",
-  "operatingSystem": ["Android", "iOS"],
+  "operatingSystem": [
+    "Android"
+  ] /* TODO: Add "iOS" back after Q2 2026 release as per FitWardrobe_Action_Plan.md */,
   "offers": {
     "@type": "Offer",
     "price": "0",

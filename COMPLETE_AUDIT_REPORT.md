@@ -572,6 +572,7 @@ Add this to make AI features discoverable:
     "Automated clothing tagging (Google Gemini)",
     "Privacy-first local storage",
     "Indian ethnic wear support"
+  ]
 }
 ```
 
@@ -600,7 +601,7 @@ suggestions.
 **Replace with:**
 
 ```html
-<h3>AI Systems Disclosure</h3>
+<h3 id="ai-disclosure">AI Systems Disclosure</h3>
 
 <p>
   <strong
@@ -870,9 +871,9 @@ FitWardrobe uses Google Gemini 2.0 Flash to provide:
 ```html
 <h3>
   Smart Outfit Suggestions
-  <span class="ai-info-tooltip">
+  <span class="ai-info-tooltip" tabindex="0" role="button">
     ⓘ
-    <span class="tooltip-text">
+    <span class="tooltip-text" role="tooltip">
       AI-powered feature using Google Gemini (image analysis) and Groq (outfit
       generation). Suggestions are experimental and may not always match your
       style preferences.
@@ -896,9 +897,9 @@ FitWardrobe uses Google Gemini 2.0 Flash to provide:
 ```html
 <h3>
   Snap Your Clothes
-  <span class="ai-info-tooltip">
+  <span class="ai-info-tooltip" tabindex="0" role="button">
     ⓘ
-    <span class="tooltip-text">
+    <span class="tooltip-text" role="tooltip">
       Powered by Google Gemini 2.0 Flash. AI recognition may not always be 100%
       accurate. You can edit tags manually.
       <a href="privacy.html#ai-disclosure">Learn more</a>
@@ -921,9 +922,9 @@ FitWardrobe uses Google Gemini 2.0 Flash to provide:
 ```html
 <h3>
   Style Learning
-  <span class="ai-info-tooltip">
+  <span class="ai-info-tooltip" tabindex="0" role="button">
     ⓘ
-    <span class="tooltip-text">
+    <span class="tooltip-text" role="tooltip">
       AI learns from your choices to improve recommendations. All learning
       happens locally on your device - we don't see your preferences.
       <a href="privacy.html#ai-disclosure">Learn more</a>
@@ -990,9 +991,9 @@ FitWardrobe uses Google Gemini 2.0 Flash to provide:
   border-color: transparent transparent #1e2329 transparent;
 }
 
-/* Show tooltip on hover */
+/* Show tooltip on hover or focus */
 .ai-info-tooltip:hover .tooltip-text,
-.ai-info-tooltip:focus .tooltip-text {
+.ai-info-tooltip:focus-within .tooltip-text {
   visibility: visible;
   opacity: 1;
 }
@@ -1023,9 +1024,9 @@ FitWardrobe uses Google Gemini 2.0 Flash to provide:
     cursor: pointer;
   }
 
-  .tooltip-text {
-    /* On mobile, show on tap */
-    pointer-events: auto;
+  .ai-info-tooltip:focus-within .tooltip-text {
+    visibility: visible;
+    opacity: 1;
   }
 }
 ```

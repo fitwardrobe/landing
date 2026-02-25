@@ -117,7 +117,7 @@ functionality without switching ecosystems.
 - **Pricing:** Free (currently in beta)
 - **Key Feature:** Photos stay on your device (IndexedDB storage)
 - **Limitation:** Beta software, iOS coming Q2 2026
-- **Download:** Android APK <!-- TODO: add APK URL -->
+<!-- BLOCKER: Add actual Play Store / APK URL here before publishing -->
 
 ### 2. Acloset
 
@@ -212,8 +212,8 @@ is educational and not affiliated with Stylebook._
   <small
     ><em
       >AI suggestions are experimental and may not always match your
-      preferences. FitWardrobe uses Gemini 2.0 Flash for outfit analysis. Beta
-      software - your feedback helps us improve.</em
+      preferences. FitWardrobe uses Gemini 2.0 Flash and Groq for outfit
+      analysis. Beta software - your feedback helps us improve.</em
     ></small
   >
 </p>
